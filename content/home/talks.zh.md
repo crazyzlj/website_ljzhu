@@ -4,7 +4,7 @@ widget = "talks"
 active = true
 date = 2018-09-30T00:00:00
 
-title = "Recent Talks"
+title = "报告"
 subtitle = ""
 
 # Order that this section will appear in.

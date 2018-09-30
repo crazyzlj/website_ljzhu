@@ -2,7 +2,7 @@
 # Projects widget.
 widget = "projects"
 active = true
-date = 2016-04-20T00:00:00
+date = 2018-09-30T00:00:00
 
 title = "项目"
 subtitle = ""
@@ -29,17 +29,21 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
-#
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
-#
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+[[filter]]
+   name = "所有"
+   tag = "*"
+
+[[filter]]
+   name = "流域过程建模与情景分析"
+   tag = "Watershed modeling and scenario analysis"
+
+[[filter]]
+   name = "地学计算"
+   tag = "GeoComputation"
+
+[[filter]]
+   name = "土壤侵蚀实验"
+   tag = "Experiments"
 
 +++
 

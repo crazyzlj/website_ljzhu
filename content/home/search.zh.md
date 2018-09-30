@@ -4,7 +4,7 @@ widget = "search"
 active = true
 date = 2018-09-30T00:00:00
 
-title = "Search"
+title = "搜索"
 subtitle = ""
 
 # Order that this section will appear in.

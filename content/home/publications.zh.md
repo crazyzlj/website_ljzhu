@@ -5,7 +5,7 @@ widget = "publications"
 active = false
 date = 2018-09-30T00:00:00
 
-title = "Recent Publications"
+title = "最近论著"
 subtitle = ""
 
 # Order that this section will appear in.
