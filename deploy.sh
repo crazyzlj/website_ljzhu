@@ -11,6 +11,10 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 # Go To Public folder
 cd ../crazyzlj.github.io
 
+# clean working dir
+rm -f .git/index
+git clean -df
+
 # copy public folder
 cp -av ../website_ljzhu/public/* .
 
