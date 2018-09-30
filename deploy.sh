@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "Deploying updates to GitHub..."
 
 # delete public folder
 rm -rf public
@@ -12,7 +12,7 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 cd ../crazyzlj.github.io
 
 # copy public folder
-cp -av ../website-ljzhu/public/* .
+cp -av ../website_ljzhu/public/* .
 
 # Add changes to git.
 git add -A
@@ -28,4 +28,4 @@ git commit -m "$msg"
 git push origin master
 
 # Come Back
-cd ../website-ljzhu
+cd ../website_ljzhu
