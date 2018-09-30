@@ -22,7 +22,7 @@ publication = "Journal of Soil and Water Conservation, 73(5):504-517. doi:10.248
 publication_short = "Journal of Soil and Water Conservation"
 
 # Abstract and optional shortened version.
-abstract = ""
+abstract = "基于流域过程模拟的管理措施（BMPs）情景分析与优化是当前对流域管理措施实施效果进行预先评价的重要途径。现有方法通常采用地块、农场、水文响应单元或子流域作为BMPs空间配置单元，这些空间配置单元难以有效地根据坡面自然过程来表达坡面上不同BMPs之间的空间配置关系，因此也难以应用相应的领域知识，将直接影响流域BMP情景空间优化的效果。针对以上问题，提出以坡位（如山脊、背坡、沟谷等）作为BMPs空间配置单元，在空间全分布式流域过程模拟和BMPs情景智能优化的方法框架基础上，建立了一套以坡位为空间配置单元的流域BMPs情景优化方法，可有效体现BMPs空间配置关系、应用相应的BMP空间配置关系知识。在南方红壤区福建长汀县游屋圳小流域的应用案例表明，与随机配置方法相比，新方法能够根据坡面过程特点进行BMPs情景优化，有效地获得更为实际可行的管理措施空间配置优化方案。"
 
 abstract_short = ""
 
