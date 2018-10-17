@@ -36,3 +36,7 @@ weight = 5
 # 个人简介
 
 朱良君.
+
+<a href="https://gis.stackexchange.com/users/88774/zhulj">
+<img src="https://gis.stackexchange.com/users/flair/88774.png?theme=clean" width="208" height="58" alt="Profile for Liang-Jun Zhu at Geographic Information Systems Stack Exchange, Q&amp;A for cartographers, geographers and GIS professionals" title="Profile for Liang-Jun Zhu at Geographic Information Systems Stack Exchange, Q&amp;A for cartographers, geographers and GIS professionals">
+</a>

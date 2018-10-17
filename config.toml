@@ -70,9 +70,9 @@ enableGitInfo = true
   email = "zlj@lreis.ac.cn"
   address = "Room 2415, 11A Datun Road, Chaoyang District, Beijing 100101, PR China"
   office_hours = "Friday 14:00 to 17:00 or email for appointment"
-  #phone = "+86 010-64889461"
-  skype = "live:crazyzlj"
-  #telegram = ""
+  #phone = "+86-10-64889461"
+  #skype = "live:crazyzlj"
+  #telegram = "ljzhu"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
