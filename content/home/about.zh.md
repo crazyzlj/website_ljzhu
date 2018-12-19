@@ -18,7 +18,7 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "理学博士 地理信息系统"
-  institution = "中国科学院大学"
+  institution = "中国科学院地理科学与资源研究所"
   year = 2019
 
 [[education.courses]]
@@ -36,7 +36,3 @@ weight = 5
 # 个人简介
 
 朱良君.
-
-<a href="https://gis.stackexchange.com/users/88774/zhulj">
-<img src="https://gis.stackexchange.com/users/flair/88774.png?theme=clean" width="208" height="58" alt="Profile for Liang-Jun Zhu at Geographic Information Systems Stack Exchange, Q&amp;A for cartographers, geographers and GIS professionals" title="Profile for Liang-Jun Zhu at Geographic Information Systems Stack Exchange, Q&amp;A for cartographers, geographers and GIS professionals">
-</a>

@@ -18,7 +18,7 @@ weight = 5
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "Ph.D. in GIS"
-  institution = "University of Chinese Academy Sciences, Beijing"
+  institution = "Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing"
   year = 2019
 
 [[education.courses]]
@@ -37,6 +37,3 @@ weight = 5
 
 Liang-Jun Zhu (朱良君).
 
-<a href="https://gis.stackexchange.com/users/88774/zhulj">
-<img src="https://gis.stackexchange.com/users/flair/88774.png?theme=clean" width="208" height="58" alt="Profile for Liang-Jun Zhu at Geographic Information Systems Stack Exchange, Q&amp;A for cartographers, geographers and GIS professionals" title="Profile for Liang-Jun Zhu at Geographic Information Systems Stack Exchange, Q&amp;A for cartographers, geographers and GIS professionals">
-</a>
