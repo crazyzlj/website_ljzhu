@@ -1,0 +1,25 @@
+# jemdoc: menu{MENU}{software.html}, backlink, notime, analytics{UA-75301149-1}
+== Softwares
+
+[/software.zh.html 中文版]
+
+== Watershed modeling
+
+=== Update SWAT database after SWAT-CUP
+- Post: [/Update-swat-database-from-swatcup.html Automatically write Calibrated 
+   parameters by SWAT-CUP (model.in) back to SWAT Access database (.mdb)]
+
+== Digital terrain analysis
+
+== General-purpose library or package
+
+=== PyGeoC (Python for GeoComputation)
+- Latest release: [https://github.com/lreis2415/PyGeoC/tree/v0.3.1-beta v0.3.1-beta] 
+- Online documents: [https://lreis2415.github.io/PyGeoC/ PyGeoC Docs]
+- Download:
+  -- Binary package: [https://github.com/lreis2415/PyGeoC/releases/download/v0.3.1-beta/PyGeoC-0.3.1-py2.py3-none-any.whl .whl] 
+(alternative [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/Release/PyGeoC/PyGeoC-0.3.1-py2.py3-none-any.whl link])
+  -- Source code: [https://github.com/lreis2415/PyGeoC/archive/v0.3.1-beta.zip .zip]
+(alternative [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/Release/PyGeoC/PyGeoC-0.3.1-beta.zip link]), 
+[https://github.com/lreis2415/PyGeoC/archive/v0.3.1-beta.tar.gz .tar.gz]
+(alternative [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/Release/PyGeoC/PyGeoC-0.3.1-beta.tar.gz link])

@@ -1,0 +1,26 @@
+# jemdoc: menu{MENU.zh}{software.zh.html}, backlink, notime, analytics{UA-75301149-1}
+== 软件
+
+[/software.html English version]
+
+== 流域过程模拟
+
+=== Update SWAT database after SWAT-CUP (利用SWAT-CUP率定结果更新SWAT数据库)
+- 博客: [/Update-swat-database-from-swatcup.html Automatically write Calibrated 
+   parameters by SWAT-CUP (model.in) back to SWAT Access database (.mdb)]
+
+== 数字地形分析
+
+== 通用库
+
+=== PyGeoC (Python for GeoComputation)
+- 最新版本: [https://github.com/lreis2415/PyGeoC/tree/v0.3.1-beta v0.3.1-beta]
+- 在线帮助文档: [https://lreis2415.github.io/PyGeoC/ PyGeoC Docs]
+- 下载:
+  -- 二进制安装包: [https://github.com/lreis2415/PyGeoC/releases/download/v0.3.1-beta/PyGeoC-0.3.1-py2.py3-none-any.whl .whl] 
+([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/Release/PyGeoC/PyGeoC-0.3.1-py2.py3-none-any.whl 其他下载链接])
+  -- 源码: [https://github.com/lreis2415/PyGeoC/archive/v0.3.1-beta.zip .zip]
+([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/Release/PyGeoC/PyGeoC-0.3.1-beta.zip 其他下载链接]), 
+[https://github.com/lreis2415/PyGeoC/archive/v0.3.1-beta.tar.gz .tar.gz]
+([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/Release/PyGeoC/PyGeoC-0.3.1-beta.tar.gz 其他下载链接])
+

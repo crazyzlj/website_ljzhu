@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU.zh}{watershed_modeling.zh.html}, backlink, notime, analytics{UA-75301149-1}
+== 流域过程建模 
+
+[/watershed_modeling.html English version]
+
+== SWAT (Soil and Water Assessment Tool)
+
+=== 后处理脚本
+   - [/Update-swat-database-from-swatcup.html 自动将SWAT-CUP率定结果(model.in)
+   写回SWAT数据库(.mdb)]
+

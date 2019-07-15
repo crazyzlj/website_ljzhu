@@ -1,0 +1,43 @@
+# jemdoc: menu{MENU.zh}{index.zh.html}, backlink, notime, analytics{UA-75301149-1}
+== 朱良君
+
+~~~
+{}{img_left}{images/portrait_ljzhu.jpg}{portrait_ljzhu}{200px}{}{}
+朱良君 博士\n
+助理研究员 \n\n
+[http://www.cas.cn 中国科学院] [http://www.igsnrr.cas.cn 地理科学与资源研究所] \n
+[http://www.lreis.ac.cn 资源与环境信息系统国家重点实验室]
+
+~~~
+
+== 最近动态
+
+~~~
+- (07-01-2019) 终于结束23年的学生生涯，正式开始在[http://www.lreis.ac.cn 信息室]上班！
+- (01-31-2019) 我们关于“不同BMPs空间配置单元对流域管理措施情景空间优化的影响（
+[/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for 
+spatial optimization of watershed best management practices scenarios]）”的文章被/Water/
+正式接收并[https://www.mdpi.com/2073-4441/11/2/262 在线发表]。
+- (01-09-2018) 我们提出了一种以坡位单元作为BMP空间配置单元的BMP情景优化方法，据此撰写的文章
+"[/BMPsOptSlpPos-JSWC.html Spatial optimization of watershed best management practices based on slope position units]"
+被/Journal of Soil and Water Conservation/正式接收，文章可在[http://www.jswconline.org/content/73/5/504 官网]免费获取。
+相关软件已在[https://github.com/lreis2415/SEIMS Github上开源]。
+- (12-15-2017) 为了提高[https://www.sciencedirect.com/science/article/pii/S0169555X0900155X 基于原型的模糊坡位提取方法]
+的易用性，我们基于领域知识和数据挖掘实现了一种自动化方法，克服了原方法在实际应用中需要过多手动设置的不足，同时采用并行计算
+提高了计算效率。据此撰写的文章"[/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions]" 
+已被/Geomorphology/接收[https://doi.org/10.1016/j.geomorph.2017.12.024 发表]。
+相关软件已在[https://github.com/lreis2415/AutoFuzSlpPos Github上开源]。
+
+[/news.zh.html 更多动态...]
+~~~
+
+== 研究兴趣
+   - 流域系统综合模拟与最佳管理措施（BMPs）情景优化
+
+   - 地学计算
+
+== 联系方式
+
+地址：北京市朝阳区大屯路甲11号 中科院地理资源所 信息室, 100101
+
+邮箱: zlj (at) lreis.ac.cn

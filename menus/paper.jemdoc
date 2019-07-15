@@ -1,0 +1,23 @@
+# jemdoc: menu{MENU}{paper.html}, backlink, notime, analytics{UA-75301149-1}
+== Selected papers
+
+[/paper.zh.html 中文版]
+
+[https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl Google scholar] provides citations and reference (BibTex/Endnote/RefMan) export.
+
+== Watershed modeling and BMP scenario optimization
+   - [/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for the spatial optimization of watershed best management practice scenarios]\n
+   _Liang-Jun Zhu_, Cheng-Zhi Qin*, A-Xing Zhu, Jun-Zhi Liu, and Hui Wu \n
+   /Water/, 2019, 11(2), 262. doi: [https://doi.org/10.3390/w11020262 10.3390/w11020262]
+
+   - [/BMPsOptSlpPos-JSWC.html Spatial optimization of watershed best management practices based on slope position units] \n
+   Cheng-Zhi Qin, Hui-Ran Gao, _Liang-Jun Zhu_*, A-Xing Zhu, Jun-Zhi Liu, and Hui Wu \n
+   /Journal of Soil and Water Conservation/, 2018, 73(5):504--517. doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489/jswc.73.5.504]
+
+== Digital terrain analysis
+
+   - [/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions] \n
+     _Liang-Jun Zhu_, A-Xing Zhu, Cheng-Zhi Qin*, and Jun-Zhi Liu \n
+     /Geomorphology/, 2018, 304:173--183. [https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016/j.geomorph.2017.12.024]
+
+Please refer to my [cv/cv_ljzhu_en.pdf CV] for a full list of published papers.
