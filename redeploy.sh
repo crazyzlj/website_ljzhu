@@ -8,6 +8,8 @@ rm -rf build
 
 # Go To Public folder
 cd ../crazyzlj.github.io
+git checkout .
+git pull origin master
 
 # clean working dir
 rm -f .git/index
