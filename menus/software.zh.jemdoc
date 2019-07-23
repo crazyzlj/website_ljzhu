@@ -6,8 +6,7 @@
 == 流域过程模拟
 
 === Update SWAT database after SWAT-CUP (利用SWAT-CUP率定结果更新SWAT数据库)
-- 博客: [/Update-swat-database-from-swatcup.html Automatically write Calibrated 
-   parameters by SWAT-CUP (model.in) back to SWAT Access database (.mdb)]
+- 博客: [/Update-swat-database-from-swatcup.zh.html 将SWAT-CUP率定结果(model.in)自动写回SWAT数据库(.mdb)]
 
 == 数字地形分析
 

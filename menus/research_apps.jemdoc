@@ -1,6 +1,69 @@
 # jemdoc: menu{MENU}{research_apps.html}, backlink, notime, analytics{UA-75301149-1}
-== Research applications and environments 
+== Apps and environments used in my research
 
 [/research_apps.zh.html 中文版]
 
-TBD
+== Coding
+
+I read\/use\/write cross-platform algorithms and applications with Python, C\/C\+\+, and a little Fortran,
+especially high-performance programming of C\+\+ and Fortran with MPI and OpenMP.
+
+The list of my favorite or customized softwares\/tools\/websites\/tool-chains is as follows:
+
+- [https://code.visualstudio.com/ VSCode] for reading and writing almost everything related to plaintext format
+- [https://cmake.org/ CMake] for building C\+\+ and Fortran programs
+- [https://git-scm.com/ Git], [https://github.com Github], [https://bitbucket.org BitBucket], and
+[https://sourceforge.net/ SourceForge] for version control of source code
+- [https://www.jetbrains.com/pycharm/ PyCharm] together with [https://www.anaconda.com/distribution/ Anaconda Distribution]
+for writing Python programs compatible with Python2.7 and Python3
+- [https://www.jetbrains.com/clion/ CLion] together with [https://www.msys2.org/ MSYS2/MinGW-w64] on Windows 10 and
+[https://gcc.gnu.org/ GCC] on Linux or macOS for C\+\+ and Fortran
+- [https://visualstudio.microsoft.com Visual Studio] with [https://www.jetbrains.com/resharper/ ReSharper] and
+[https://software.intel.com/en-us/parallel-studio-xe Intel Parallel Studio XE] for C\+\+ and Fortran
+
+Normally, I develop code on VS2015\/VS2010, test on MinGW-w64, Intel Parallel Studio XE, and Xcode,
+and run on Linux cluster using GCC or Intel C++ compilers.
+
+Here are my main configuration notes for building multiple coding environments.
+
+. Coding under Windows 10
+  .. [/Coding-cpp-with-visual-studio.html Coding C\/C\+\+ with Visual Studio]
+  .. [/Coding-cpp-fortran-with-intel-parallel-studio.html Coding C\/C\+\+ and Fortran with Visual Studio and Intel Parallel Studio XE]
+  .. [/Coding-cpp-fortran-with-mingw64.html Coding C\/C\+\+ and Fortran with CLion and MinGW-w64]
+  .. [/Coding-python-with-pycharm-anaconda.html Coding Python with PyCharm and Anaconda]
+  .. [/Configure-msys2-git-under-windows.html Use the same Git version for both MSYS2/MinGW and Windows environments]
+. Coding under macOS
+  .. [/Coding-cpp-with-xcode.html Coding C\/C\+\+ with Xcode and Clang]
+  .. [/Coding-cpp-fortran-clion-gcc-macos.html Coding C\/C\+\+ and Fortran with CLion and GCC]
+. Coding under Linux (e.g., Ubuntu, CentOS, RedHat). Since I often use Linux server without graphic interface,
+here I will list some useful notes\/tips of configuring libraries\/software\/database etc.
+  .. [/Install-mongodb-linux-nonroot.html Install MongoDB Community Edition from source code on Linux without root user]
+
+== Writing, Reading, and Typesetting
+- [https://www.office.com/ Microsoft Office 365] (Word, Excel, Powerpoint, and OneNote)
+- [https://products.office.com/en-us/visio/ Microsoft Visio] for drawing schematic diagram
+- Markdown: [https://typora.io/ Typera] and [https://code.visualstudio.com/ VSCode]
+- PDF
+  -- Reading: [http://www.tracker-software.com/product/pdf-xchange-viewer PDF-XChange Viewer]
+  -- Editing: Acrobat XI Pro and [https://www.pdf24.org/ PDF24]
+- \<span class=\"latex\"\>L\<sup\>a\<\/sup\>T\<sub\>e\<\/sub\>X\<\/span\> Implementation: [https://miktex.org/ MiKTeX], Editor: [http://www.texstudio.org/ TeXStudio]
+
+== GIS
+- [https://www.arcgis.com/ ArcGIS] 10.6
+- [https://qgis.org/ QGIS]
+- [http://saga-gis.org SAGA]
+- [http://hydrology.usu.edu/taudem/taudem5/ TauDEM]
+- [https://github.com/lreis2415/SimDTA SimDTA]
+
+== Reference management
+- [https://www.zotero.org/ Zotero] along with [https://www.jianguoyun.com/ Jianguoyun Cloud] and
+extensions:
+[https://github.com/retorquere/zotero-better-bibtex Better Bib(Lax)Tex],
+[http://zotfile.com/ ZotFile],
+[https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc Zotero Connector (Chrome browser extension)].
+The detail tutorial for the cross-platform library of references can be found
+[/Cross-platform-bibliography-library.zh.html here] (/In Chinese/).
+
+== File share and synchronization
+- [https://filezilla-project.org/ FileZilla]
+- [https://freefilesync.org/ FreeFileSync]

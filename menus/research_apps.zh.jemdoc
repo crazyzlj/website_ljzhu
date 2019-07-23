@@ -1,6 +1,64 @@
 # jemdoc: menu{MENU.zh}{research_apps.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== 科研相关软件及环境配置 
+== 科研相关软件及环境配置
 
 [/research_apps.html English version]
 
-TBD
+== 写代码
+
+我使用Python、C\/C\+\+和少量Fortran编写跨平台的算法和应用程序，尤其是利用C\/C\+\+基于MPI和OpenMP的高性能计算，常用的软件\/工具\/网站\/工具链列表如下：
+
+- [https://code.visualstudio.com/ VSCode]：阅读和编写几乎所有文本格式的代码和文件（如Markdown文档）
+- [https://cmake.org/ CMake]：构建C\+\+和Fortran代码工程
+- [https://git-scm.com/ Git]、[https://github.com Github]、[https://bitbucket.org BitBucket]和
+[https://sourceforge.net/ SourceForge]：用于代码及文档的版本控制
+- [https://www.jetbrains.com/pycharm/ PyCharm]配合[https://www.anaconda.com/distribution/ Anaconda Distribution]：
+编写兼容Python2.7和Python3的Python代码
+- [https://www.jetbrains.com/clion/ CLion]配合[https://www.msys2.org/ MSYS2/MinGW-w64]（Windows 10）或
+[https://gcc.gnu.org/ GCC]（Linux或macOS）进行C\+\+和Fortran编程
+- [https://visualstudio.microsoft.com Visual Studio]配置[https://www.jetbrains.com/resharper/ ReSharper]和
+[https://software.intel.com/en-us/parallel-studio-xe Intel Parallel Studio XE]进行C\+\+和Fortran编程
+
+安装Windows 10的笔记本电脑是我的主力机，我通常利用VS2015\/VS2010开发程序，在MinGW-w64、Intel Parallel Studio XE和Xcode等
+环境下进行代码兼容性测试，使用GCC或Intel C\+\+编译器编译程序并在Linux集群上运行程序。
+
+以下是构建多种编程环境的简要教程。
+
+. 在 Windows 10 下编程
+  .. [/Coding-cpp-with-visual-studio.zh.html 使用Visual Studio编写C\/C\+\+程序]
+  .. [/Coding-cpp-fortran-with-intel-parallel-studio.zh.html 使用Visual Studio和Intel Parallel Studio XE编写C\/C\+\+和Fortran程序]
+  .. [/Coding-cpp-fortran-with-mingw64.zh.html 使用CLion和MinGW-w64编写C\/C\+\+和Fortran程序]
+  .. [/Coding-python-with-pycharm-anaconda.zh.html 使用PyCharm和Anaconda编写Python程序]
+  .. [/Configure-msys2-git-under-windows.zh.html 在MSYS2\/MinGW和Windows环境下使用同一版本的Git]
+. 在 macOS 下编程
+  .. [/Coding-cpp-with-xcode.zh.html 使用Xcode和Clang编写C\/C\+\+程序]
+  .. [/Coding-cpp-fortran-clion-gcc-macos.zh.html 使用CLion和GCC编写C\/C\+\+和Fortran程序]
+. 在 Linux (如 Ubuntu、CentOS和RedHat)下编程。由于我通常使用没有用户界面的Linux服务器，因此这里仅以库\/软件\/数据库等的配置教程。
+  .. [/Install-mongodb-linux-nonroot.zh.html Linux下非root用户安装及配置MongoDB数据库]
+
+== 写作、阅读、排版等
+- [https://www.office.com/ Microsoft Office 365] (Word、Excel、Powerpoint和OneNote)
+- [https://products.office.com/en-us/visio/ Microsoft Visio]：绘制矢量示意图
+- Markdown: [https://typora.io/ Typera] 和 [https://code.visualstudio.com/ VSCode]
+- PDF
+  -- 阅读: [http://www.tracker-software.com/product/pdf-xchange-viewer PDF-XChange Viewer]
+  -- 编辑: Acrobat XI Pro 和 [https://www.pdf24.org/ PDF24]
+- \<span class=\"latex\"\>L\<sup\>a\<\/sup\>T\<sub\>e\<\/sub\>X\<\/span\> 编译系统: [https://miktex.org/ MiKTeX], 编辑器: [http://www.texstudio.org/ TeXStudio]
+
+== GIS软件
+- [https://www.arcgis.com/ ArcGIS] 10.6
+- [https://qgis.org/ QGIS]
+- [http://saga-gis.org SAGA]
+- [http://hydrology.usu.edu/taudem/taudem5/ TauDEM]
+- [https://github.com/lreis2415/SimDTA SimDTA]
+
+== 文献管理
+- [https://www.zotero.org/ Zotero]配合[https://www.jianguoyun.com/ 坚果云]构建跨平台文献数据库，包括插件
+[https://github.com/retorquere/zotero-better-bibtex Better Bib(Lax)Tex]、
+[http://zotfile.com/ ZotFile]和
+[https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc Zotero Connector (Chrome扩展程序)]。
+点击[/Cross-platform-bibliography-library.zh.html 这里]查看详细配置教程。
+
+== 文件共享与同步
+- [https://filezilla-project.org/ FileZilla]：内网FTP解决方案
+- [https://freefilesync.org/ FreeFileSync]：文件同步
+

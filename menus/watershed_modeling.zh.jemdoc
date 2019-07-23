@@ -6,6 +6,5 @@
 == SWAT (Soil and Water Assessment Tool)
 
 === 后处理脚本
-   - [/Update-swat-database-from-swatcup.html 自动将SWAT-CUP率定结果(model.in)
-   写回SWAT数据库(.mdb)]
+   - [/Update-swat-database-from-swatcup.zh.html 将SWAT-CUP率定结果(model.in)自动写回SWAT数据库(.mdb)]
 

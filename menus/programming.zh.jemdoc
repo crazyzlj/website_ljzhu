@@ -1,6 +1,15 @@
 # jemdoc: menu{MENU.zh}{programming.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== 科研相关软件及环境配置 
+== 编程相关
 
 [/programming.html English version]
 
-TBD
+== 速查表
+
+- [/Cheat-sheet-git.zh.html Git]
+- [/Cheat-sheet-cmake.zh.html CMake]
+- [/Cheat-sheet-python.zh.html Python]
+- [/Cheat-sheet-cpp.zh.html C\/C\+\+]
+- [/Cheat-sheet-fortran.zh.html Fortran]
+- [/Cheat-sheet-linux.zh.html Linux]
+- [/Cheat-sheet-workload-managers.zh.html Workload Managers (PBS/Torque, Slurm, LSF, SGE 及 LoadLeveler)]
+

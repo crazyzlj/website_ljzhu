@@ -1,0 +1,137 @@
+# jemdoc: menu{MENU.zh}{Cross-platform-bibliography-library.zh.html}, backlink, notime, analytics{UA-75301149-1}
+==利用Zotero配合坚果云构建跨平台文献数据库
+
+== 1. 软件
+
+- [https://www.zotero.org/ Zotero]
+    -- [https://github.com/retorquere/zotero-better-bibtex Better Bib(Lax)Tex]
+    -- [http://zotfile.com/ ZotFile]
+    -- [https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc Zotero Connector (Chrome 插件)]
+
+
+== 2. Zotero配合坚果云进行文献同步设置
+
+- 坚果云中新建一个文件夹用于存放所有文献PDF及其他文件，文件夹名*必须为* +storage+，如+D:\\我的坚果云\\storage+
+- 建立文件夹软连接，从坚果云中+storage+指向Zotero用户路径下的+storage+，如+C:\\Users\\ljzhu\\Zotero\\storage+。
+打开cmd.exe，输入以下命令即可创建文件夹软连接（具体文件夹路径请根据自己情况修改）。
+
+~~~
+{}{}
+rm -r C:\\Users\\ljzhu\\Zotero\\storage
+mklink /d C:\\Users\\jzhu\\Zotero\\storage D:\\我的坚果云\\storage
+
+屏幕显示：
+
+C:\\WINDOWS\\system32>rm -r C:\\Users\\ljzhu\\Zotero\\storage
+C:\\WINDOWS\\system32>mklink /d C:\\Users\\ljzhu\\Zotero\\storage D:\\我的坚果云\\storage
+为 C:\\Users\\ljzhu\\Zotero\\storage <<===>> D:\\我的坚果云\\storage 创建的符号链接
+~~~
+
+- Zotero设置
+    -- 编辑 -> 首选项 -> 高级 -> 文件和文件夹，链接附件的根目录填写坚果云同步目录，如+D:\\我的坚果云\\storage+；数据存储位置填写Zotero的文件目录
+    （即为Zotero自己的同步目录，免费用户只有300M空间），如+C:\\Users\\ljzhu\\Zotero+。
+
+- Better BibTex设置
+    -- Citation keys: +\[auth:lower\]\_\[journal\]\[>0\]\_\[year\]|\[auth:lower\]\_\[Title:select,1,1\]\_\[year\]+
+
+- Zotfile设置（工具 -> ZotFile Preferences）
+    -- General settings, 上面填写Zotero自己的数据目录（即建立的软连接目录），如+C:\\Users\\ljzhu\\Zotero\\storage+；
+    Location of Files中选择Custom Location，填写坚果云同步目录，+D:\\我的坚果云\\storage+
+    -- 勾选Use subfolder defined by，输入 +\\\%w|\%T|\%a\\\%y+
+    -- Renaming rules: +{\%a\_}{\%y\_}{\%t}+
+
+这样设置之后，+storage+文件夹的目录结构如下：
+
+~~~
+{}{}
+./storage
+|__<Journal or Publisher>
+    |___<Year>
+       |__<author>_<year>_<title>.pdf
+~~~
+
+== 3. 优缺点
+
+- 优点
+  -- 多个平台之间文献和PDF文件的同步更新
+  -- Zotero提供的全文搜索、全文下载等便利功能
+  -- 可以导出多个Bib(La)TeX格式的引文库，并实时更新
+- 缺点
+  -- 使用Zotfile对文献进行重命名后，Zotero对PDF文件是文件链接的方式，因此，删除文献后，PDF文档并不会删除，需得同时手动删除
+
+== 4. 文献管理经验
+
+=== 4.1. 文献搜集整理
+- 文献通过Zotero Connector插件自动添加，可归于多个分类，如研究内容、文章等
+- 添加原文并由Zotfile重命名后存入storage文件夹，由坚果云同步
+- 添加多个Tags方便查找：
+  -- 文章类型 \[原理、方法、应用\]
+  -- 阅读状态 \[DONE、TODO、DOING\]
+  -- 借鉴意义 \[重要、参考\]
+- 添加一条Notes，可通过PaperShip同步编辑，包括但不仅限于以下内容：
+  -- 文章亮点
+  -- 研究区简介
+  -- 方法步骤
+  -- 共享数据
+  -- …
+- 设置相关文献 (Related)
+
+=== 4.2. 文档中插入文献
+- Better BibTeX插件的自动导出功能可以方便地更新文献库，直接用于\<span class=\"latex\"\>L\<sup\>a\<\/sup\>T\<sub\>e\<\/sub\>X\<\/span\>
+- 通过Zotero的Word插件插入文献，不会受其他人修改的影响
+
+
+== 5. 一些改进
+
+=== 5.1. Python代码整理storage文件夹
+为了方便清理Zotero产生的冗余文件夹，以便通过坚果云查找文件，我写了一个简单的Python脚本来删除这些文件夹：
+
+~~~
+{Zotero冗余文件夹示例}{}
+./storage/5EML43II
+  |__.zotero-ft-cache
+  |__..zotero-ft-info
+~~~
+
+~~~
+{Remove redunctant folders under Zotero Storage}{pyint}
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+"""Tidy empty folders of storage of zotero
+    @author   : Liangjun Zhu
+"""
+from __future__ import unicode_literals
+
+import os
+from shutil import rmtree
+
+storage_dir = r'D:\我的坚果云\storage'
+suffix = ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx', '.tex', '.txt']
+deldirs = list()
+for root, dirs, files in os.walk(storage_dir):
+    # Empty folder
+    if not os.listdir(root):
+        deldirs.append(root)
+        continue
+    # folder without valid files
+    for i in files:
+        for suf in suffix:
+            if i.find(suf) < 0:
+                continue
+            else:
+                break
+        else:  # Can not find any useful documents.
+            deldirs.append(root)
+
+deldirs = list(set(deldirs))
+if storage_dir in deldirs:
+    deldirs.remove(storage_dir)
+for deldir in deldirs:
+    print('deleting %s...' % deldir)
+    rmtree(deldir)
+
+~~~
+
+- 修改+storage_dir+路径(如+r'D:\\我的坚果云\\storage'+)为你自己的路径
+- 保存文件为+*.py+，双击即可运行（前提是电脑上正确配置过+python+）
+- 添加Windows计划任务，定期执行该脚本

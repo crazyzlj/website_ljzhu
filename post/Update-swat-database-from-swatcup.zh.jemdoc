@@ -1,7 +1,7 @@
-# jemdoc: menu{MENU}{Update-swat-database-from-swatcup.html}, backlink, notime, analytics{UA-75301149-1}
-==Automatically write Calibrated parameters by SWAT-CUP (model.in) back to SWAT Access database (.mdb)
+# jemdoc: menu{MENU.zh}{Update-swat-database-from-swatcup.zh.html}, backlink, notime, analytics{UA-75301149-1}
+==将SWAT-CUP率定结果(model.in)自动写回SWAT数据库(.mdb)
 
-[/Update-swat-database-from-swatcup.zh.html 中文版]
+[/Update-swat-database-from-swatcup.html English version]
 
 == 1 Requirement analysis
 
