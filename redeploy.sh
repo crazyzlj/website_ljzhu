@@ -1,4 +1,4 @@
-o -e "Deploying updates to GitHub..."
+echo -e "Deploying updates to GitHub..."
 
 # delete build folder
 rm -rf build
