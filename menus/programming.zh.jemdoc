@@ -3,6 +3,16 @@
 
 [/programming.html English version]
 
+== Git
+
+== CMake
+- [/Cheat-sheet-cmake.zh.html 速查表]
+- [/Basic-tutorial-cmake.zh.html 基础入门]
+
+== C\/C\+\+
+- [/Cheat-sheet-cpp.html 速查表]
+- [/Basic-tutorial-build-a-github-cpp-project.zh.html 如何在Github上创建C\+\+项目并实现代码持续集成和文档自动发布]
+
 == 速查表
 
 - [/Cheat-sheet-git.zh.html Git]

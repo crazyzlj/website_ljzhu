@@ -1,0 +1,303 @@
+# jemdoc: menu{MENU.zh}{Basic-tutorial-build-a-github-cpp-project.zh.html}, backlink, notime, analytics{UA-75301149-1}
+==如何在Github上创建C\+\+项目并实现代码持续集成和文档自动发布
+
+# [/Basic-tutorial-build-a-github-cpp-project.html English version]
+
+~~~
+
+通过本教程，你将学会如何：
+
+- 在Github上创建C\+\+代码仓库
+- 通过持续构建工具（[https://travis-ci.org Travis CI]和[https://www.appveyor.com/ AppVeyor]）实现代码的自动编译、测试
+- 采用Markdown编写用户手册
+- 采用Doxygen编写代码开发文档
+- 实现用户手册和开发文档的自动发布
+
+~~~
+
+*准备开始吧！*
+
+== 1. 在Github上新建代码仓库并克隆至本地
+
+- 打开[https://github.com Github]，注册账号并登录后找到“New”按钮，或通过[https://github.com/new 新建Github仓库]进入新建仓库页面。
+输入仓库名即可点击“Create repository”完成空白仓库的创建。
+通常建议在建库的时候输入简短仓库介绍信息、勾选“Initialize this repository with a README”创建+README.md文档+、
+以及添加适合于当前建库主要编程语言的+.gitignore+文件。
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_create_a_new_repo.png}{create_a_new_repo}{}{}{}
+~~~
+
+- 初始代码仓库构建完成如下图所示：
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_new_repo.png}{new_repo}{}{}{}
+~~~
+
+- 点击“Clone or download”按钮，利用“Clone with SSH”，点击右边按钮复制仓库地址：
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_copy_clone_ssh_link.png}{copy_clone_ssh_link}{}{}{}
+~~~
+
+- 在本地目录下（*强烈建议全英文路径且不含空格*），通过+git clone+命令将Github上的远程仓库克隆至本地。
+
+~~~
+{}{}
+git clone git@github.com:crazyzlj/TutorialCppProject.git
+
+# 屏幕输出：
+Cloning into 'TutorialCppProject'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+~~~
+
+== 2. 新建一个简单的C\+\+源码文件，利用CMake构建项目工程，并编译运行
+
+- 在仓库根目录下新建文件夹，命名为+src+，用于存放所有项目相关源代码
+
+- 在+src+目录下，创建一个+hello\_world.cpp+的源码文件：
+
+~~~
+{}{cpp}
+/*!
+ * Simple C++ program to display "Hello World"
+ */
+// Header file for input output functions
+#include<iostream>
+
+// Using the cout and endl function in the std namespace
+using std::cout;
+using std::endl;
+
+// main function where the execution of program begins
+int main() {
+    // prints hello world
+    cout << "Hello World" << endl;
+    return 0;
+}
+~~~
+
+- 在仓库根目录下新建+CMakeLists.txt+文件，输入如下代码用于利用+src/hello\_world.cpp+创建可执行程序+hello\_world+。关于CMake的更多介绍请阅读
+[/Basic-tutorial-cmake.zh.html CMake基础入门]和[/Cheat-sheet-cmake.zh.html CMake语法速查表]。
+
+~~~
+{}{}
+cmake_minimum_required (VERSION 3.1)
+project (hello_world C CXX)
+add_executable(hello_world src/hello_world.cpp)
+~~~
+
+- 此时便可以通过运行+CMake+创建工程，进一步通过C\+\+编译器编译为可执行程序。使用+CMake+组织源码工程的程序的一般编译步骤为：
+
+~~~
+{}{}
+cd /path/to/repository  # 进入仓库文件夹
+mkdir build             # 创建build文件夹用于编译项目
+cd build                # 进入build文件夹
+cmake ..                # 采用默认设置运行CMake命令构建项目，如果配置了多个编译环境，我们可以通过 -G 命令指定编译环境和程序位数，如 -G "Visual Studio 14 2015 Win64"
+make -j4                # make命令为Unix/Linux平台下GCC、Intel C++等编译器的编译-链接命令
+~~~
+
+- 以Visual Studio 2015的开发者命令行工具为例：
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_cmake_build_vsproj.png}{cmake_build_vsproj}{}{}{}
+~~~
+
+- 利用Visual Studio 2015打开+build+目录下的+hello\_world.sln+文件，设置+hello\_world+工程为启动项，即可通过+Ctrl\+F5+组合调试程序了：
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_open_vs_debug.png}{open_vs_debug}{}{}{}
+~~~
+
+- 此外，Visual Studio同样提供了命令行形式的构建工具+msbuild+，以上两步可以通过命令操作如下：
+
+~~~
+{}{}
+mkdir build_nmake
+cd build
+cmake -G "Visual Studio 14 2015 Win64" ..
+msbuild.exe ALL_BUILD.vcxproj
+# p.s.1 如果编译release版本：
+# msbuild.exe ALL_BUILD.vcxproj /p:Configuration=Release
+# p.s.2 可通过添加/maxcpucount:4 来并行编译，提高速度
+# p.s.3 可通过msbuild.exe INSTALL.vcxproj命令将可执行文件安装至默认或指定目录
+#       同样地，如果安装release版本：msbuild.exe INSTALL.vcxproj /p:Configuration=Release
+
+# 编译完成无错误之后，可在Debug或Release文件夹下找到可执行程序hello_world.exe
+cd Debug
+hello_world.exe
+~~~
+
+- 至此，我们已经通过一个简单的+hello\_world+程序跑通了+CMake+管理源码的基本流程，可以利用+git+将此阶段性成果进行保存并推送至远程库了。
+
+- 通过+git status+命令查看当前仓库的代码变化，如下图所示：
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_git_status_check_changes.png}{git_status_check_changes}{}{}{}
+~~~
+
+- 我们新增了+CMakeLists.txt+和+src/hello\_world.cpp+文件，同时也增加了+build+和+build_nmake+文件夹作为本地的编译目录，
+而这些目录我们是不希望上传至Github远程库的，因此，我们首先需要在+.gitignore+文件中增加对这两个文件夹的过滤规则：
+
+~~~
+{}{}
+# Build directories
+build*/
+~~~
+
+- 这时候再次输入+git status+命令便可看到修改项已变为：修改了+.gitignore+文件，新增了+CMakeLists.txt+文件和+src+文件夹
+
+- 接下来，通过+git+命令将所做修改进行保存（+git add+），并附加上*有意义的简要评论*（+git commit -m+）以方便日后查找，最后推送至远程库（+git push+）：
+
+~~~
+{}{}
+git add .gitignore
+git commit -m "ignore build folders"
+git add .
+git commit -m "add hello_world executable for the demo of CMake"
+git push origin master
+~~~
+
+- 执行完上述命令之后，再次查看Github上的仓库主页，则可以看到刚才提交的两次+commit+，
+点击[https://github.com/crazyzlj/TutorialCppProject/tree/Step2-HelloCMake 这里]查看示例。
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_first_push_to_remote_repo.png}{first_push_to_remote_repo}{}{}{}
+~~~
+
+== 3. 安装Doxygen、生成默认配置文件，并修改配置以初步生成HTML
+
+- 通过Doxygen官网[http://www.doxygen.nl/download.html 下载]并安装适合自己的版本
+
+- 在项目根目录下新建+doc+文件夹，通过+doxygen -s -g+创建默认配置文件，+-s+参数意为忽略注释行以缩减文件大小（+\~111 kb -> \~13 kb+），
+其中Doxygen的具体参数含义请[http://www.doxygen.nl/manual/config.html 查阅官网]。相关命令参考如下：
+
+~~~
+{}{}
+cd /path/to/repository
+mkdir doc
+cd doc
+doxygen -v    # 查看Doxygen版本
+doxygen -s -g # 创建默认配置文件
+
+# 屏幕输出：
+Configuration file `Doxyfile' created.
+
+Now edit the configuration file and enter
+
+  doxygen Doxyfile
+
+to generate the documentation for your project
+~~~
+
+- 接下来，用文本编辑器打开+Doxyfile.in+进行编辑，下面介绍几个主要设置项：
+  -- +DOXYFILE\_ENCODING+：文档编码格式，默认的+UTF-8+适合绝大多数中英文混排场景
+  -- +PROJECT\_NAME+：项目名
+  -- +PROJECT\_NUMBER+：项目版本号
+  -- +PROJECT\_BRIEF+：一句话简短介绍项目，该介绍会显示在帮助页面的主页标题处
+  -- +OUTPUT\_DIRECTORY+：Doxygen生成文件的输出目录，如果是相对路径，则是相对执行+doxygen+时的路径，
+  比如我们最终是要在仓库根目录下执行+doxygen+的，所以可以设置+OUTPUT\_DIRECTORY = build\_doxygen+
+  -- +CREATE\_SUBDIRS+：默认设置为+NO+，如果设为+YES+，Doxygen会在输出文件夹中创建两层共4096个子文件夹以分布式地
+  存储输出文件，这对于源码非常庞大的项目的性能提升是很有帮助的
+  -- +OUTPUT\_LANGUAGE+：输出文件语言，默认为+English+，中文可选的为+Chinese+和+Chinese-Traditional+
+  -- +JAVADOC\_AUTOBRIEF+：如果设为+YES+，则会将注释的第一行（直到遇到第一个句点+.+）解析为简要描述，如果设置为+NO+，
+  则需要显式的+\\brief+，因此建议设置为+YES+
+  -- +QT\_AUTOBRIEF+：同上，建议设置为+YES+
+  -- +TOC\_INCLUDE\_HEADINGS+：设置目录中最多包含多少级标题，目前只对Markdown文本有用，需要+MARKDOWN_SUPPORT+设为+YES+，
+  推荐设为3
+  -- +INPUT+：指定需要处理的文件\/文件夹，多个路径之间用空格分隔，换行用+\\+符，建议使用相对路径，相对执行+doxygen+时的路径，
+  比如我们最终是要在仓库根目录下执行+doxygen+的，所以可以设置+INPUT = README.md doc src+，
+  其中+README.md+即为项目的根目录下的+README.md+文档，+doc+文件夹内可以创建多个Markdown文件用于生成用户手册
+  -- +FILE\_PATTERNS+：如果+INPUT+中有指定文件夹，则可通过该参数指定多个文件后缀通配符
+  -- +RECURSIVE+：是否搜索+INPUT+中文件夹的子文件夹内容，一般设置为+YES+
+  -- +EXCLUDE+：指定需要排除的文件\/文件夹，比如我们并不需要构建+hello\_world.cpp+中的代码注释，则可设置
+  +EXCLUDE = src\/hello\_world.cpp+
+  -- +IMAGE\_PATH+：图片路径，如我们希望将所有用户手册相关的图片都保存在+doc+文件夹下，则可设置+IMAGE\_PATH = .\/doc+
+  -- +USE\_MDFILE\_AS\_MAINPAGE+：是否使用Markdown文档作为网站主页，如果使用则指定其路径，为了便于管理，通常直接使用
+  项目+README.md+作为主页
+  -- +GENERATE\_HTML+：是否生成HTML文档，设置为+YES+
+  -- +HTML\_OUTPUT+：设置HTML文档输出路径，默认为相对路径+html+，即+OUTPUT\_DIRECTORY\/html+
+  -- +GENERATE\_LATEX+：是否生成\<span class=\"latex\"\>L\<sup\>a\<\/sup\>T\<sub\>e\<\/sub\>X\<\/span\>文档，
+  默认为+YES+，但是我们目的是生成HTML，所以该参数设置为+NO+
+
+- 至此，我们已经初步配置完成了+Doxyfile+，可以运行查看下效果了：
+
+~~~
+{}{}
+cd /path/to/repository
+doxygen doc/Doxyfile
+~~~
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_doxygen_default_blank_homepage.png}{doxygen_default_blank_homepage}{}{}{}
+~~~
+
+- 对于该项目我们希望能够同时有中文主页，该怎么做呢？解决思路很简单，再准备一个用于生成中文网页的+Doxyfile+和对应的中文文档就OK！
+  -- 复制+README.md+，重命名为+README-zh-cn.md+（如无特殊说明，约定同名文档的中文版为文件名后加上+-zh-cn+，按照以往惯例中文版
+  常常命名为+\.zh-cn+，但是Doxygen在处理有两个+\.+的Markdown文件链接时有问题），并修改内容
+  -- 复制+Doxyfile+，重命名为+Doxyfile.zh-cn+，修改相关配置：
+    --- +PROJECT\_NAME+
+    --- +PROJECT\_BRIEF+
+    --- +OUTPUT\_LANGUAGE+
+    --- +INPUT+修改为+README-zh-cn.md doc src+
+    --- +USE\_MDFILE\_AS\_MAINPAGE+修改为+README-zh-cn.md+
+    --- +HTML\_OUTPUT+：为了与英文版输出路径区分，这里建议设置为+html\/zh-cn+
+  -- 运行+doxygen doc/Doxyfile.zh-cn+命令即可得到中文版主页，如下图所示:
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_doxygen_default_blank_homepage_zh-cn.png}{doxygen_default_blank_homepage_zh-cn}{}{}{}
+~~~
+
+- 点击[https://github.com/crazyzlj/TutorialCppProject/tree/Step3-HelloDoxygen 这里]查看示例代码
+
+== 4. 定制Doxygen的HTML样式
+
+Doxygen允许用户对生成的HTML样式进行定制。
+
+- 一般地，我们习惯在+doc+文件夹下新建+misc+文件夹用于存放HTML的样式文件等，按照如下命令生成Doxygen的默认样式文件：
+
+~~~
+{}{}
+cd /path/to/repository/doc
+mkdir misc
+cd misc
+doxygen -w html header.html footer.html doxygen.css
+~~~
+
+- 目前我们采用[http://rapidjson.org/ RapidJSON]的帮助文档样式，因此从其[https://github.com/Tencent/rapidjson/tree/master/doc/misc Github库]
+中下载+doxygenextra.css+样式文件放在+doc/misc+文件夹中，然后删除+doxygen.css+，最后根据RapidJSON库中的+header.html+和+footer.html+对应修改刚
+生成的HTML文件
+- 为了更好地展示Doxygen生成用户手册和代码文档的功能，增加了+doc\/intro.md+和+doc\/intro-zh-cn.md+文档，增加了Doxygen代码注释示例
++src\/doxygen\_google\_coding\_style\_examples.h+和+src\/doxygen\_google\_coding\_style\_examples.cpp+源代码
+- 同时为了使用RapidJSON样式，还需要对+Doxyfile+和+Doxyfile.zh-cn+进行修改:
+  -- +HTML\_HEADER           = .\/doc\/misc\/header.html+
+  -- +HTML\_FOOTER           = .\/doc\/misc\/footer.html+
+  -- +HTML\_EXTRA\_STYLESHEET  = .\/doc\/misc\/doxygenextra.css+
+  -- +GENERATE\_TREEVIEW     = YES+
+  -- +DISABLE\_INDEX         = YES+
+- 值得一提的是，Doxygen直到1.8.16版本才修复了Markdown文件链接问题，详见[http://www.doxygen.nl/manual/changelog.html 这里]-
+[https://github.com/doxygen/doxygen/commit/f7de92f16fe3e617c1897e03cc400a4a56e8da34 issue-\#7151]，因此教程到这里我也把
+Doxygen的版本更新为1.8.16了
+- 重新生成主页、Markdown文件的目录结构、以及C\+\+类文档如下图所示，
+点击[https://github.com/crazyzlj/TutorialCppProject/tree/Step4-CustomizeDoxygen 这里]查看示例代码
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_doxygen_customized_homepage.png}{doxygen_customized_homepage}{}{}{}
+~~~
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_doxygen_customized_homepage_md_toc.png}{doxygen_customized_homepage_md_toc}{}{}{}
+~~~
+
+~~~
+{}{img_left}{images/tutorial_cpp_project_doxygen_customized_homepage_api_class_demo.png}{doxygen_customized_homepage_api_class_demo}{}{}{}
+~~~
+
+
+  因为我们最后是要用CMake统一管理源码和用户手册及开发文档的，所以这里我们输入+\@CMAKE\_CURRENT\_BINARY\_DIR\@+，
+  即二进制文件的编译目录
