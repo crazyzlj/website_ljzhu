@@ -298,6 +298,3 @@ Doxygen的版本更新为1.8.16了
 {}{img_left}{images/tutorial_cpp_project_doxygen_customized_homepage_api_class_demo.png}{doxygen_customized_homepage_api_class_demo}{}{}{}
 ~~~
 
-
-  因为我们最后是要用CMake统一管理源码和用户手册及开发文档的，所以这里我们输入+\@CMAKE\_CURRENT\_BINARY\_DIR\@+，
-  即二进制文件的编译目录
