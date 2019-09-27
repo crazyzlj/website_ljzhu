@@ -11,31 +11,34 @@ Assistant Professor \n
 \<a href=\'https:\/\/github.com\/crazyzlj\' target=\'blank\'\>\<img alt=\"Code repository\" src=\"styles\/github.png\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
 \n\n
 [http://www.lreis.ac.cn State Key Laboratory of Resources and Environmental Information System] \n
-[http://english.igsnrr.cas.cn Institute of Geographic Sciences and Natural Resources Research], [http://english.cas.cn CAS] \n
+[http://english.igsnrr.cas.cn Institute of Geographic Sciences and Natural Resources Research],
+[http://english.cas.cn Chinese Academy of Sciences] \n
 
 ~~~
 
 == Recent News
 
 ~~~
+- (09-26-2019) After a long wait, our manuscript of introducing the design and development of SEIMS (Spatially Explicit Integrated Modeling System)
+which entitled "[/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework]" has finally been published online by
+/Environmental Modelling \& Software/. [https://www.sciencedirect.com/science/article/pii/S1364815218309241 Online version].
+Source code of SEIMS can be found [https://github.com/lreis2415/SEIMS here].
 - (07-01-2019) I ended my 23-year student career and started working at [http://www.lreis.ac.cn LREIS] as an assistant professor.
-- (01-31-2019) Our manuscript entitled "[/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for spatial optimization of watershed 
-best management practices scenarios]" is accepted by /Water/. [https://www.mdpi.com/2073-4441/11/2/262 Online version] 
-- (01-09-2018) We proposed a spatial BMP optimization approach based on slope position units, which are homogeneous spatial units with physical 
+- (01-31-2019) Our manuscript entitled "[/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for spatial optimization of watershed
+best management practices scenarios]" is accepted by /Water/. [https://www.mdpi.com/2073-4441/11/2/262 Online version]
+- (01-09-2018) We proposed a spatial BMP optimization approach based on slope position units, which are homogeneous spatial units with physical
 geographic features. The manuscript entitled "[/BMPsOptSlpPos-JSWC.html Spatial optimization of watershed best management practices based on slope position units]"
-is accepted by /Journal of Soil and Water Conservation/. The paper is freely available via the 
+is accepted by /Journal of Soil and Water Conservation/. The paper is freely available via the
 [http://www.jswconline.org/content/73/5/504 offical website]. The software can be found [https://github.com/lreis2415/SEIMS here].
-- (12-15-2017) I have developed an automatic approach of the [https://www.sciencedirect.com/science/article/pii/S0169555X0900155X 
-prototype-based fuzzy slope position] which is originally proposed by [http://people.ucas.ac.cn/~qincz Prof. Cheng-Zhi Qin]. 
-The accordingly manuscript entitled "[/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions]" 
-is accepted by /Geomorphology/. The software can be found [https://github.com/lreis2415/AutoFuzSlpPos here].
 
 [/news.html More news...]
 
 ~~~
 
 == Research Interests
-   - Watershed system modeling and scenario analysis for best management practices
+   - Watershed process modeling
+
+   - Spatial optimization of best management practices (BMPs)
 
    - Intelligent geocomputation
 

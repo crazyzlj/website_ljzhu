@@ -3,22 +3,32 @@
 
 [/paper.html English version]
 
-请访问[https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl=zh-CN 谷歌学术]查看论文引用详情、导出参考文献（BibTex/Endnote/RefMan）等。
+请访问[https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl=zh-CN 谷歌学术]查看论文引用详情、导出参考文献（BibTex\/Endnote\/RefMan）等。
 
 
 == 流域过程建模与管理措施（BMP）情景优化
-   - [/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for the spatial optimization of watershed best management practice scenarios]\n
-   _朱良君_, 秦承志*, 朱阿兴, 刘军志, 吴辉 \n
-   /Water/, 2019, 11(2), 262. doi: [https://doi.org/10.3390/w11020262 10.3390/w11020262]
+   - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework] \n
+   *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
+   /Environmental Modelling \& Software/, *2019*, 104526. doi:
+   [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
+
+   - [/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for the spatial optimization of watershed
+    best management practice scenarios]\n
+   *朱良君*, 秦承志\*, 朱阿兴, 刘军志, 吴辉 \n
+   /Water/, *2019*, 11(2), 262. doi: [https://doi.org/10.3390/w11020262 10.3390\/w11020262]
 
    - [/BMPsOptSlpPos-JSWC.zh.html Spatial optimization of watershed best management practices based on slope position units] \n
-   秦承志, 高会然, _朱良君_*, 朱阿兴, 刘军志, 吴辉 \n
-   /Journal of Soil and Water Conservation/, 2018, 73(5):504-517. doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489/jswc.73.5.504]
+   秦承志, 高会然, *朱良君\**, 朱阿兴, 刘军志, 吴辉 \n
+   /Journal of Soil and Water Conservation/, *2018*, 73(5):504--517. doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
+
+   - [/ReviewNewParadigm_ProgInGeo.zh.html 流域系统综合模拟与情景分析——自然地理综合研究的新范式?] \n
+   朱阿兴, *朱良君\**, 史亚星, 秦承志, 刘军志 \n
+   地理科学进展, *2019*, 38(8):1111--1122. doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
 
 == 数字地形分析
 
    - [/AutoFuzSlpPos-GEMOR.zh.html Automatic approach for deriving fuzzy slope positions] \n
-     _朱良君_, 朱阿兴, 秦承志*, 刘军志 \n
-     /Geomorphology/, 2018, 304:173-183. doi: [https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016/j.geomorph.2017.12.024]
+     *朱良君*, 朱阿兴, 秦承志\*, 刘军志 \n
+     /Geomorphology/, *2018*, 304:173--183. doi: [https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
 
-已发表文章的完整列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 其他下载链接]）。
+已发表文章的完整列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）。

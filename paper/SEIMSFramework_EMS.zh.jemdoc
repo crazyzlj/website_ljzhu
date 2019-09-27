@@ -1,0 +1,13 @@
+# jemdoc: menu{MENU.zh}{SEIMSFramework_EMS.zh.html}, backlink, notime, analytics{UA-75301149-1}
+== A modular and parallelized watershed modeling framework
+*朱良君*, 刘军志\*, 秦承志\*, 朱阿兴
+
+[/SEIMSFramework_EMS.html English version]
+
+TBD
+
+== 引用格式
+
+Zhu, L.J., Liu, J., Qin, C.Z., and Zhu, A.X., *2019*. A modular and parallelized watershed modeling framework,
+/Environmental Modelling \& Software/, 104526.
+doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]

@@ -3,20 +3,33 @@
 
 [/cv.zh.html 中文版]
 
-== Education
+I have been engaged in the research of watershed process modeling and scenario analysis since my doctoral stage.
 
-   - *2014--2019* Ph.D.(GIS), [http://english.ucas.ac.cn/ University of Chinese Academy Sciences], Beijing, P.R.C.\n
-     *Dissertation*: Method of optimizing spatial configuration of beneficial watershed management practices in
-     a unit-boundary adaptive manner\n
-     *Supervisors*: Professor  [http://solim.geography.wisc.edu/axing/ A-Xing Zhu] and 
-     Professor  [http://people.ucas.ac.cn/~0007751?language=en Cheng-Zhi Qin]
+The main scientific problem is focusing on how to effectively consider the spatial relationship
+(such as the relationships between BMPs and slope positions along a hillslope) in the framework of
+scenario analysis based on distributed watershed process modeling, then achieving the high efficient
+and easy-to-use decision support for watershed comprehensive management with the incorporation of
+multi-objective optimization algorithms and high-performance computing technique
+([/ReviewNewParadigm_ProgInGeo.html Zhu AX and *Zhu LJ\**, /et al/, /Progress in Geography (in Chinese)/, 2019]).
 
-   - *2011--2014* M.Sc.(Physical Geography), [https://english.bnu.edu.cn/ Beijing Normal University], Beijing, P.R.C.\n
-     *Thesis*: A laser scanner for surface roughness and rill morphology measurement based on linear structured light \n
-     *Supervisor*: Professor  [http://geogother.bnu.edu.cn/teacherweb/zhangguanghui/ Guang-Hui Zhang]
-     
-   - *2007--2011* B.Sc.(GIS), [https://en.nwsuaf.edu.cn/ Northwest A&F University], Yangling, Shannxi, P.R.C.
+First, a flexible, easy-to-use and high-performance watershed process modeling framework namely
+[https://github.com/lreis2415/SEIMS SEIMS]
+(Spatially Explicit Integrated Modeling System；[/SEIMSFramework_EMS.html Zhu /et al/, /EM\&S/, 2019])
+was designed and implemented according to computation characteristics of scenario optimization based on
+distributed watershed process models. Then, the slope position units (such as ridge, backslope, valley, etc.)
+were proposed to be used as spatial units for BMP allocation
+([/BMPsOptSlpPos-JSWC.html Qin, Gao, and *Zhu\**, /et al/, /JSWC/, 2018]),
+and the effectiveness and efficiency of the proposed method were discussed by comparing with other three
+main types of BMP configuration units ([/BMPsCfgUnitsCmp_Water.html Zhu /et al/, /Water/, 2019]).
+Furthermore, based on the automation of extracting fuzzy slope position information
+([/AutoFuzSlpPos-GEMOR.html Zhu /et al/, /Geomorphology/, 2018]),
+a novel BMP scenario optimization method based on the boundary­-adaptive slope po­sition units was proposed
+(manuscript in preparation).
 
+As first author and\/or corresponding author, I have published 10 peer-reviewed papers (including 4 SCI-indexed papers).
+As co-author, I have published 9 peer-reviewed papers (including 3 SCI-indexed papers).
+These papers are published on journals such as /Environmental Modelling \& Software/, /Geomorphology/,
+/Journal of Soil and Water Conservation/, /Geoderma/, /Earth Surface Processes and Landforms/, /Water/, etc.
 
 == Experience
 
@@ -24,6 +37,19 @@
      State Key Laboratory of Resources and Environmental Information System (LREIS),\n
      Institute of Geographic Sciences and Natural Resources Research (IGSNRR), Chinese Academy Sciences (CAS)
 
+== Education
+
+   - *2014--2019* Ph.D.(GIS), [http://english.ucas.ac.cn/ University of Chinese Academy Sciences], Beijing, P.R.C.\n
+     *Dissertation*: Method of optimizing spatial configuration of beneficial watershed management practices in
+     a unit-boundary adaptive manner\n
+     *Supervisors*: Professor  [http://solim.geography.wisc.edu/axing/ A-Xing Zhu] and
+     Professor  [http://people.ucas.ac.cn/~0007751?language=en Cheng-Zhi Qin]
+
+   - *2011--2014* M.Sc.(Physical Geography), [https://english.bnu.edu.cn/ Beijing Normal University], Beijing, P.R.C.\n
+     *Thesis*: A laser scanner for surface roughness and rill morphology measurement based on linear structured light \n
+     *Supervisor*: Professor  [http://geogother.bnu.edu.cn/teacherweb/zhangguanghui/ Guang-Hui Zhang]
+
+   - *2007--2011* B.Sc.(GIS), [https://en.nwsuaf.edu.cn/ Northwest A&F University], Yangling, Shannxi, P.R.C.
 
 More information can be found in my [cv/cv_ljzhu_en.pdf CV]
 ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_en.pdf alternative download link]).

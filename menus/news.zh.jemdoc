@@ -1,12 +1,15 @@
 # jemdoc: menu{MENU.zh}{news.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== 新闻动态
+== 动态
 
 [/news.html English version]
 
 ~~~
+- (09-26-2019) 经过漫长的等待，我们这篇题为[/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework]
+的文章终于被/Environmental Modelling \& Software/接收并[https://www.sciencedirect.com/science/article/pii/S1364815218309241 在线发表]，
+这篇文章介绍了我们开发的一个模块化、并行化的流域过程模拟与情景分析建模框架SEIMS，其代码已在[https://github.com/lreis2415/SEIMS Github上开源]。
 - (07-01-2019) 终于结束23年的学生生涯，正式开始在[http://www.lreis.ac.cn 信息室]上班！
 - (01-31-2019) 我们关于“不同BMPs空间配置单元对流域管理措施情景空间优化的影响（
-[/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for 
+[/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for
 spatial optimization of watershed best management practices scenarios]）”的文章被/Water/
 正式接收并[https://www.mdpi.com/2073-4441/11/2/262 在线发表]。
 - (01-09-2018) 我们提出了一种以坡位单元作为BMP空间配置单元的BMP情景优化方法，据此撰写的文章
@@ -15,7 +18,7 @@ spatial optimization of watershed best management practices scenarios]）”的�
 相关软件已在[https://github.com/lreis2415/SEIMS Github上开源]。
 - (12-15-2017) 为了提高[https://www.sciencedirect.com/science/article/pii/S0169555X0900155X 基于原型的模糊坡位提取方法]
 的易用性，我们基于领域知识和数据挖掘实现了一种自动化方法，克服了原方法在实际应用中需要过多手动设置的不足，同时采用并行计算
-提高了计算效率。据此撰写的文章"[/AutoFuzSlpPos-GEMOR.zh.html Automatic approach for deriving fuzzy slope positions]" 
+提高了计算效率。据此撰写的文章"[/AutoFuzSlpPos-GEMOR.zh.html Automatic approach for deriving fuzzy slope positions]"
 已被/Geomorphology/接收[https://doi.org/10.1016/j.geomorph.2017.12.024 发表]。
 相关软件已在[https://github.com/lreis2415/AutoFuzSlpPos Github上开源]。
 

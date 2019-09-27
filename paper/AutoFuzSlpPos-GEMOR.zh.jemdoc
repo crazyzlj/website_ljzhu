@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU.zh}{AutoFuzSlpPos-GEMOR.zh.html}, backlink, notime, analytics{UA-75301149-1}
 == Automatic approach for deriving fuzzy slope positions
-_朱良君_, 朱阿兴, 秦承志*, 刘军志
+*朱良君*, 朱阿兴, 秦承志\*, 刘军志
 
 [/AutoFuzSlpPos-GEMOR.html English version]
 
@@ -8,5 +8,5 @@ TBD
 
 == 引用格式
 
-Zhu, L.J., Zhu, A.X., Qin, C.Z., and Liu, J.Z. *2018*. Automatic approach for deriving fuzzy slope positions. 
-/Geomorphology/, 304:173--183. doi:10.1016/j.geomorph.2017.12.024
+Zhu, L.J., Zhu, A.X., Qin, C.Z., and Liu, J.Z. *2018*. Automatic approach for deriving fuzzy slope positions.
+/Geomorphology/, 304:173--183. doi:[https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
