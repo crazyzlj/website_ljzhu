@@ -3,9 +3,18 @@
 
 [/paper.zh.html 中文版]
 
+As first author and\/or corresponding author, I have published 10 peer-reviewed papers (including 4 SCI-indexed papers).
+As co-author, I have published 9 peer-reviewed papers (including 3 SCI-indexed papers).
+These papers are published on journals such as /Environmental Modelling \& Software/, /Geomorphology/,
+/Journal of Soil and Water Conservation/, /Geoderma/, /Earth Surface Processes and Landforms/, /Water/, etc.
+
 [https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl Google scholar] provides citations and reference (BibTex\/Endnote\/RefMan) export.
 
-== Watershed modeling and BMP scenario optimization
+Selected publications are listed below. Please refer to my [cv/cv_ljzhu_en.pdf CV]
+([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_en.pdf alternative download link])
+for a full list.
+
+== Watershed process modeling and scenario analysis/optimization
    - [/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework] \n
    *Liang-Jun Zhu*, Junzhi Liu\*, Cheng-Zhi Qin\*, and A-Xing Zhu \n
    /Environmental Modelling \& Software/, *2019*, 104526. doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
@@ -29,6 +38,3 @@
    - [/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions] \n
      *Liang-Jun Zhu*, A-Xing Zhu, Cheng-Zhi Qin\*, and Jun-Zhi Liu \n
      /Geomorphology/, *2018*, 304:173--183. doi:[https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
-
-Please refer to my [cv/cv_ljzhu_en.pdf CV]([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_en.pdf alternative download link])
-for a full list of published papers.

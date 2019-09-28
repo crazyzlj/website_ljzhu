@@ -1,13 +1,48 @@
 # jemdoc: menu{MENU.zh}{SEIMSFramework_EMS.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== A modular and parallelized watershed modeling framework
+== A modular and parallelized watershed modeling framework（模块化并行化的流域建模框架）
 *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴
 
 [/SEIMSFramework_EMS.html English version]
 
-TBD
+== 概述
+
+== 会议报告
+
+== 软件
+  - 开源项目地址：[https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS]。
+
+== 评审历史
+  - 投稿: 2018-9-18
+  - 主编: Dr. Dan Ames, 2018-9-19
+  - 责任编辑: Dr. Olaf David, 2018-9-26
+  - 邀请审稿人: 2018-10-21 (*于2018-10-16询问进展*)
+  - 审稿中: 2018-10-23 (*投稿后约40天送审*)
+  - 审稿意见返回，等待责编意见 (Olaf David): 2018-12-3 (*审稿人审稿时间约40天*)
+  - 等待主编意见 (Dan Ames): 2018-12-4
+  - *大修*: 2018-12-16
+    -- 审稿意见1: I found this to be *a very interesting contribution to the field of hydrologic modeling*.
+    In addition to the work presented to address real-world modeling problems, *I really liked the way it
+    continues to build on previous studies*.
+    -- 审稿意见2: The flow of the paper is *well-organized*, and a lot of effort has clearly been put into
+    the development of *an intuitive modular framework for hydrologic modeling, using physical algorithms as
+    modules instead of entire models’ architectures in a plug and play fashion*. However, the _experimental
+    setup of tradeoffs of utilizing this modular framework is not particularly convincing_.
+    -- 审稿意见3: No general comments provided.
+  - 大修后返回，等待主编分配 (Dan Ames): 2019-02-10
+  - 等待责编送审 (Olaf David): 2019-02-12
+  - 邀请审稿人: 2019-04-04 (*于2019-03-07和2019-03-25询问进展*)
+  - 审稿中: 2019-04-08
+  - 审稿意见返回，等待责编意见 (Olaf David): 2019-7-24 (*于2019-07-24询问进展*)
+  - 等待主编意见 (Dan Ames): 2019-8-20 (*于2019-08-07询问进展*)
+  - 接收 (Dan Ames): 2019-9-24 (*于2019-09-05询问进展*)
 
 == 引用格式
 
 Zhu, L.J., Liu, J., Qin, C.Z., and Zhu, A.X., *2019*. A modular and parallelized watershed modeling framework,
 /Environmental Modelling \& Software/, 104526.
 doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

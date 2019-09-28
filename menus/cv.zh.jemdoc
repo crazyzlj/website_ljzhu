@@ -3,27 +3,6 @@
 
 [/cv.html English version]
 
-
-自博士阶段开始从事*流域过程模拟与情景分析方向*的研究。
-
-主要针对的科学问题是如何在基于分布式流域过程模拟的情景分析方法中有效考虑空间关系（如坡面上不同管理措施\[BMP\]之间的空间配置关系)，
-在多目标优化算法和高性能计算的支持下实现流域管理措施情景优化的易用化和决策支持化
-（[/ReviewNewParadigm_ProgInGeo.zh.html 朱阿兴和*朱良君\**等，地理科学进展，2019]）。
-
-围绕这一科学问题，针对分布式流域过程模拟和情景优化方法的并行化特点，
-设计实现了一个灵活、易用、高性能的流域过程模拟与情景分析建模框架[https://github.com/lreis2415/SEIMS SEIMS]
-（Spatially Explicit Integrated Modeling System；[/SEIMSFramework_EMS.zh.html Zhu等，/EM\&S/，2019]）；
-随后以SEIMS为基础，提出了将坡位单元（如山脊、背坡、沟谷等）作为BMP空间配置单元的流域BMP情景优化方法
-（[/BMPsOptSlpPos-JSWC.zh.html Qin，Gao和*Zhu\**等，/JSWC/，2018]），
-并通过与其他3种主要空间配置单元类型的对比讨论了所提方法的有效性（[/BMPsCfgUnitsCmp_Water.zh.html Zhu等，/Water/，2019]），
-进而在模糊坡位信息自动化提取方法设计（[/AutoFuzSlpPos-GEMOR.zh.html Zhu等，/Geomorphology/，2018]）
-的基础上，提出了基于模糊坡位信息的BMP空间配置单元边界动态优化方法（正在撰写相关论文）。
-
-以第一作者或通讯作者发表论文10篇（其中SCI收录4篇），主要发表在/Environmental Modelling \& Software/、/Geomorphology/、
-/Journal of Soil and Water Conservation/、/Water/、地理科学进展、水土保持学报等期刊中；
-以非第一作者合作发表论文9篇（其中SCI收录3篇），主要发表在/Geoderma/、/Earth Surface Processes and Landforms/、
-武汉大学学报∙信息科学版、地球信息科学学报、水土保持学报等期刊中。
-
 == 工作经历
 
    - *2019年7月 -- 至今* 助理研究员 \n
@@ -41,5 +20,11 @@
      *导师*: [http://geogother.bnu.edu.cn/teacherweb/zhangguanghui/ 张光辉教授]
 
    - *2007--2011* 理学学士（GIS） [https://www.nwsuaf.edu.cn/ 西北农林科技大学]
+
+== 获奖情况
+
+   - *2013*	硕士研究生国家奖学金，北京师范大学
+
+   - *2008*	本科生国家奖学金，西北农林科技大学
 
 详细信息请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）。

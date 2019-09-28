@@ -1,10 +1,29 @@
 # jemdoc: menu{MENU.zh}{BMPsOptSlpPos-JSWC.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== Spatial optimization of watershed best management practices based on slope position units
+== Spatial optimization of watershed best management practices based on slope position units（基于坡位单元的流域最佳管理措施空间优化方法）
 秦承志, 高会然, *朱良君\**, 朱阿兴, 刘军志, 吴辉
 
 [/BMPsOptSlpPos-JSWC.html English version]
 
-TBD
+== 概述
+
+== 会议报告
+
+== 软件
+  - 开源项目地址：[https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS]。
+
+== 评审历史
+  - 投稿: 2017-10-22
+  - 编辑:
+    -- 学术编辑: Dr. Jorge Delgado (jorge.delgado (at) ars.usda.gov)
+    -- 编辑助理: Mr. Jody Thompson (jody.thompson (at) swcs.org)
+  - *小修后接收*: 2018-01-02
+    -- 审稿意见1: The paper addresses *an interesting issue concerning spatial optimization of
+    watershed best management practices. The proposed approach builds on terrain attributes,
+    namely on slope positions*. The carefully and watchfully written manuscript is clearly structured
+    and put into correct format. *I propose its publication in its present form.*
+    -- 审稿意见2: *The article is relevant and well structured*. I found _only little mistakes
+    in References section and I have some recommendation to the figures and a usage of a geographical term_.
+  - 接收: 2018-01-09
 
 == 引用格式
 
@@ -12,3 +31,8 @@ Qin, C.Z., Gao, H.R., Zhu, L.J., Zhu, A.X., Liu, J.Z., and Wu, H. *2018*.
 Spatial optimization of watershed best management practices based on slope position units.
 /Journal of Soil and Water Conservation/, 73(5):504--517.
 doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

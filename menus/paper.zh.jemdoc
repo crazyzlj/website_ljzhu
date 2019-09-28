@@ -1,23 +1,32 @@
 # jemdoc: menu{MENU.zh}{paper.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== 主要期刊论文
+== 代表性著作
 
 [/paper.html English version]
+
+以第一作者或通讯作者发表论文10篇（其中SCI收录4篇），主要发表在/Environmental Modelling \& Software/、/Geomorphology/、
+/Journal of Soil and Water Conservation/、/Water/、地理科学进展、水土保持学报等期刊中；
+以非第一作者合作发表论文9篇（其中SCI收录3篇），主要发表在/Geoderma/、/Earth Surface Processes and Landforms/、
+武汉大学学报∙信息科学版、地球信息科学学报、水土保持学报等期刊中。
+
+代表性著作及详情列举如下，已发表文章的完整列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]
+（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）。
 
 请访问[https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl=zh-CN 谷歌学术]查看论文引用详情、导出参考文献（BibTex\/Endnote\/RefMan）等。
 
 
 == 流域过程建模与管理措施（BMP）情景优化
-   - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework] \n
+   - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework (模块化并行化的流域建模框架)] \n
    *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
    /Environmental Modelling \& Software/, *2019*, 104526. doi:
    [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
    - [/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for the spatial optimization of watershed
-    best management practice scenarios]\n
+    best management practice scenarios (不同空间配置单元对流域最佳管理措施空间优化的影响)]\n
    *朱良君*, 秦承志\*, 朱阿兴, 刘军志, 吴辉 \n
    /Water/, *2019*, 11(2), 262. doi: [https://doi.org/10.3390/w11020262 10.3390\/w11020262]
 
-   - [/BMPsOptSlpPos-JSWC.zh.html Spatial optimization of watershed best management practices based on slope position units] \n
+   - [/BMPsOptSlpPos-JSWC.zh.html Spatial optimization of watershed best management practices based on slope position units
+   (基于坡位单元的流域最佳管理措施空间优化方法)] \n
    秦承志, 高会然, *朱良君\**, 朱阿兴, 刘军志, 吴辉 \n
    /Journal of Soil and Water Conservation/, *2018*, 73(5):504--517. doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
 
@@ -27,8 +36,6 @@
 
 == 数字地形分析
 
-   - [/AutoFuzSlpPos-GEMOR.zh.html Automatic approach for deriving fuzzy slope positions] \n
+   - [/AutoFuzSlpPos-GEMOR.zh.html Automatic approach for deriving fuzzy slope positions (模糊坡位提取自动化方法)] \n
      *朱良君*, 朱阿兴, 秦承志\*, 刘军志 \n
      /Geomorphology/, *2018*, 304:173--183. doi: [https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
-
-已发表文章的完整列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）。

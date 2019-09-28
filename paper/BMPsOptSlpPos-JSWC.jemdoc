@@ -4,7 +4,28 @@ Cheng-Zhi Qin, Hui-Ran Gao, *Liang-Jun Zhu\**, A-Xing Zhu, Jun-Zhi Liu, and Hui 
 
 [/BMPsOptSlpPos-JSWC.zh.html 中文版]
 
-TBD
+
+== Overview
+
+== Software availablility
+  - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS],
+  especially the Python scripts located in +/seims/scenario_analysis/slpposunits+.
+
+== Representation
+
+== Review history
+  - Submission: 2017-10-22
+  - Editors:
+    -- Research editor: Dr. Jorge Delgado (jorge.delgado (at) ars.usda.gov)
+    -- Editorial assistant: Mr. Jody Thompson (jody.thompson (at) swcs.org)
+  - *Minor revision*: 2018-01-02
+    -- Reviewer \#1: The paper addresses *an interesting issue concerning spatial optimization of
+    watershed best management practices. The proposed approach builds on terrain attributes,
+    namely on slope positions*. The carefully and watchfully written manuscript is clearly structured
+    and put into correct format. *I propose its publication in its present form.*
+    -- Reviewer \#2: *The article is relevant and well structured*. I found _only little mistakes
+    in References section and I have some recommendation to the figures and a usage of a geographical term_.
+  - Accepted: 2018-01-09
 
 == Citation
 
@@ -12,3 +33,8 @@ Qin, C.Z., Gao, H.R., Zhu, L.J., Zhu, A.X., Liu, J.Z., and Wu, H. *2018*.
 Spatial optimization of watershed best management practices based on slope position units.
 /Journal of Soil and Water Conservation/, 73(5):504--517.
 doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

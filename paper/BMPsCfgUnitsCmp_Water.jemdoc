@@ -4,10 +4,73 @@
 
 [/BMPsCfgUnitsCmp_Water.zh.html 中文版]
 
-TBD
+== Overview
+
+== Software availablility
+  - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS].
+
+== Representation
+
+== Review history
+  - Submission: 2018-12-22
+  - English editing by MDPI: 2018-12-20
+  - Submission received and Pending review: 2018-12-22
+  - Under review: 2018-12-24
+  - Pending decision: 2019-01-15
+  - *Accept after minor revision (Academic Editor)*: 2019-01-18
+    -- Review by academic editor: *I believe the work presented here has scientific merit and
+    very useful to the professional modeling community.* Please refer to the comments made by
+    reviewers 1 and 2 and make necessary revisions to the manuscript.
+  - *Major revision (Assistant Editor)*: 2019-01-20
+    -- Reviewer \#1: This is *a well-written and well-organized manuscript* evaluating the effects
+    of spatial configuration units of BMPs on soil loss using optimization methods using the
+    modeling approach. The authors have used the spatial configuration units as a basis to evaluate
+    where in the watershed BMPs should be placed to reduce its impact on downstream water quality.
+    *This paper is of great benefit to the scientific community in general*, and to the forest and
+    agricultural managers who will be relying on modeling tools to support management activities
+    under future land use and climate change. *The introduction is very well written. The authors
+    give a comprehensive of BMP optimization schemes previously used in such studies and their
+    limitations.* The goal and specific questions are clearly defined. The method section describes
+    their approach well and aligns well with results section. The QSWAT model used for this study
+    could prove to be a promising tool for decision making. _I have minor editorial suggestions._
+    -- Reviewer \#2: The manuscript compared the effectiveness of four ways to link BMPs to land
+    characteristics during optimization. *The results were well presented and can direct the work
+    of BMP placement in the future.* The work has its merits, _but issues were found that can have
+    serious negative impact to its acceptance by academia. The main problem of this manuscript is
+    its organization._ The author preferred to provide a rough and generalized description first,
+    and then provide more details in a later section. This is not wrong, but the general description
+    is often too generalized that readers cannot understand what the description actually referred to.
+    This is particular serious before section 2.3 (but later sections also have this problem).
+    The general description must contain enough information and definition so readers can understand
+    it right away without referring to other parts of the manuscript. If detailed information must be
+    left in a later section, the general description should contain a "pointer" to point readers to
+    the correct section (e.g. "section x.x contains more detailed information about xxx") that contains
+    detailed information. _The second problem (which is related to the first problem) is that many
+    terms were not defined when they were used the first time in the manuscript_. For example, the
+    abstract is very hard to read because of all the _undefined terms such as "spatial unit"_. The
+    _abstract and the introduction parts must be reorganized_.
+    -- Reviewer \#3: his is *a solid piece of work addressing the watershed best management practice
+    (BMP) scenarios optimization with regard to effectiveness, optimizing efficiency, and practicality*
+    by comparing different BMP configuration units based on one same watershed. The manuscript is *written
+    clearly and highlights the need for research on this topic*. The authors provide *sufficient methodological
+    detail and the research findings are robust with practical implications*.
+  - Resubmitted: 2019-01-24
+  - *Major revision (From reviewer \#2)*: 2019-01-25
+    -- Reviewer \#2: Thank you for providing an updated copy of the manuscript. The reviewer saw a
+    lot of improvements, but issues still exist. *This manuscript has good technical merit, so I would
+    really like to see it published with improved writing*. _I would seriously suggest the authors to
+    refine writing in the manuscript_. One of the authors lives in the U.S., and I highly recommend
+    him\/her (and\/or his\/her American colleagues) to review the manuscript for clarity.
+  - Resubmitted: 2019-01-28
+  - Accepted: 2019-01-31
 
 == Citation
 
 Zhu, L.J., Qin, C.Z., Zhu, A.X., Liu, J.Z., and Wu, H. *2019*. Effects of different spatial configuration units for the
 spatial optimization of watershed best management practice scenarios. /Water/, 11(2), 262.
 doi:[https://doi.org/10.3390/w11020262 10.3390\/w11020262]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

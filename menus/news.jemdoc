@@ -4,18 +4,18 @@
 [/news.zh.html 中文版]
 
 ~~~
-- (09-26-2019) After a long wait, our manuscript of introducing the design and development of SEIMS (Spatially Explicit Integrated Modeling System)
+- (2019-09-26) After a long wait, our manuscript of introducing the design and development of SEIMS (Spatially Explicit Integrated Modeling System)
 which entitled "[/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework]" has finally been published online by
 /Environmental Modelling \& Software/. [https://www.sciencedirect.com/science/article/pii/S1364815218309241 Online version].
 Source code of SEIMS can be found [https://github.com/lreis2415/SEIMS here].
-- (07-01-2019) I ended my 23-year student career and started working at [http://www.lreis.ac.cn LREIS] as an assistant professor.
-- (01-31-2019) Our manuscript entitled "[/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for spatial optimization of watershed
+- (2019-07-08) I ended my 23-year student career and started working at [http://www.lreis.ac.cn LREIS] as an assistant professor.
+- (2019-01-31) Our manuscript entitled "[/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for spatial optimization of watershed
 best management practices scenarios]" is accepted by /Water/. [https://www.mdpi.com/2073-4441/11/2/262 Online version]
-- (01-09-2018) We proposed a spatial BMP optimization approach based on slope position units, which are homogeneous spatial units with physical
+- (2018-01-09) We proposed a spatial BMP optimization approach based on slope position units, which are homogeneous spatial units with physical
 geographic features. The manuscript entitled "[/BMPsOptSlpPos-JSWC.html Spatial optimization of watershed best management practices based on slope position units]"
 is accepted by /Journal of Soil and Water Conservation/. The paper is freely available via the
 [http://www.jswconline.org/content/73/5/504 offical website]. The software can be found [https://github.com/lreis2415/SEIMS here].
-- (12-15-2017) I have developed an automatic approach of the [https://www.sciencedirect.com/science/article/pii/S0169555X0900155X
+- (2017-12-15) I have developed an automatic approach of the [https://www.sciencedirect.com/science/article/pii/S0169555X0900155X
 prototype-based fuzzy slope position] which is originally proposed by [http://people.ucas.ac.cn/~qincz Prof. Cheng-Zhi Qin].
 The accordingly manuscript entitled "[/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions]"
 is accepted by /Geomorphology/. The software can be found [https://github.com/lreis2415/AutoFuzSlpPos here].

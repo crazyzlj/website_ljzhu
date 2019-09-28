@@ -4,10 +4,46 @@
 
 [/SEIMSFramework_EMS.zh.html 中文版]
 
-TBD
+== Overview
+
+== Software availablility
+  - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS].
+
+== Representation
+
+== Review history
+  - Submission: 2018-9-18
+  - With Editor: 2018-9-19, Editor-in-Chief: Dan Ames
+  - With Editor: 2018-9-26, Manuscript Editor: Olaf David
+  - Reviewer invited: 2018-10-21 (*after status update request at 2018-10-16*)
+  - Under review: 2018-10-23 (*\~40 days since the submission*)
+  - Ready for Decision (Olaf David): 2018-12-3 (*reviewed for ~40 days*)
+  - Decision pending (Dan Ames): 2018-12-4
+  - *Major revision*: 2018-12-16
+    -- Reviewer \#1: I found this to be *a very interesting contribution to the field of hydrologic modeling*.
+    In addition to the work presented to address real-world modeling problems, I really liked the way it
+    continues to build on previous studies.
+    -- Reviewer \#2: The flow of the paper is *well-organized*, and a lot of effort has clearly been put into
+    the development of *an intuitive modular framework for hydrologic modeling, using physical algorithms as
+    modules instead of entire models’ architectures in a plug and play fashion*. However, the experimental
+    setup of tradeoffs of utilizing this modular framework is not particularly convincing.
+    -- Reviewer \#3: No general comments provided.
+  - With Editor (Dan Ames) after resubmission: 2019-02-10
+  - With Editor (Olaf David): 2019-02-12
+  - Reviewer invited: 2019-04-04 (*after status update request at 2019-03-07 and 2019-03-25*)
+  - Under review: 2019-04-08
+  - Ready for Decision (Olaf David): 2019-7-24 (*after status update request at 2019-07-24*)
+  - Decision pending (Dan Ames): 2018-8-20 (*after status update request at 2019-08-07*)
+  - Accepted (Dan Ames): 2019-9-24 (*after status update request at 2019-09-05*)
+
 
 == Citation
 
 Zhu, L.J., Liu, J., Qin, C.Z., and Zhu, A.X., *2019*. A modular and parallelized watershed modeling framework,
 /Environmental Modelling \& Software/, 104526.
 doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

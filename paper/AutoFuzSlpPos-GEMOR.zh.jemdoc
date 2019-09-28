@@ -1,12 +1,79 @@
 # jemdoc: menu{MENU.zh}{AutoFuzSlpPos-GEMOR.zh.html}, backlink, notime, analytics{UA-75301149-1}
-== Automatic approach for deriving fuzzy slope positions
+== Automatic approach for deriving fuzzy slope positions（模糊坡位提取自动化方法）
 *朱良君*, 朱阿兴, 秦承志\*, 刘军志
 
 [/AutoFuzSlpPos-GEMOR.html English version]
 
-TBD
+== 概述
+坡位（如山脊、背坡、沟谷）的空间渐变特征可为地理建模提供重要的地形信息，
+这种空间渐变可用空间位置对坡位的模糊隶属度（或称相似度）定量刻画，称之为模糊坡位。
+
+现有利用坡位典型位置为原型提取坡位空间渐变信息（模糊坡位信息）的方法
+（[https://linkinghub.elsevier.com/retrieve/pii/S0169555X0900155X Qin等, 2009]），
+存在着数据准备和参数设定时需要大量人为指定、应用不便、计算效率低等问题。
+
+本文提出并实现了一种结合领域知识与数据挖掘的模糊坡位提取自动化方法，
+将原有基于原型的模糊推理方法中准备地形属性数据集、选取坡位典型位置及确定模糊推理参数进行推理的三个步骤均实现了自动化。
+利用本文实现的工具仅需指定研究区栅格DEM数据即可获得模糊坡位信息，评价实验结果表明：
+自动设置的参数与最终结果与研究区特点相适应。该工具同时也允许用户自定义工作流中的各种参数配置。
+自动化工作流中涉及的各种计算密集型算法均基于消息传递并行库（MPI）实现了并行化，保证了高效计算。
+
+与基于原型的模糊坡位推理方法类似，很多地理空间分析方法的应用工作流同样需要繁琐的手动操作和参数设置过程，
+这些过程不仅主观性强，而且出错率高。*本文的方法研究也为这些方法的自动化提供了可借鉴的思路，即通过分析领域知识和
+利用数据挖掘确定模型计算参数、通过并行计算提高算法效率。*
+
+== 会议报告
+  - 基于领域知识和数据挖掘的模糊坡位提取自动化方法. 全国自然地理学大会, *2017*, 11.20--22, 南京大学, 中国 南京.
+  [ppts/2017-自然地理大会-模糊坡位自动化.pdf 会议PPT下载]
+  （[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2017-%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86%E5%A4%A7%E4%BC%9A-%E6%A8%A1%E7%B3%8A%E5%9D%A1%E4%BD%8D%E8%87%AA%E5%8A%A8%E5%8C%96.pdf 备用下载链接]）
+  - An automatic approach of prototype-based fuzzy slope positions. /AAG Annual Meeting/, Apr. 5--9, *2017*. Boston, USA.
+  [ppts/2017-AAG-AutoFuzSlpPos.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2017-AAG-AutoFuzSlpPos.pdf alternative download link])
+
+== 软件
+  - 开源项目地址：[https://github.com/lreis2415/AutoFuzSlpPos github.com\/lreis2415\/AutoFuzSlpPos]，同时也被集成至
+  流域过程模拟与情景分析建模框架[https://github.com/lreis2415/SEIMS SEIMS]中。
+  - 软件著作权：模糊坡位自动化提取软件 \[简称：AutoFuzSlpPos\] V1.0, 2016SR066599, 原始取得, 全部权利, 2015年10月12日.
+
+== 评审历史
+  - 投稿: 2017-01-16
+  - 编辑: Dr. Takashi Oguchi (oguchi (at) csis.u-tokyo.ac.jp)
+  - *大修*: 2017-09-17
+    -- 审稿意见: This paper presents *an interesting approach to automatize the overall workflow of the
+    prototype-based inference method developed by
+    [https://linkinghub.elsevier.com/retrieve/pii/S0169555X0900155X Qin /et al/., (2009)]
+    for deriving slope position typologies
+    (i.e., ridge, shoulder slope, backslope, footslope, and valley)*. The basic idea is to overcome the
+    limitations of the prototype-based inference method for deriving fuzzy membership values that are mainly
+    due to the "subjective" assignment of the user of a set of explicit rules for each slope position type.
+    *The methodological approach is quite original and its implementation, freely available on the web, surely
+    represents an interesting tool for the scientific community*. However, I have some concerns about the
+    structure of the manuscript. Several parts of the text are dedicated the description of the methodology
+    but a chapter dealing with the comparison with other methods of classification and related discussion
+    citing international literature is completely missing. Despite the long text describing the approach
+    some essential information is poorly presented (e.g. which algorithms are used to derive slope and
+    profile curvature?). Moreover, in my opinion in its present form, the manuscript seems more suitable
+    for a journal focused on computer science in geoscience (e.g., chapter 4 dedicated to the description
+    of the implementation, the computational efficiency used as evaluation methods) than for a journal as
+    /Geomorphology/. This could be addressed by _reducing the text related to the technical issues as
+    computational efficiency, strengthening the case study part maybe comparing the results of the approach
+    with an expert classification and drafting a discussion chapter as mentioned above_.
+  - 大修后返回: 2017-10-24
+  - *小修*: 2017-12-03
+    -- 审稿意见: The authors have made a great effort to address most of the issues raised in my previous
+    reviews and the manuscript has been improved. In particular, I appreciate the authors’ effort in revising
+    and reorganizing the manuscript in order to *highlight the geomorphometric approach devised in their work,
+    reducing the information on the implementation and, thus, making the manuscript more suitable for a journal
+    as /Geomorphology/ and its readers*.
+  - 小修后返回: 2017-12-03
+  - 接收: 2017-12-15
 
 == 引用格式
 
 Zhu, L.J., Zhu, A.X., Qin, C.Z., and Liu, J.Z. *2018*. Automatic approach for deriving fuzzy slope positions.
 /Geomorphology/, 304:173--183. doi:[https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~
