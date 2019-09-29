@@ -6,16 +6,16 @@
 
 == Overview
 Spatial gradation information of slope positions (e.g., ridge, backslope, and footslope)
-is important for terrain-related geographical or ecological modeling. The quantification
-of such gradation information is the so-called fuzzy slope positions.
+is important for terrain-related geographical or ecological modeling. *The quantification
+of such gradation information is the so-called fuzzy slope positions*.
 
 Among existing methods for deriving fuzzy slope positions, the prototype-based inference
 method is more reasonable because of not only its inference in both spatial and attribute
 domain but also its use of the typical locations as prototypes, which inherently contain
-the characteristics of the slope position distribution in a study area. However, its
+the characteristics of the slope position distribution in a study area. *However, its
 practicability is currently limited due to the extensive manual operations and parameter-settings,
 such as preparing topographic attributes as input, finding prototypes of slope positions,
-and setting parameters for fuzzy inference.
+and setting parameters for fuzzy inference*.
 
 This study proposed an approach to automate the whole workflow of the prototype-based method.
 Instead of being determined totally by users in the original method, in the proposed approach

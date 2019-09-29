@@ -5,11 +5,37 @@
 [/BMPsCfgUnitsCmp_Water.zh.html 中文版]
 
 == Overview
+Different spatial configurations (or scenarios) of multiple best management practices (BMPs) at
+the watershed scale may have significantly different environmental effectiveness, economic efficiency,
+and practicality for integrated watershed management.
+
+Several types of spatial configuration units, which have resulted from the spatial discretization of
+a watershed at different levels and used to allocate BMPs spatially to form an individual BMP scenario,
+have been proposed for BMP scenarios optimization, such as the hydrologic response unit (HRU) etc.
+However, *a comparison among the main types of spatial configuration units for BMP scenarios optimization
+based on the same one watershed model for an area is still lacking*.
+
+This paper *investigated and compared the effects of four main types of spatial configuration units for
+BMP scenarios optimization*, i.e., HRUs, spatially explicit HRUs, hydrologically connected fields, and
+slope position units (i.e., landform positions at hillslope scale).
+The BMP scenarios optimization was conducted based on a fully distributed watershed modeling framework
+named the Spatially Explicit Integrated Modeling System (SEIMS) and an intelligent optimization algorithm
+(i.e., NSGA-II, short for Non-dominated Sorting Genetic Algorithm II).
+Different kinds of expert knowledge were considered during the BMP scenarios optimization,
+including without any knowledge used, using knowledge on suitable landuse types\/slope positions of
+individual BMPs, knowledge of upstream–downstream relationships, and knowledge on the spatial relationships
+between BMPs and spatial positions along the hillslope.
+
+The results showed that the *more expert knowledge considered, the better the comprehensive cost-effectiveness
+and practicality of the optimized BMP scenarios, and the better the optimizing efficiency*. Thus, the spatial
+configuration units that support the representation of expert knowledge on the spatial relationships between
+BMPs and spatial positions (i.e., hydrologically connected fields and slope position units) are considered to
+be the most effective spatial configuration units for BMP scenarios optimization, especially when
+slope position units are adopted together with knowledge on the spatial relationships between BMPs and
+slope positions along a hillslope.
 
 == Software availablility
   - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS].
-
-== Representation
 
 == Review history
   - Submission: 2018-12-22

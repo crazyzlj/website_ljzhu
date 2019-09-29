@@ -5,11 +5,29 @@
 [/BMPsOptSlpPos-JSWC.html English version]
 
 == 概述
+基于流域过程模拟的流域最佳管理措施（BMPs）情景分析与优化是当前对流域管理措施实施效果进行预先评价的重要途径。
+现有方法通常采用地块、农场、水文响应单元或子流域作为BMP空间配置单元，*这些空间配置单元难以有效地根据坡面自然过程
+来表达坡面上不同BMPs之间的空间配置关系，因此也难以应用相应的领域知识，将直接影响流域BMP情景空间优化的效果*。
+
+针对以上问题，本文提出以坡位（如山脊、背坡、沟谷）单元作为BMP空间配置单元，在空间全分布式流域过程模拟和
+BMP情景智能优化的方法框架基础上，*建立了一套以坡位为空间配置单元的流域BMP情景优化方法，可有效体现BMPs空间配置关系、
+应用相应的BMP空间配置关系知识*。
+
+在南方红壤区福建长汀县游屋圳小流域的应用案例表明，与随机配置方法相比，*新方法能够根据坡面过程特点进行BMP情景优化，
+有效地获得更为实际可行的管理措施空间配置优化方案*。
 
 == 会议报告
+  - Qin, C.Z. Using slope positions as spatial configuration units for optimizing watershed best management
+  practices. /AAG Annual Meeting/, Apr. 10--14, *2018*. New Orleans, Louisiana, USA.
+  [ppts/2018-AAG-SlopePositionUnitBMPOptimization.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2018-AAG-SlopePositionUnitBMPOptimization.pdf alternative download link])
+  - 秦承志. 以坡位为空间配置单元的流域管理措施情景优化. 青年地学论坛, *2018*, 11.26--29, 南京大学, 中国 南京.
+  [ppts/2018-青年地学论坛-以坡位为空间配置单元的BMP空间优化.pdf 会议PPT下载]
+  （[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2017-%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86%E5%A4%A7%E4%BC%9A-%E6%A8%A1%E7%B3%8A%E5%9D%A1%E4%BD%8D%E8%87%AA%E5%8A%A8%E5%8C%96.pdf 备用下载链接]）
 
 == 软件
   - 开源项目地址：[https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS]。
+  本文所涉及的情景优化代码位于+\/seims\/scenario\_analysis\/slpposunits+。
 
 == 评审历史
   - 投稿: 2017-10-22

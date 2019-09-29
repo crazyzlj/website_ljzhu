@@ -5,8 +5,20 @@
 [/SEIMSFramework_EMS.html English version]
 
 == 概述
+流域过程模拟需要耦合多个不同的流域子过程以构建符合研究目标、研究区特点等应用条件的流域过程模型，
+同时每个子过程通常有各种不同适用条件的具体算法，因此单一的流域过程模型通常难以满足多样化的建模需求。
+具有灵活、可扩展等特点的流域过程建模框架应运而生，但现有流域建模框架多关注于建模灵活性，
+而对高性能计算的需求支持程度不足。
+
+为此，本文设计并实现了一个灵活易用的高性能流域建模框架——SEIMS（Spatially Explicit Integrated Modeling System）。
+SEIMS以模块化结构支持对多过程模拟算法的灵活扩展；支持应用者能以近乎串行编程方式快速开发出适用于多种并行平台的并行化流域模型；
+增加了模型层次并行计算，以多层次并行计算中间件的形式实现高性能的流域过程模拟。
 
 == 会议报告
+  - Development of a modular and parallelized watershed modeling framework. /1st Regional Conference on
+  Environmental Modeling and Software (Asian Region)/, May. 18–20, *2019*. Nanjing, China.
+  [ppts/2019-iEMSsRegion-SEIMSFramework.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/SEIMS/2019-iEMSsRegion-SEIMSFramework.pdf alternative download link])
 
 == 软件
   - 开源项目地址：[https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS]。

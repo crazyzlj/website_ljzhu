@@ -4,14 +4,45 @@ Cheng-Zhi Qin, Hui-Ran Gao, *Liang-Jun Zhu\**, A-Xing Zhu, Jun-Zhi Liu, and Hui 
 
 [/BMPsOptSlpPos-JSWC.zh.html 中文版]
 
-
 == Overview
+Spatial optimization of best management practices (BMPs) is an effective way to select and allocate
+BMPs for watershed management such as soil and water conservation and nonpoint source pollution reduction.
+
+The commonly used spatial units for BMP configuration (or BMP configuration units) include subbasins,
+hydrologic response units (HRUs), farms, and fields. *Normally, these spatial units are not homogeneous
+functional units from the perspective of physical geography at the hillslope scale (in terms of geomorphic
+and hydrologic conditions of the hillslope, for example), and thus cannot effectively represent the spatial
+relationships between BMPs and spatial locations with respect to hillslope processes from upstream to
+downstream*. This makes it difficult to efficiently and rationally construct spatial optimizations for
+watershed BMPs.
+
+This paper proposes *a spatial BMP optimization approach based on slope position units, which are homogeneous
+spatial units with physical geographic features*. In the proposed approach, slope position units are used
+as BMP configuration units by which the relationships between BMPs and slope positions along a hillslope
+can be explicitly considered during BMP scenario initialization and optimization via genetic algorithm
+(i.e., NSGA-Ⅱ). A distributed and physically-based watershed model was used to evaluate the environmental
+effectiveness (i.e., the reduction rate of soil erosion), and a simple estimation method was developed to
+calculate the net cost of BMP scenarios.
+
+A case study was conducted in a small hilly watershed in the typical red-soil region of the Fujian province
+in southeastern China, which suffers severely from soil erosion. A simple system of three types of slope
+positions (i.e., ridge, backslope, and valley) was used to delineate BMP configuration units.
+Four BMPs which are used in actual Chinese red-soil regions (Closing measures, Arbor-bush-herb mixed plantation,
+Low-quality forest improvement, and Orchard improvement) were considered in the proposed approach to achieve
+the multiple optimization objectives, which included maximizing the reduction ratio of soil erosion and minimizing
+the net cost of the BMP scenario. The proposed approach was compared with the approach which selects and allocates
+BMPs randomly on BMP configuration units. *The results show that the proposed approach is more effective and efficient
+for proposing practical and effective BMP scenarios than the random approach*.
 
 == Software availablility
   - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS],
-  especially the Python scripts located in +/seims/scenario_analysis/slpposunits+.
+  especially the Python scripts located in +\/seims\/scenario\_analysis\/slpposunits+.
 
 == Representation
+  - Qin, C.Z. Using slope positions as spatial configuration units for optimizing watershed best management
+  practices. /AAG Annual Meeting/, Apr. 10--14, *2018*. New Orleans, Louisiana, USA.
+  [ppts/2018-AAG-SlopePositionUnitBMPOptimization.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2018-AAG-SlopePositionUnitBMPOptimization.pdf alternative download link])
 
 == Review history
   - Submission: 2017-10-22
