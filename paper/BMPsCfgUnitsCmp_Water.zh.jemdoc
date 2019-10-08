@@ -23,6 +23,28 @@ fields）、坡位单元（slope position units）等，*不同的空间配置�
 == 软件
   - 开源项目地址：[https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS]。
 
+
+== 更新
+我们题为"A modular and parallelized watershed modeling framework"的文章已于2019年9月26日发表在
+/Environmental Modelling \& Software/上，因此文中第33个引文应更新为：
+
+Zhu, L.-J.; Liu, J.; Qin, C.-Z.; Zhu, A.-X. A modular and parallelized watershed modeling framework. Environ.
+Model. Softw. *2019*, 122, 104526.
+[https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+modular+and+parallelized+watershed+modeling+framework&btnG= Google Scholar]
+[https://doi.org/10.1016/j.envsoft.2019.104526 CrossRef]
+
+== 勘误
+在文章修订阶段添加了一个引文后，正文中若干处引用没有及时更新，由此导致的阅读不便，请您谅解，特此勘误。
+
+  - 2.4节第二段第五行结尾处的标号*\[39\]*应为*\[40\]*；
+  - 2.6节第二段第1、13和18行中的标号*\[33\]*应为*\[34\]*；
+  - 2.6节第二段第一行结尾处的标号*\[2,16--18\]*应为*\[2,17--19\]*；
+  - 2.7节第一段最后一行的*\[32\]*应为*\[33\]*；
+  - 2.7节第四段第五行结尾处的*\[33\]*应为*\[34\]*。
+
+希望对本文感兴趣的读者能够通过[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/publications/zhu_2019_Water_BMPsCfgUnitsCmp_updated.pdf 这个链接]
+下载更新及更正后的版本。
+
 == 评审历史
   - 投稿: 2018-12-22
   - MDPI英文编辑: 2018-12-20

@@ -37,6 +37,30 @@ slope positions along a hillslope.
 == Software availablility
   - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS].
 
+== Updates
+Our paper entitled "A modular and parallelized watershed modeling framework" has been published in
+/Environmental Modelling \& Software/ on Sep.26, 2019. Thus the 33rd citation should be updated as:
+
+Zhu, L.-J.; Liu, J.; Qin, C.-Z.; Zhu, A.-X. A modular and parallelized watershed modeling framework. Environ.
+Model. Softw. *2019*, 122, 104526.
+[https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=A+modular+and+parallelized+watershed+modeling+framework&btnG= Google Scholar]
+[https://doi.org/10.1016/j.envsoft.2019.104526 CrossRef]
+
+== Corrigendum
+After the addition of one citation during the revision stage, several mark numbers in the main text are missed to be
+updated. We apologize for the inconvenience caused by these misnumbered references.
+
+Here is the corrigendum:
+
+  - Section 2.4, the second paragraph, at the end of the fifth line, *\[39\]* should be *\[40\]*;
+  - Section 2.6, *\[33\]* in the second paragraph should be *\[34\]* which appears in lines 1, 13, and 18;
+  - Section 2.6, the second paragraph, at the end of the first line, *\[2,16--18\]* should be *\[2,17--19\]*;
+  - Section 2.7, the last sentence of the first paragraph, *\[32\]* should be *\[33\]*;
+  - Section 2.7, the fourth paragraph, at the end of the fifth line, *\[33\]* should be *\[34\]*.
+
+We sincerely hope that people who are interested in our paper could download the updated and corrected version by
+[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/publications/zhu_2019_Water_BMPsCfgUnitsCmp_updated.pdf this link].
+
 == Review history
   - Submission: 2018-12-22
   - English editing by MDPI: 2018-12-20
