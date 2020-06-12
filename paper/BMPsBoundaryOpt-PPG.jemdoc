@@ -1,0 +1,82 @@
+# jemdoc: menu{MENU}{BMPsBoundaryOpt-PPG.html}, backlink, notime, analytics{UA-75301149-1}
+== Spatial optimization of watershed best management practice scenarios based on boundary-adaptive configuration units
+*Liang-Jun Zhu*, Cheng-Zhi Qin\*, and A-Xing Zhu
+
+[/BMPsBoundaryOpt-PPG.zh.html 中文版]
+
+== Overview
+
+Spatial optimization of watershed best management practice (BMP) scenarios based on watershed modeling is
+an effective decision support tool for watershed management.
+Existing spatial optimization methods of BMP scenarios commonly utilized *boundary-fixed spatial units
+for configuring BMPs* which entirely ignores a dimension of solution space
+constructed by adjusting the boundaries of configuration units.
+In this paper, we proposed a new approach to the spatial optimization of BMP scenarios based on *boundary-adaptive
+configuration units*.
+
+The proposed optimization approach adopts slope positions (e.g., ridge \[or summit\], backslope, and valley;
+which are basic landform units along hillslope inherently related to physical hillslope processes)
+as BMP configuration units and *dynamically adjusts their boundaries by using the quantitative information
+on their spatial gradation* (i.e., fuzzy slope positions) during the optimization.
+
+Experimental results showed that the proposed optimization approach based on boundary-adaptive slope position
+units can significantly enlarge the search space for optimal solutions and obtain optimal BMP scenarios with
+better cost-effectiveness and higher optimization efficiency.
+
+*The proposed optimization approach provides a new framework for spatial optimization of BMP scenarios*,
+in which other watershed models, intelligent optimization algorithms, and BMP configuration units available
+for boundary adjustment can be alternatively applied to BMP scenario optimization in a boundary-adaptive manner.
+
+This study also exemplifies the potential of transforming the qualitative, vague, and empirical geographical
+knowledge (that on slope position units related to physical hillslope processes and BMPs) to the quantitative,
+explicit, automated geospatial algorithms for effectively resolving environmental management problems in
+a more geographical meaningful way.
+
+== Software availablility
+  - Scenario analysis tool with boundary-adaptive configuration units: [https://github.com/lreis2415/SEIMS/tree/master/seims/scenario_analysis SEIMS: Scenario Analysis]
+  - Automatic tool for fuzzy slope positions: [https://github.com/lreis2415/AutoFuzSlpPos AutoFuzSlpPos]
+
+== Review history
+  - Submission: 2020-2-1
+  - Awaiting Editor Assignment: 2020-2-1, ADM: Brian, Jayne (Associate Editor)
+  - Awaiting Reviewer Selection: 2020-2-10, ADM: Malanson, George (Managing Editor)
+  - Awaiting Reviewer Assignment: 2020-2-15, then changed to awaiting reviewer selection again, and then awaiting reviewer assignment (2020-3-5)
+  - Awaiting Reviewer Scores: 2020-3-11
+  - Awaiting Final Decision: 2020-4-13
+  - *Minor revision*: 2020-4-15
+    -- Reviewer \#1: I like this contribution, and congratulate the authors for *a thoughtful, insightful and substantive piece of work.*
+    I must confess, up-front, that this paper is not in my direct area of expertise, so I am unable to address any issues for technical
+    aspects of this paper, but *the rationale for the work is clear, and the specific contribution of the study is well validated.*
+    *The paper is clear and well written.* The structure works well, with clear articulation of extensions to previous methodological approaches
+    (i.e. building upon [/BMPsOptSlpPos-JSWC.html Qin et al., 2018]).
+    *I applaud the effective documentation of the case study – it works well, amply justifying the approach and substantiating the contribution of the paper.*
+    *Ultimately, I completely agree with the premise of this paper – we need more flexible approaches to boundary identification and mapping to inform
+    management applications (including use of optimization procedures).*
+    I have just one suggestion. In order to promote uptake of this work, capturing a wider readership and potential citations,
+    _I wonder if the generic nature of the approach could be expressed explicitly._ This could simply take the form of an additional sentence
+    or two early in the introduction, broadening the scope for the issues addressed in this study.
+    _Associated with this point, I have a minor gripe at the end of the discussion, as I expected to see more substantive contextualization
+    of findings of this work, relating the contribution more effectively to the international literature (and associated implications)._
+    If this issue was addressed, and a sentence to this effect was included within the abstract, I sense that there may be wider uptake of this paper.
+    *I always appreciate it when I can glean the core contribution from papers that are outside my core area of expertise.*
+    -- Reviewer \#2: *The manuscript is very interesting*. I think it is in the scope of Progress in Physical Geography. My comments:
+    *(1)* "Boundary-adaptive configuration units" is actually according to slope positions in this paper, and BMP configuration units and dynamically
+    adjusts their boundaries by using the quantitative information on their spatial gradation. Is it right the boundary-adaptive configuration units
+    were for slope positions, not for BMPs?
+    *(2)* BMPs are management plans directly implemented by farmers or the government. It doesn't mean very much
+    by fluctuating management practices in reality. The authors need to justify that the given work is practically useful in the real world.
+    *(3)* The methods may be suitable for BMPs practices of soil erosion control. Could it be used to TN and TP control? Do explain.
+  - Submit the revision and Awaiting Admin Processing and then Awaiting Reviewer Selection (ADM: Brian, Jayne): 2020-5-12
+  - *Accepted*: 2020-6-3 (*after status update requirement at 2020-6-2*)
+    -- Awaiting Copy Editor Checklist: 2020-6-3
+
+== Citation
+
+Zhu, L.J., Qin, C.Z., and Zhu, A.X., *2020*. Spatial optimization of watershed best management practice
+scenarios based on boundary-adaptive configuration units,
+/Progress in Physical Geography: Earth and Environment/.
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

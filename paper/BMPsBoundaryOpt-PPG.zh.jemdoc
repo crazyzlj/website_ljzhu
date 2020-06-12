@@ -1,0 +1,85 @@
+# jemdoc: menu{MENU.zh}{BMPsBoundaryOpt-PPG.zh.html}, backlink, notime, analytics{UA-75301149-1}
+== Spatial optimization of watershed best management practice scenarios based on boundary-adaptive configuration units (基于边界自适应配置单元的流域最佳管理措施情景空间优化)
+*朱良君*, 秦承志\*, 朱阿兴
+
+[/BMPsBoundaryOpt-PPG.html English version]
+
+== 概述
+流域最佳管理措施（BMP）情景空间优化可为流域治理提供有效的决策支持。
+现有BMP情景空间优化方法通常采用*边界固定的空间单元进行BMP空间配置*，因而完全忽略了构建解空间的一个维度
+——空间配置单元边界动态调整所带来的BMP配置面积的变化，即不能从空间配置单元边界调整的角度出发实现
+BMP配置面积优化。本文提出了一种基于边界自适应配置单元进行BMP情景空间优化的新方法。
+
+坡位（如山脊、背坡、沟谷）直接对应了坡面上的地形部位，是对地形的综合体现，
+不但与坡面过程的上下游关系直接关联，且与流域综合治理模式中定性描述坡面上BMP配置的空间单元概念相对应
+——流域综合治理模式常体现为不同BMP在不同坡位单元间的空间组合。采用坡位单元作为BMP空间配置单元能够充分
+考虑坡面BMP配置的上下游关系知识，得到符合地学意义和实际管理经验的BMP情景集，且具有较高的优化效率
+（[/BMPsOptSlpPos-JSWC.zh.html Qin等，2018]；[/BMPsCfgUnitsCmp_Water.zh.html Zhu等，2019]）。
+
+*坡位普遍具有空间渐变、边界模糊的特点。因此，同一坡面内相邻两类坡位交替处
+的模糊坡位相似度值均较低，将这些位置划分为任一一类坡位均具有合理性。*
+据此思路，本文采用“动态阈值法”设计了坡位单元边界动态调整策略，并应用于
+BMP情景空间优化中以实现空间配置单元的自适应边界优化。
+
+案例研究表明，所提基于边界自适应配置单元的BMP情景空间优化方法可以显著
+扩大最优解的搜索空间，与边界固定的坡位单元相比，能够得到综合成本­效益更优的BMP情景集，且具有更高的优化效率。
+
+所提方法为BMP情景空间优化提供了一个新的框架，其他分布式流域过程模型、智能优化算法以及支持边界调整的空间单元
+均可以实现在该框架下，从而以BMP配置单元边界自适应的方式进行BMP情景空间优化。
+
+同时，本文*例证了将定性的、模糊的和经验性的地理知识（如与坡位单元相关的坡面自然过程知识和BMP配置知识）
+转化为定量的、显式的、自动化的地理空间算法的潜力*，从而以具有地学意义的方式有效地解决环境管理问题。
+
+== 会议报告
+  - 流域最佳管理措施空间配置单元边界优化方法. 中国地理信息科学理论与方法学术年会, *2019*, 10.18–20, 上海.
+  [ppts/2019GIS年会-BMP空间配置单元边界优化-zhulj2019-10-20-0100.pdf 下载PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ScenarioAnalysis/2019GIS%E5%B9%B4%E4%BC%9A-BMP%E7%A9%BA%E9%97%B4%E9%85%8D%E7%BD%AE%E5%8D%95%E5%85%83%E8%BE%B9%E7%95%8C%E4%BC%98%E5%8C%96-zhulj2019-10-20-0100.pdf 备用下载链接])
+
+== 软件
+  - 基于边界自适应配置单元的情景优化工具：[https://github.com/lreis2415/SEIMS/tree/master/seims/scenario_analysis SEIMS: Scenario Analysis]
+  - 模糊坡位自动化提取工具：[https://github.com/lreis2415/AutoFuzSlpPos AutoFuzSlpPos]
+
+== 评审历史
+  - 投稿: 2020-2-1
+  - 等待指派编辑: 2020-2-1, ADM: Brian, Jayne (副主编)
+  - 等待筛选审稿人: 2020-2-10, ADM: Malanson, George (总编辑)
+  - 等待指派审稿人: 2020-2-15, 随后更改为等待筛选审稿人, 然后改为等待指派审稿人 (2020-3-5)
+  - 等待审稿人意见: 2020-3-11
+  - 等待最终决定: 2020-4-13
+  - *小修*: 2020-4-15
+    -- 审稿意见1: I like this contribution, and congratulate the authors for *a thoughtful, insightful and substantive piece of work.*
+    I must confess, up-front, that this paper is not in my direct area of expertise, so I am unable to address any issues for technical
+    aspects of this paper, but *the rationale for the work is clear, and the specific contribution of the study is well validated.*
+    *The paper is clear and well written.* The structure works well, with clear articulation of extensions to previous methodological approaches
+    (i.e. building upon [/BMPsOptSlpPos-JSWC.zh.html Qin et al., 2018]).
+    *I applaud the effective documentation of the case study – it works well, amply justifying the approach and substantiating the contribution of the paper.*
+    *Ultimately, I completely agree with the premise of this paper – we need more flexible approaches to boundary identification and mapping to inform
+    management applications (including use of optimization procedures).*
+    I have just one suggestion. In order to promote uptake of this work, capturing a wider readership and potential citations,
+    _I wonder if the generic nature of the approach could be expressed explicitly._ This could simply take the form of an additional sentence
+    or two early in the introduction, broadening the scope for the issues addressed in this study.
+    _Associated with this point, I have a minor gripe at the end of the discussion, as I expected to see more substantive contextualization
+    of findings of this work, relating the contribution more effectively to the international literature (and associated implications)._
+    If this issue was addressed, and a sentence to this effect was included within the abstract, I sense that there may be wider uptake of this paper.
+    *I always appreciate it when I can glean the core contribution from papers that are outside my core area of expertise.*
+    -- 审稿意见2: *The manuscript is very interesting*. I think it is in the scope of Progress in Physical Geography. My comments:
+    *(1)* "Boundary-adaptive configuration units" is actually according to slope positions in this paper, and BMP configuration units and dynamically
+    adjusts their boundaries by using the quantitative information on their spatial gradation. Is it right the boundary-adaptive configuration units
+    were for slope positions, not for BMPs?
+    *(2)* BMPs are management plans directly implemented by farmers or the government. It doesn't mean very much
+    by fluctuating management practices in reality. The authors need to justify that the given work is practically useful in the real world.
+    *(3)* The methods may be suitable for BMPs practices of soil erosion control. Could it be used to TN and TP control? Do explain.
+  - 小修后提交，等待主编处理，等待筛选审稿人 (ADM: Brian, Jayne): 2020-5-12
+  - *接收*: 2020-6-3 (*于2020-6-2询问进展*)
+    -- 等待编辑核对材料列表: 2020-6-3
+
+== 引用格式
+
+Zhu, L.J., Qin, C.Z., and Zhu, A.X., *2020*. Spatial optimization of watershed best management practice
+scenarios based on boundary-adaptive configuration units,
+/Progress in Physical Geography: Earth and Environment/.
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~
