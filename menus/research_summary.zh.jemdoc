@@ -7,13 +7,13 @@
 主要针对的科学问题是如何在基于分布式流域过程模拟的情景分析方法中有效考虑空间关系
 （如坡面上不同管理措施\[BMP\]之间的空间配置关系)，
 在多目标优化算法和高性能计算的支持下实现流域管理措施情景优化的易用化和决策支持化
-（[/ReviewNewParadigm_ProgInGeo.zh.html 朱阿兴和*朱良君\**等, 地理科学进展, 2019]）。
+（[/ReviewNewParadigm_ProgInGeo.zh.html 朱阿兴等, 地理科学进展, 2019]）。
 
 围绕这一科学问题，针对分布式流域过程模拟和情景优化方法的并行化特点，
 设计实现了一个灵活、易用、高性能的流域过程模拟与情景分析建模框架[https://github.com/lreis2415/SEIMS SEIMS]
 （Spatially Explicit Integrated Modeling System；[/SEIMSFramework_EMS.zh.html Zhu等, /EM\&S/, 2019]）；
 随后以SEIMS为基础，提出了将坡位单元（如山脊、背坡、沟谷等）作为BMP空间配置单元的流域BMP情景优化方法
-（[/BMPsOptSlpPos-JSWC.zh.html Qin, Gao和*Zhu\**等, /JSWC/, 2018]），
+（[/BMPsOptSlpPos-JSWC.zh.html Qin等, /JSWC/, 2018]），
 并通过与其他3种主要空间配置单元类型的对比讨论了所提方法的有效性（[/BMPsCfgUnitsCmp_Water.zh.html Zhu等, /Water/, 2019]），
 进而在模糊坡位信息自动化提取方法设计（[/AutoFuzSlpPos-GEMOR.zh.html Zhu等, /Geomorphology/, 2018]）
-的基础上，提出了基于模糊坡位信息的BMP空间配置单元边界动态优化方法（正在撰写相关论文）。
+的基础上，提出了基于模糊坡位信息的BMP空间配置单元边界动态优化方法（[/BMPsBoundaryOpt-PPG.zh.html Zhu等, /PPG/, 2020]）。

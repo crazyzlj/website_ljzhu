@@ -11,7 +11,7 @@ The main scientific problem is focusing on how to effectively consider the spati
 scenario analysis based on distributed watershed process modeling, then achieving the high efficient
 and easy-to-use decision support for watershed comprehensive management with the incorporation of
 multi-objective optimization algorithms and high-performance computing technique
-([/ReviewNewParadigm_ProgInGeo.html Zhu AX and *Zhu LJ\**, /et al/., /Progress in Geography (in Chinese)/, 2019]).
+([/ReviewNewParadigm_ProgInGeo.html Zhu /et al/., /Progress in Geography (in Chinese)/, 2019]).
 
 First, a flexible, easy-to-use and high-performance watershed process modeling framework namely
 [https://github.com/lreis2415/SEIMS SEIMS]
@@ -19,10 +19,10 @@ First, a flexible, easy-to-use and high-performance watershed process modeling f
 was designed and implemented according to computation characteristics of scenario optimization based on
 distributed watershed process models. Then, the slope position units (such as ridge, backslope, valley, etc.)
 were proposed to be used as spatial units for BMP allocation
-([/BMPsOptSlpPos-JSWC.html Qin, Gao, and *Zhu\**, /et al/., /JSWC/, 2018]),
+([/BMPsOptSlpPos-JSWC.html Qin /et al/., /JSWC/, 2018]),
 and the effectiveness and efficiency of the proposed method were discussed by comparing with other three
 main types of BMP configuration units ([/BMPsCfgUnitsCmp_Water.html Zhu /et al/., /Water/, 2019]).
 Furthermore, based on the automation of extracting fuzzy slope position information
 ([/AutoFuzSlpPos-GEMOR.html Zhu /et al/., /Geomorphology/, 2018]),
 a novel BMP scenario optimization method based on the boundary­-adaptive slope po­sition units was proposed
-(manuscript in preparation).
+([/BMPsBoundaryOpt-PPG.html Zhu /et al/., /PPG/, 2020]).
