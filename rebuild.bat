@@ -16,6 +16,7 @@ cp -r styles build/styles
 cp -r cv build/cv
 cp -r ppts build/ppts
 cp CNAME build/CNAME
+cp .gitattributes build/.gitattributes
 REM Build html
 for /f "delims=" %%i in ('dir /s/b "*.jemdoc"') do (
     call :build %%~ni %%i
