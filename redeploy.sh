@@ -17,6 +17,7 @@ git clean -df
 
 # copy build folder
 cp -av ../website_ljzhu/build/* .
+cp -av ../website_ljzhu/build/.gitattributes .
 
 # Add changes to git.
 git add -A
