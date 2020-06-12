@@ -1,20 +1,33 @@
-# jemdoc: menu{MENU}{paper.html}, backlink, notime, analytics{UA-75301149-1}
+# jemdoc: menu{MENU}{publication.html}, backlink, notime, analytics{UA-75301149-1}
 == Selected papers
 
-[/paper.zh.html 中文版]
+[/publication.zh.html 中文版]
 
-As first author and\/or corresponding author, I have published 10 peer-reviewed papers (including 4 SCI-indexed papers).
-As co-author, I have published 9 peer-reviewed papers (including 3 SCI-indexed papers).
-These papers are published on journals such as /Environmental Modelling \& Software/, /Geomorphology/,
-/Journal of Soil and Water Conservation/, /Geoderma/, /Earth Surface Processes and Landforms/, /Water/, etc.
+As of June 2020, totally *11* peer-reviewed journal articles (including *5* SCI-indexed papers)
+as the first author and\/or corresponding author,
+*9* peer-reviewed journal articles (including *3* SCI-indexed papers)
+as co-author have been published.
+These papers are published on mainstream journals of
+geographic process modeling and integrated physical geography,
+such as /Progress in Physical Geography/, /Environmental Modelling \& Software/, /Geomorphology/,
+/Journal of Soil and Water Conservation/, /Geoderma/, /Earth Surface Processes and Landforms/, etc.
 
-[https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl Google scholar] provides citations and reference (BibTex\/Endnote\/RefMan) export.
+[https://scholar.google.com/citations?user=FkNIpcQAAAAJ Google scholar] provides citations and
+reference (BibTex\/Endnote\/RefMan) export.
+[https://www.researchgate.net/profile/Liang_Jun_Zhu ResearchGate] provides a platform for communication,
+any questions, suggestions, and discussions are welcome.
 
 Selected publications are listed below. Please refer to my [cv/cv_ljzhu_en.pdf CV]
-([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_en.pdf alternative download link])
+([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_en.pdf alternative download link]),
+or [https://publons.com/author/1582900/liang-jun-zhu Web of Science ResearcherID\/Publons], and
+[http://orcid.org/0000-0001-6181-4313 ORCiD]
 for a full list.
 
 == Watershed process modeling and scenario analysis/optimization
+   - [/BMPsBoundaryOpt-PPG.html Spatial optimization of watershed best management practice scenarios based on boundary-adaptive configuration units] \n
+   *Liang-Jun Zhu*, Cheng-Zhi Qin\*, and A-Xing Zhu \n
+   /Progress in Physical Geography: Earth and Environment/, *2020*, accepted.
+
    - [/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework] \n
    *Liang-Jun Zhu*, Junzhi Liu\*, Cheng-Zhi Qin\*, and A-Xing Zhu \n
    /Environmental Modelling \& Software/, *2019*, 122, 104526. doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]

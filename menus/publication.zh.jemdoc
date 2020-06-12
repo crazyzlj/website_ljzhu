@@ -1,20 +1,29 @@
-# jemdoc: menu{MENU.zh}{paper.zh.html}, backlink, notime, analytics{UA-75301149-1}
+# jemdoc: menu{MENU.zh}{publication.zh.html}, backlink, notime, analytics{UA-75301149-1}
 == 代表性著作
 
-[/paper.html English version]
+[/publication.html English version]
 
-以第一作者或通讯作者发表论文10篇（其中SCI收录4篇），主要发表在/Environmental Modelling \& Software/、/Geomorphology/、
-/Journal of Soil and Water Conservation/、/Water/、地理科学进展、水土保持学报等期刊中；
-以非第一作者合作发表论文9篇（其中SCI收录3篇），主要发表在/Geoderma/、/Earth Surface Processes and Landforms/、
-武汉大学学报∙信息科学版、地球信息科学学报、水土保持学报等期刊中。
+以第一作者或通讯作者发表论文*11*篇（其中SCI收录*5*篇），以非第一作者合作发表论文*9*篇（其中SCI收录*3*篇），
+主要发表于/Progress in Physical Geography/、/Environmental Modelling \& Software/、/Geomorphology/、
+/Journal of Soil and Water Conservation/、/Geoderma/、/Earth Surface Processes and Landforms/、
+地理科学进展、地球信息科学学报、水土保持学报等
+国内外地理过程建模和自然地理综合研究领域主流期刊。
 
-代表性著作及详情列举如下，已发表文章的完整列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]
-（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）。
+[https://scholar.google.com/citations?user=FkNIpcQAAAAJ 谷歌学术]提供论文引用详情、导出参考文献（BibTex\/Endnote\/RefMan）等。
+[https://www.researchgate.net/profile/Liang_Jun_Zhu ResearchGate]提供了很好的交流平台，欢迎任何与论文相关的问题、建议和讨论。
 
-请访问[https://scholar.google.com/citations?user=FkNIpcQAAAAJ&hl=zh-CN 谷歌学术]查看论文引用详情、导出参考文献（BibTex\/Endnote\/RefMan）等。
+代表性著作列举如下，完整文章列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]
+（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）或
+[https://publons.com/author/1582900/liang-jun-zhu Web of Science ResearcherID\/Publons]、
+[http://orcid.org/0000-0001-6181-4313 ORCiD]。
 
 
-== 流域过程建模与管理措施（BMP）情景优化
+== 流域过程建模与最佳管理措施（BMP）情景优化
+   - [/BMPsBoundaryOpt-PPG.zh.html Spatial optimization of watershed best management practice scenarios based on
+    boundary-adaptive configuration units (基于边界自适应配置单元的流域最佳管理措施情景空间优化)] \n
+   *朱良君*, 秦承志\*, 朱阿兴 \n
+   /Progress in Physical Geography: Earth and Environment/, *2020*, accepted.
+
    - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework (模块化并行化的流域建模框架)] \n
    *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
    /Environmental Modelling \& Software/, *2019*, 122, 104526. doi:
