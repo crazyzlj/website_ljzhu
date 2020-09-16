@@ -36,6 +36,11 @@ a more geographical meaningful way.
   - Scenario analysis tool with boundary-adaptive configuration units: [https://github.com/lreis2415/SEIMS/tree/master/seims/scenario_analysis SEIMS: Scenario Analysis]
   - Automatic tool for fuzzy slope positions: [https://github.com/lreis2415/AutoFuzSlpPos AutoFuzSlpPos]
 
+== Representation
+  - New optimization framework of watershed best management practice scenarios in a unit-boundary adaptive manner, Sep. 14--18, *2020*,
+  Brussels (Online). [ppts/2020-iEMSsBrusselsOnline-BMPsOptBoundaryAdaptive-zhulj2020-9-15.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2020-iEMSsBrusselsOnline-BMPsOptBoundaryAdaptive-zhulj2020-9-15.pdf alternative download link]).
+
 == Review history
   - Submission: 2020-2-1
   - Awaiting Editor Assignment: 2020-2-1, ADM: Brian, Jayne (Associate Editor)

@@ -24,11 +24,11 @@
 
 == 会议报告
   - 基于领域知识和数据挖掘的模糊坡位提取自动化方法. 全国自然地理学大会, *2017*, 11.20--22, 南京大学, 中国 南京.
-  [ppts/2017-自然地理大会-模糊坡位自动化.pdf 会议PPT下载]
-  （[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2017-%E8%87%AA%E7%84%B6%E5%9C%B0%E7%90%86%E5%A4%A7%E4%BC%9A-%E6%A8%A1%E7%B3%8A%E5%9D%A1%E4%BD%8D%E8%87%AA%E5%8A%A8%E5%8C%96.pdf 备用下载链接]）
+  [ppts/2017-PGAnnual-CN-AutoFuzSlpPos-zhulj2017-11-22.pdf 会议PPT下载]
+  （[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2017-PGAnnual-CN-AutoFuzSlpPos-zhulj2017-11-22.pdf 备用下载链接]）
   - An automatic approach of prototype-based fuzzy slope positions. /AAG Annual Meeting/, Apr. 5--9, *2017*. Boston, USA.
-  [ppts/2017-AAG-AutoFuzSlpPos.pdf Download PPT]
-  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/2017-AAG-AutoFuzSlpPos.pdf alternative download link])
+  [ppts/2017-AAG-AutoFuzSlpPos-zhulj2017-4-8.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2017-AAG-AutoFuzSlpPos-zhulj2017-4-8.pdf alternative download link])
 
 == 软件
   - 开源项目地址：[https://github.com/lreis2415/AutoFuzSlpPos github.com\/lreis2415\/AutoFuzSlpPos]，同时也被集成至

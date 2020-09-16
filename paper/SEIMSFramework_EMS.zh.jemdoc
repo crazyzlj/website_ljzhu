@@ -17,8 +17,8 @@ SEIMS以模块化结构支持对多过程模拟算法的灵活扩展；支持应
 == 会议报告
   - Development of a modular and parallelized watershed modeling framework. /1st Regional Conference on
   Environmental Modeling and Software (Asian Region)/, May. 18--20, *2019*. Nanjing, China.
-  [ppts/2019-iEMSsRegion-SEIMSFramework.pdf Download PPT]
-  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/SEIMS/2019-iEMSsRegion-SEIMSFramework.pdf alternative download link])
+  [ppts/2019-iEMSsRegion-SEIMSFramework-zhulj2019-5-20.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2019-iEMSsRegion-SEIMSFramework-zhulj2019-5-20.pdf alternative download link])
 
 == 软件
   - 开源项目地址：[https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS]。
