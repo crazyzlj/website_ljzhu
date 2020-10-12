@@ -4,6 +4,9 @@
 [/news.html English version]
 
 ~~~
+- (2020-10-12) 应[https://spatial.usc.edu/team-view/john-p-wilson/ John Wilson]教授邀请，[http://people.ucas.ac.cn/~qincz 秦承志研究员]与我合作为
+[https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge GIS&T Body of Knowledge]撰写了关于地理空间数据读写编程库的词条，即
+[https://gistbok.ucgis.org/bok-topics/gdalogr-and-geospatial-data-io-libraries GDAL/OGR and Geospatial Data IO Libraries]。
 - (2020-09-15) 参加由[https://www.iemss.org/ iEMSs协会]举办的第10届年会[https://iemss2020.com/ iEMSs2020]（线上），
 并做了题为“New optimization framework of watershed best management practice scenarios in a unit-boundary adaptive manner”的口头报告，
 介绍了我们最新发表在/Progress in Physical Geography: Earth and Environment/上的文章。[/BMPsBoundaryOpt-PPG.zh.html 文章介绍]、

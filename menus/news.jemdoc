@@ -4,6 +4,10 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2020-10-12) On the invitation of Professor [https://spatial.usc.edu/team-view/john-p-wilson/ John Wilson],
+Professor [http://people.ucas.ac.cn/~qincz Cheng-Zhi Qin] and I wrote an entry about Geospatial data Input\/Output
+(IO) libraries--[https://gistbok.ucgis.org/bok-topics/gdalogr-and-geospatial-data-io-libraries GDAL/OGR and Geospatial Data IO Libraries]
+for [https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge GIS&T Body of Knowledge].
 - (2020-09-15) I attend the 10th iEMSs conference, the [https://iemss2020.com/ iEMSs2020] meeting (online),
 organized by the [https://www.iemss.org/ iEMSs Society], and give an oral presentation entitled "New optimization framework
 of watershed best management practice scenarios in a unit-boundary adaptive manner" to introduce our latest paper published

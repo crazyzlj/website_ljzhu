@@ -19,6 +19,10 @@ Assistant Professor \n
 == Recent News
 
 ~~~
+- (2020-10-12) On the invitation of Professor [https://spatial.usc.edu/team-view/john-p-wilson/ John Wilson],
+Professor [http://people.ucas.ac.cn/~qincz Cheng-Zhi Qin] and I wrote an entry about Geospatial data Input\/Output
+(IO) libraries--[https://gistbok.ucgis.org/bok-topics/gdalogr-and-geospatial-data-io-libraries GDAL/OGR and Geospatial Data IO Libraries]
+for [https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge GIS&T Body of Knowledge].
 - (2020-09-15) I attend the 10th iEMSs conference, the [https://iemss2020.com/ iEMSs2020] meeting (online),
 organized by the [https://www.iemss.org/ iEMSs Society], and give an oral presentation entitled "New optimization framework
 of watershed best management practice scenarios in a unit-boundary adaptive manner" to introduce our latest paper published
@@ -28,10 +32,6 @@ in /Progress in Physical Geography: Earth and Environment/. [/BMPsBoundaryOpt-PP
 - (2020-06-03) The core part of my PhD dissertation [/BMPsBoundaryOpt-PPG.html Spatial optimization of watershed best management practice scenarios
 based on boundary-adaptive configuration units] has been accepted by /Progress in Physical Geography: Earth and Environment/.
 Published [https://journals.sagepub.com/doi/abs/10.1177/0309133320939002 online] on Jul. 28.
-- (2019-09-26) After a long wait, our manuscript of introducing the design and development of SEIMS (Spatially Explicit Integrated Modeling System)
-which entitled "[/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework]" has finally been published online by
-/Environmental Modelling \& Software/. [https://www.sciencedirect.com/science/article/pii/S1364815218309241 Online version].
-Source code of SEIMS can be found [https://github.com/lreis2415/SEIMS here].
 
 [/news.html More news...]
 
