@@ -95,7 +95,6 @@ C:\\WINDOWS\\system32>mklink /d C:\\Users\\ljzhu\\Zotero\\storage D:\\我的坚�
 
 ~~~
 {Remove redunctant folders under Zotero Storage}{pyint}
-#! /usr/bin/env python
 # -*- coding: utf-8 -*-
 """Tidy empty folders of storage of zotero
     @author   : Liangjun Zhu

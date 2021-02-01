@@ -33,7 +33,6 @@ caption = ""
 <i class="fa fa-download fa-2x" aria-hidden="true"></i> [运行示例点坐标下载](http://zhulj-blog.oss-cn-beijing.aliyuncs.com/baidu-API-search-locations/designed_samples.csv)，[Python脚本下载](http://zhulj-blog.oss-cn-beijing.aliyuncs.com/baidu-API-search-locations/CSV2PtsShp.py)
 
 +++python
-#! /usr/bin/env python
 #coding=utf-8
 ## Author : Liangjun Zhu
 ## Email : crazyzlj@gmail.com
