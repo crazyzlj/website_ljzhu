@@ -18,6 +18,10 @@
 == 最新动态
 
 ~~~
+- (2020-04-21) 我参与指导的硕士生史亚星的硕士论文工作在地球信息科学学报上发表，题为
+[https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=DQXX202104003&dbname=CJFDAUTO 基于坡位-地块单元的流域最佳管理措施空间优化配置方法]，
+该工作是在我们2018年提出[/BMPsOptSlpPos-JSWC.zh.html 采用坡位单元作为BMP空间配置单元]工作基础上的进一步探索，通过结合体现自然特点的坡位单元和体现人为影响的地块单元，
+在BMP情景优化中有效地综合体现BMP与地形部位间的空间关系以及同一地形部位内不同土地利用斑块上的BMP差异。
 - (2020-10-12) 应[https://spatial.usc.edu/team-view/john-p-wilson/ John Wilson]教授邀请，[http://people.ucas.ac.cn/~qincz 秦承志研究员]与我合作为
 [https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge GIS&T Body of Knowledge]撰写了关于地理空间数据读写编程库的词条，即
 [https://gistbok.ucgis.org/bok-topics/gdalogr-and-geospatial-data-io-libraries GDAL/OGR and Geospatial Data IO Libraries]。
@@ -43,6 +47,6 @@ boundary-adaptive configuration units (基于边界自适应配置单元的流�
 
 == 联系方式
 
-地址：北京市朝阳区大屯路甲11号 中科院地理资源所 信息室, 100101
+地址：北京市朝阳区大屯路甲11号中科院地理资源所D411, 100101
 
 邮箱: zlj (at) lreis.ac.cn
