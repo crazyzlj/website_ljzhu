@@ -17,12 +17,12 @@
 
 ~~~
 {}{}
-rm -r C:\\Users\\ljzhu\\Zotero\\storage
+rmdir C:\\Users\\ljzhu\\Zotero\\storage
 mklink /d C:\\Users\\jzhu\\Zotero\\storage D:\\我的坚果云\\storage
 
 屏幕显示：
 
-C:\\WINDOWS\\system32>rm -r C:\\Users\\ljzhu\\Zotero\\storage
+C:\\WINDOWS\\system32>rmdir C:\\Users\\ljzhu\\Zotero\\storage
 C:\\WINDOWS\\system32>mklink /d C:\\Users\\ljzhu\\Zotero\\storage D:\\我的坚果云\\storage
 为 C:\\Users\\ljzhu\\Zotero\\storage <<===>> D:\\我的坚果云\\storage 创建的符号链接
 ~~~
