@@ -16,6 +16,10 @@ BMP情景智能优化的方法框架基础上，*建立了一套以坡位为空�
 在南方红壤区福建长汀县游屋圳小流域的应用案例表明，与随机配置方法相比，*新方法能够根据坡面过程特点进行BMP情景优化，
 有效地获得更为实际可行的管理措施空间配置优化方案*。
 
+~~~
+{}{img_left}{images/GraphAbstract-BMPsOptSlpPos-JSWC.zh.jpg}{Graph Abstract}{900}{}{images/GraphAbstract-BMPsOptSlpPos-JSWC.zh.jpg}
+~~~
+
 == 会议报告
   - Qin, C.Z. Using slope positions as spatial configuration units for optimizing watershed best management
   practices. /AAG Annual Meeting/, Apr. 10--14, *2018*. New Orleans, Louisiana, USA.
@@ -30,18 +34,20 @@ BMP情景智能优化的方法框架基础上，*建立了一套以坡位为空�
   本文所涉及的情景优化代码位于+\/seims\/scenario\_analysis\/slpposunits+。
 
 == 评审历史
-  - 投稿: 2017-10-22
+  - 投稿: 2017-10-22; [review_history/BMPsOptSlpPos-JSWC/submission.pdf Manuscript-Submission]
   - 编辑:
     -- 学术编辑: Dr. Jorge Delgado (jorge.delgado (at) ars.usda.gov)
     -- 编辑助理: Mr. Jody Thompson (jody.thompson (at) swcs.org)
-  - *小修后接收*: 2018-01-02
+  - *小修后接收*: 2018-01-02; [review_history/BMPsOptSlpPos-JSWC/Decision-Minor-revision.pdf Decision Letter]
     -- 审稿意见1: The paper addresses *an interesting issue concerning spatial optimization of
     watershed best management practices. The proposed approach builds on terrain attributes,
     namely on slope positions*. The carefully and watchfully written manuscript is clearly structured
     and put into correct format. *I propose its publication in its present form.*
     -- 审稿意见2: *The article is relevant and well structured*. I found _only little mistakes
     in References section and I have some recommendation to the figures and a usage of a geographical term_.
-  - 接收: 2018-01-09
+  - 返修：2018-01-03; [review_history/BMPsOptSlpPos-JSWC/revision.pdf Manuscript-Revision],
+    [review_history/BMPsOptSlpPos-JSWC/responses.pdf Revisions and responses]
+  - 接收: 2018-01-09; [review_history/BMPsOptSlpPos-JSWC/Decision-Accept.pdf Decision Letter]
 
 == 引用格式
 
