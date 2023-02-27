@@ -11,12 +11,13 @@ cd %~dp0
 rd /s/q build
 REM Copy resources
 md build
-cp -r images build/images
-cp -r styles build/styles
-cp -r cv build/cv
-cp -r ppts build/ppts
-cp CNAME build/CNAME
-cp .gitattributes build/.gitattributes
+xcopy review_history build\\review_history\ /s /e /y
+xcopy images build\\images\ /s /e /y
+xcopy styles build\\styles\ /s /e /y
+xcopy cv build\\cv\ /s /e /y
+xcopy ppts build\\ppts\ /s /e /y
+copy CNAME build\
+copy .gitattributes build\
 REM Build html
 for /f "delims=" %%i in ('dir /s/b "*.jemdoc"') do (
     call :build %%~ni %%i
