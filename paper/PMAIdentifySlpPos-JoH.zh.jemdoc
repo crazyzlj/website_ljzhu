@@ -1,0 +1,63 @@
+# jemdoc: menu{MENU.zh}{PMAIdentifySlpPos-JoH.zh.html}, backlink, notime, analytics{UA-75301149-1}
+== Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+ (基于坡位单元的流域优先控制区识别)
+吴彤, *朱良君\**, 申申, 朱阿兴, 史明昌, 秦承志
+
+[/PMAIdentifySlpPos-JoH.html  English version]
+
+== 概述
+
+
+== 数据
+  - Open source at [https://github.com/lreis2415/WatershedModelingData github.com\/lreis2415\/WatershedModelingData].
+
+== 会议报告
+  - 吴彤. 基于坡位单元的流域优先控制区识别. /第十届全国地理信息科学博士生学术论坛/,
+  *2022*, 12.17--18, 线上会议.
+  [ppts/2022-CN-PMAIdentification-wut2022-12-17.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2022-CN-PMAIdentification-wut2022-12-17.pdf 备用下载链接])
+
+== 评审历史
+  - *第一次投稿*: 2022-01-19; [review_history/PMAIdentifySlpPos-JoH/submission.pdf Manuscript-Submission]
+  - 指定编辑: 2022-01-29 (于02-22询问进展)
+  - 审稿中: 2022-03-22 (于03-24再次邀请审稿人, 随后03-25变为审稿中)
+  - *拒稿并鼓励重投*: 2022-04-02; [review_history/PMAIdentifySlpPos-JoH/Decision-Reject.pdf Decision Letter]
+    -- 编辑意见: … *Both reviewers agree that this topic is interesting and a good fit for the journal*. However, both have suggested major revisions …
+    One of the major concerns of both reviewers was the fact that this new approach was only reviewed for one watershed with results that may or may not represent
+    a significant improvement; therefore, this weakness should be addressed should you choose to revise and resubmit.
+  - *第二次投稿*: 2022-09-12; [review_history/PMAIdentifySlpPos-JoH/revision1.pdf Manuscript-Revision], [review_history/PMAIdentifySlpPos-JoH/responses1.pdf Revisions and responses]
+  - 指定编辑: 2022-09-12 (于09-17询问进展)
+  - 审稿中: 2022-09-22 (于09-23, 09-29, 10-07, 和 11-04 再次邀请审稿人，最后一次是我们又推荐了潜在审稿人)
+  - 审稿完成: 三位审稿人分别于10-04, 11-14, 11-30完成
+  - 等待编辑处理: 2022-11-14 (11-30状态更新)
+  - 决定中: 12-01
+  - *大修*: 2022-12-04; [review_history/PMAIdentifySlpPos-JoH/Decision-Major-revision.pdf Decision Letter]
+  -- 编辑意见: … While all three find the article to be of potential interest to Journal readers and a substantially revised version of the original manuscript,
+  all three recommend additional major revisions before the manuscript can be considered for publication.
+  *Please carefully review the major suggestions provided by each of the three reviewers which include more clarification of definitions and methods employed and
+  consideration of the improvement of model efficiency relative to accepted standards.*
+  - *大修后返回*: 2022-12-25; [review_history/PMAIdentifySlpPos-JoH/revision2.pdf Manuscript-Revision], [review_history/PMAIdentifySlpPos-JoH/responses2.pdf Revisions and responses]
+  - 指定编辑: 2022-12-26 (12-29状态更新)
+  - 审稿中: 2023-01-10
+  - 审稿完成: 两位审稿人分别于01-15和01-17完成
+  - 等待编辑处理: 2023-01-17
+  - *小修*: 2023-01-26; [review_history/PMAIdentifySlpPos-JoH/Decision-Minor-revision.pdf Decision Letter]
+  -- 编辑意见: I am pleased to say that it has been favourably received and publication with minor revision is recommended. Both previous referees have
+  reviewed your revised manuscript and found that you thoroughly addressed most of their major concerns. Reviewer #3 has suggested only a few minor editorial comments
+  that need to be addressed, however, reviewer #1 would like more justification on the novelty of the contribution and why farm\/plot scale was not used.
+  I think you can try to address these remaining concerns through your introduction and discussion sections.
+  - *小修后返回*: 2023-01-29; [review_history/PMAIdentifySlpPos-JoH/revision3.pdf Manuscript-Revision], [review_history/PMAIdentifySlpPos-JoH/responses3.pdf Revisions and responses]
+  - 指定编辑: 2023-01-30 (01-31状态更新)
+  - 决定中: 2023-02-12
+  - *接收*: 2023-02-13; [review_history/PMAIdentifySlpPos-JoH/Decision-Accept.pdf Decision Letter]
+
+== 引用格式
+
+Wu, T., Zhu, L.J., Shen, S., Zhu, A.X., Shi, M., and Qin, C.Z. *2023*.
+Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+.
+/Journal of Hydrology/.
+doi:[https://doi.org/10.1016/j.jhydrol.2023.129281 10.1016\/j.jhydrol.2023.129281]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

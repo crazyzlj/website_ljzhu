@@ -1,0 +1,63 @@
+# jemdoc: menu{MENU}{PMAIdentifySlpPos-JoH.html}, backlink, notime, analytics{UA-75301149-1}
+== Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+
+Tong Wu, *Liang-Jun Zhu\**, Shen Shen, A-Xing Zhu, Mingchang Shi, and Cheng-Zhi Qin
+
+[/PMAIdentifySlpPos-JoH.zh.html 中文版]
+
+== Overview
+
+
+== Data availablility
+  - Open source at [https://github.com/lreis2415/WatershedModelingData github.com\/lreis2415\/WatershedModelingData].
+
+== Representation
+  - 吴彤. 基于坡位单元的流域优先控制区识别. /第十届全国地理信息科学博士生学术论坛/,
+  *2022*, 12.17--18, 线上会议.
+  [ppts/2022-CN-PMAIdentification-wut2022-12-17.pdf Download PPT]
+  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2022-CN-PMAIdentification-wut2022-12-17.pdf alternative download link])
+
+== Review history
+  - *Submission*: 2022-01-19; [review_history/PMAIdentifySlpPos-JoH/submission.pdf Manuscript-Submission]
+  - Editor assigned: 2022-01-29 (status update requested on 02-22)
+  - Under review: 2022-03-22 (Reviewer(s) invited again on 03-24, and then under review again 03-25)
+  - *Reject and resubmit*: 2022-04-02; [review_history/PMAIdentifySlpPos-JoH/Decision-Reject.pdf Decision Letter]
+    -- Comment from Editor: … *Both reviewers agree that this topic is interesting and a good fit for the journal*. However, both have suggested major revisions …
+    One of the major concerns of both reviewers was the fact that this new approach was only reviewed for one watershed with results that may or may not represent
+    a significant improvement; therefore, this weakness should be addressed should you choose to revise and resubmit.
+  - *ReSubmission*: 2022-09-12; [review_history/PMAIdentifySlpPos-JoH/revision1.pdf Manuscript-Revision], [review_history/PMAIdentifySlpPos-JoH/responses1.pdf Revisions and responses]
+  - Editor assigned: 2022-09-12 (status update requested on 09-17)
+  - Under review: 2022-09-22 (Reviewer(s) invited again on 09-23, 09-29, 10-07, and 11-04 after status requested and potential reviewers recommended)
+  - Reviews completed: first finished on 10-04, the 2nd finished on 11-14, the 3rd finished on 11-30
+  - With Editor: 2022-11-14 (status updated on 11-30)
+  - Decision in progress: 12-01
+  - *Major revision*: 2022-12-04; [review_history/PMAIdentifySlpPos-JoH/Decision-Major-revision.pdf Decision Letter]
+  -- Comment from Editor: … While all three find the article to be of potential interest to Journal readers and a substantially revised version of the original manuscript,
+  all three recommend additional major revisions before the manuscript can be considered for publication.
+  *Please carefully review the major suggestions provided by each of the three reviewers which include more clarification of definitions and methods employed and
+  consideration of the improvement of model efficiency relative to accepted standards.*
+  - *ReSubmission*: 2022-12-25; [review_history/PMAIdentifySlpPos-JoH/revision2.pdf Manuscript-Revision], [review_history/PMAIdentifySlpPos-JoH/responses2.pdf Revisions and responses]
+  - Editor assigned: 2022-12-26 (status updated on 12-29)
+  - Under review: 2023-01-10
+  - Reviews completed: first finished on 01-15, the 2nd finished on 01-17
+  - With Editor: 2023-01-17
+  - *Minor revision*: 2023-01-26; [review_history/PMAIdentifySlpPos-JoH/Decision-Minor-revision.pdf Decision Letter]
+  -- Comment from Editor: I am pleased to say that it has been favourably received and publication with minor revision is recommended. Both previous referees have
+  reviewed your revised manuscript and found that you thoroughly addressed most of their major concerns. Reviewer #3 has suggested only a few minor editorial comments
+  that need to be addressed, however, reviewer #1 would like more justification on the novelty of the contribution and why farm\/plot scale was not used.
+  I think you can try to address these remaining concerns through your introduction and discussion sections.
+  - *ReSubmission*: 2023-01-29; [review_history/PMAIdentifySlpPos-JoH/revision3.pdf Manuscript-Revision], [review_history/PMAIdentifySlpPos-JoH/responses3.pdf Revisions and responses]
+  - Editor assigned: 2023-01-30 (status updated on 01-31)
+  - Decision in progress: 2023-02-12
+  - *Accepted*: 2023-02-13; [review_history/PMAIdentifySlpPos-JoH/Decision-Accept.pdf Decision Letter]
+
+== Citation
+
+Wu, T., Zhu, L.J., Shen, S., Zhu, A.X., Shi, M., and Qin, C.Z. *2023*.
+Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+.
+/Journal of Hydrology/.
+doi:[https://doi.org/10.1016/j.jhydrol.2023.129281 10.1016\/j.jhydrol.2023.129281]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

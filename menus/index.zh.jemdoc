@@ -18,6 +18,10 @@
 == 最新动态
 
 ~~~
+- (2023-02-24) 参与指导的直博生吴彤的本科毕业论文工作在Journal of Hydrology发表，题为
+[/PMAIdentifySlpPos-JoH.zh.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+ (基于坡位单元的流域优先控制区识别)]，
+该工作基于我们2018年提出的[/BMPsOptSlpPos-JSWC.zh.html 采用坡位单元作为BMP空间配置单元]的基本思想，对流域优先控制区（PMA）概念进行了辨析，提出坡位单元是比子流域单元跟能兼顾空间详略程度和通用性的识别单元，
+归纳完善了一套支持具有上下游关系的空间单元作为识别单元的优先控制区识别方法框架，并基于SWAT+模型和改进的基于马尔科夫链的污染来源解析代理模型进行了方法实现和案例研究。
 - (2021-11-05) 参加在线举办的CPGIS2021年年会（第28届国际Geoinformatics会议），并做了题为
 《A modular and parallelized modeling framework for distributed watershed modeling and scenario analysis》的报告，
 [ppts/2021-GeoinformaticsCPGIS-SEIMS-watershedmodeling&scenarioanalysis-zhulj2021-11-05.pdf 会议PPT下载]
@@ -47,11 +51,11 @@ boundary-adaptive configuration units (基于边界自适应配置单元的流�
 ~~~
 
 == 研究兴趣
-   - 流域过程模拟
+   - 流域过程建模框架
 
-   - 最佳管理措施（BMPs）空间优化
+   - 流域最佳管理措施（BMPs）时空优化
 
-   - 地学计算
+   - 智能地学计算
 
 == 联系方式
 

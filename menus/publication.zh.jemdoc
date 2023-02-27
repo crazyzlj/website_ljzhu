@@ -3,8 +3,8 @@
 
 [/publication.html English version]
 
-以第一作者或通讯作者发表论文*11*篇（其中SCI收录*5*篇），以非第一作者合作发表论文*9*篇（其中SCI收录*3*篇），
-主要发表于/Progress in Physical Geography/、/Environmental Modelling \& Software/、/Geomorphology/、
+截至2023年2月，以第一作者或通讯作者发表论文*13*篇（其中SCI收录*6*篇），以非第一作者合作发表论文*12*篇（其中SCI/SSCI收录*6*篇），
+主要发表于/Progress in Physical Geography/、/Environmental Modelling \& Software/、/Journal of Hydrology/、/Geomorphology/、
 /Journal of Soil and Water Conservation/、/Geoderma/、/Earth Surface Processes and Landforms/、
 地理科学进展、地球信息科学学报、水土保持学报等
 国内外地理过程建模和自然地理综合研究领域主流期刊。
@@ -19,6 +19,11 @@
 
 
 == 流域过程建模与最佳管理措施（BMP）情景优化
+   - [/PMAIdentifySlpPos-JoH.zh.html Identification of watershed priority management areas based on landscape positions:
+   An implementation using SWAT\+ (基于坡位单元的流域优先控制区识别)] \n
+   吴彤, *朱良君\**, 申申, 朱阿兴, 史明昌, 秦承志 \n
+   /Journal of Hydrology/. doi:[https://doi.org/10.1016/j.jhydrol.2023.129281 10.1016\/j.jhydrol.2023.129281]
+
    - [/BMPsBoundaryOpt-PPG.zh.html Spatial optimization of watershed best management practice scenarios based on
     boundary-adaptive configuration units (基于边界自适应配置单元的流域最佳管理措施情景空间优化)] \n
    *朱良君*, 秦承志\*, 朱阿兴 \n

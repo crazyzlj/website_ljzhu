@@ -4,6 +4,12 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2023-02-24) The undergraduate thesis work of Tong Wu, whom I co-supervised with Prof. Qin, titled
+[/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+]
+has been published in the Journal of Hydrology. This work builds upon the fundamental idea we proposed in 2018 of [/BMPsOptSlpPos-JSWC.html optimizing watershed BMPs based on slope position units].
+It clarified the concept of priority management areas (PMA) in a watershed and proposed that landscape position units are more suitable to be used as PMA identification units than subbasin units.
+The work summarizes and improves a framework for identifying PMAs using spatial units with upstream and downstream relationships as identification units. The framework is implemented using the SWAT+
+model and an improved Markov chain-based surrogate model for pollutant source apportionment.
 - (2021-11-05) I attended the 28th International Conference on Geoinformatics online (2021 CPGIS Annual Conference),
 and give an oral presentention entitled "A modular and parallelized modeling framework for distributed watershed modeling and scenario analysis".
 [ppts/2021-GeoinformaticsCPGIS-SEIMS-watershedmodeling&scenarioanalysis-zhulj2021-11-05.pdf Download PPT]
