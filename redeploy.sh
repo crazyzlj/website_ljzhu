@@ -1,4 +1,4 @@
-echo "Deploying the entire site to Github pages..."
+echo "Deploying the entire site to Github pages -- Runing on shell environment......"
 
 # delete build folder
 rm -rf build
