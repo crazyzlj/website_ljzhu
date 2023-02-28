@@ -1,10 +1,10 @@
-echo -e "Deploying updates to GitHub..."
+echo "Deploying the entire site to Github pages..."
 
 # delete build folder
 rm -rf build
 
 # Build the project.
-./rebuild.bat
+./rebuild.sh
 
 # Go To Public folder
 cd ../crazyzlj.github.io
