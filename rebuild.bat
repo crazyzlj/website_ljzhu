@@ -30,10 +30,5 @@ set tmpfn=%1
 set tmpfullfn=%2
 echo Building %tmpfn%...
 jemdoc.py -c mysite.conf -o build/%tmpfn%.html %tmpfullfn%
-REM if "%tmpfn:~-3%"==".zh" (
-REM     jemdoc.py -c mysite.conf -o build/zh/%tmpfn%.html %tmpfullfn%
-REM ) else (
-REM     jemdoc.py -c mysite.conf -o build/%tmpfn%.html %tmpfullfn%
-REM )
 
 :quit
