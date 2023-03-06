@@ -98,7 +98,7 @@ class controlstruct(object):
 
 
 def showhelp():
-    a = """Usage: jemdoc [OPTIONS] [SOURCEFILE] 
+    a = """Usage: jemdoc [OPTIONS] [SOURCEFILE]
   Produces html markup from a jemdoc SOURCEFILE.
 
   Most of the time you can use jemdoc without any additional flags.
@@ -119,7 +119,7 @@ def showhelp():
   overwritten by including them in a configuration file, and running,
   for example,
 
-    jemdoc -c mywebsite.conf index.jemdoc 
+    jemdoc -c mywebsite.conf index.jemdoc
 
   You can view version and installation details with
 
@@ -149,7 +149,7 @@ def standardconf():
 
   [defaultcss]
   <link rel="stylesheet" href="styles/jemdoc.css" type="text/css" />
-  
+
   [windowtitle]
   # used in header for window title.
   <title>|</title>
@@ -159,22 +159,22 @@ def standardconf():
 
   [fwtitleend]
   </div>
-  
+
   [doctitle]
   # used at top of document.
   <div id="toptitle">
   <h1>|</h1>
-  
+
   [subtitle]
   <div id="subtitle">|</div>
-  
+
   [doctitleend]
   </div>
-  
+
   [bodystart]
   </head>
   <body>
-  
+
   [analytics]
   <script type="text/javascript">
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -185,28 +185,28 @@ def standardconf():
       var pageTracker = _gat._getTracker("|");
       pageTracker._trackPageview();
   } catch(err) {}</script>
-  
+
   [wrapperstart]
   <div class="wrapper"> <!-- wotao: "wrapper" class for new style -->
-  
+
   [wrapperend]
   </div> <!-- wotao: "wrapper" class for new style -->
-  
+
   [menustart]
   <table summary="Table for page layout." id="tlayout">
   <tr valign="top">
   <td id="layout-menu">
-  
+
   [menuend]
   </td>
   <td id="layout-content">
-  
+
   [menuboxstart]
   <div class="menu-box"> <!-- wotao: added for the "menu-box" style -->
-  
+
   [menuboxend]
   </div> <!-- wotao: end of "menu-box" style -->
-  
+
   [menucategory]
   <div class="menu-category">|</div>
 
@@ -218,60 +218,60 @@ def standardconf():
 
   [specificjs]
   <script src="|.js" type="text/javascript"></script>
-  
+
   [currentmenuitem]
   <div class="menu-item"><a href="|1" class="current"|3>|2</a></div>
-  
+
   [nomenu]
   <div id="layout-content">
-  
+
   [menulastbit]
   </td>
   </tr>
   </table>
-  
+
   [nomenulastbit]
   </div>
-  
+
   [bodyend]
   </body>
   </html>
-  
+
   [infoblock]
   <div class="infoblock">
-  
+
   [codeblock]
   <div class="codeblock">
-  
+
   [blocktitle]
   <div class="blocktitle">|</div>
-  
+
   [infoblockcontent]
   <div class="blockcontent">
-  
+
   [codeblockcontent]
   <div class="blockcontent"><pre>
-  
+
   [codeblockend]
   </pre></div></div>
-  
+
   [codeblockcontenttt]
   <div class="blockcontent"><tt class="tthl">
-  
+
   [codeblockendtt]
   </tt></div></div>
-  
+
   [infoblockend]
   </div></div>
-  
+
   [footerstart]
   <div id="footer">
   <div id="footer-text">
-  
+
   [footerend]
   </div>
   </div>
-  
+
   [lastupdated]
   Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 
@@ -468,7 +468,8 @@ def hb(f, tag, content1, content2=None, content3=None):
 
     if content2 is None:
         #    out(f, re.sub(r'\|', content1, tag))
-        r = re.sub(r'\|', content1, tag)
+        # r = re.sub(r'\|', content1, tag) # by lj. Only handle single |, exclude ||
+        r = re.sub(r'(?<!\|)\|(?!\|)', content1, tag)
         r = re.sub(r'\|3', content3, r)
         r = mathjaxeqresub(r)
         out(f, r)
