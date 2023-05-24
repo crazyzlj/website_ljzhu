@@ -4,6 +4,12 @@
 [/news.html English version]
 
 ~~~
+- (2023-05-23) 参与指导的博士后申申在博后期间的核心工作在Water Resources Research发表，题为
+[/BMPsOptRoadmap-WRR.zh.html Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment (逐步投资约束下考虑BMP时变效益的流域管理措施实施方案优化方法)],
+该工作以我们BMP空间优化的工作\[[/BMPsOptSlpPos-JSWC.zh.html 1], [/BMPsCfgUnitsCmp_Water.zh.html 2]\]为基础，
+考虑流域管理实践中的首要综合性限制因素——投资，设计了逐步投资约束下的BMP实施方案优化方法，
+并基于[/SEIMSFramework_EMS.zh.html SEIMS建模框架]进行了方法实现和案例研究；
+该工作将流域BMP优化从空间维度扩展到了时空维度，可提供更多样化的BMP实施路线图，对BMP情景分析领域具有重要意义。
 - (2023-02-24) 参与指导的直博生吴彤的本科毕业论文工作在Journal of Hydrology发表，题为
 [/PMAIdentifySlpPos-JoH.zh.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+ (基于坡位单元的流域优先控制区识别)]，
 该工作基于我们2018年提出的[/BMPsOptSlpPos-JSWC.zh.html 采用坡位单元作为BMP空间配置单元]的基本思想，对流域优先控制区（PMA）概念进行了辨析，提出坡位单元是比子流域单元跟能兼顾空间详略程度和通用性的识别单元，

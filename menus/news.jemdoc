@@ -4,6 +4,17 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2023-05-23) The postdoctoral work of Dr. Shen Shen, whom I co-supervised with Prof. Qin, titled
+[/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment],
+has been accepted by Water Resources Research. 
+Based on our work on spatial optimization of BMP scenarios\[[/BMPsOptSlpPos-JSWC.html 1], [/BMPsCfgUnitsCmp_Water.html 2]\],
+considering the critical realistic factor that a BMP scenario cannot be implemented at a time and investments
+often restrict this, this study proposes a new simulation-optimization framework for the implementation plan of BMPs
+by using net present value to calculate the economic costs of BMP scenarios,
+and the time-varying effectiveness of BMPs to evaluate the environmental effectiveness of multistage BMP scenarios.
+The proposed framework was implemented based on the [/SEIMSFramework_EMS.html SEIMS framework] and
+demonstrated in an agricultural watershed case study. The proposed novel idea of extending the spatial optimization of BMPs
+to the spatio-temporal level by considering the stepwise investment is of great significance to BMP scenario analysis.
 - (2023-02-24) The undergraduate thesis work of Tong Wu, whom I co-supervised with Prof. Qin, titled
 [/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+]
 has been published in the Journal of Hydrology. This work builds upon the fundamental idea we proposed in 2018 of [/BMPsOptSlpPos-JSWC.html optimizing watershed BMPs based on slope position units].

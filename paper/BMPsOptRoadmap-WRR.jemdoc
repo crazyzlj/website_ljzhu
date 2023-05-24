@@ -1,0 +1,76 @@
+# jemdoc: menu{MENU}{BMPsOptRoadmap-WRR.html}, backlink, notime, analytics{G-G179QT8S4B-1}
+== Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment
+Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, and A-Xing Zhu 
+
+[/BMPsOptRoadmap-WRR.zh.html 中文版]
+
+== Overview
+Best management practices (BMPs) are a series of structural and nonstructural management practices implemented at different spatial
+scales in a watershed (e.g., sites, agricultural fields, roads, and streambanks) to reduce the negative environmental impacts of
+stormwater, soil erosion, nonpoint source pollution, etc. When, where, and which types of BMPs should be implemented across a
+watershed to control certain environmental issues are common but complex considerations in comprehensive watershed management.
+Multi-objective BMP optimization based on watershed modeling can provide scientific and effective support for decision-making.
+Existing approaches primarily focus on optimizing the spatial dimension but neglect the temporal dimension of BMPs, including the
+optimization of their implementation order to address the trade-offs between the environmental effectiveness and economic burden
+during the implementation period. This study proposed a novel spatiotemporal optimization framework considering two significant
+factors: stepwise investment and the time-varying effectiveness of BMPs. The framework was implemented and demonstrated in an
+agricultural watershed to find near-optimal BMP implementation plans for controlling soil erosion. The comparative experiments
+demonstrated that if a small portion of environmental effectiveness could be temporarily sacrificed, optimizations considering
+stepwise investment could provide more feasible implementation plans with lower financial pressure, especially in the first year of implementation. 
+
+== Code availablility
+  - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS].
+
+== Representation
+
+== Review history
+  - *Submission*: 2022-06-07; [review_history/BMPsOptRoadmap-WRR/submission.pdf Manuscript-Submission]
+  - Initial Quality Control Complete: 2022-06-10
+  - Editor Assigned: 2022-06-11
+  - Associate Editor Assigned: 2022-07-05
+  - Contacting Potential Reviewers: 2022-07-16, 08-01, and 08-03
+  - Under Review: 2022-07-20
+  - Awaiting Associate Editor Recommendation: 2022-08-24
+  - Awaiting Editor Decision: 2022-09-14 (after status update requested on 09-07)
+  - *Decision made (major revision)*: 2022-09-15; [review_history/BMPsOptRoadmap-WRR/Decision-Major-revision.pdf Decision Letter]
+    -- Comment from Editor: In agreement with the reviewers, there is some additional framing and analysis to be done for publication. Particularly, the case study is a very small watershed that may not be representative (as reviewer 2 points out) and thus generalizable -- a second case would be ideal. Finally, the organization and writing of the paper could use improvement as pointed out by reviewers 1 and 3. *These improvements will make the paper in a place for publication with WRR which strives to publish work that the readership can use either in methods for their own research or as evidence that a research path is worth pursuing.*
+    -- Reviewer \#1 (major revisions): This manuscript applies an expanded version of an existing optimization method for siting soil erosion BMPs. The paper focuses on developing modifications to the spatial optimization framework that account for (1) different implementation sequences of BMPs; (2) calculation of net present value of the BMPs; (3) time-varying effectiveness of the BMPs; and (4) watershed modeling. *This study thus provides a valuable tool for estimating the effectiveness of different BMP scenarios but would benefit from expanding of the application presented (beyond erosion control BMPs), additional discussion of the results, and thorough editing.* I therefore recommend this manuscript for publication in the of Water Resources Research after major revisions. (1) Perhaps it is my own bias, but when I read the title and the abstract, I expected this to be about urban hydrology BMPs (e.g., rain gardens, bioretention, permeable pavement, etc). (2) *I see no reason why these methods could not be applied to optimize spatial configuration of urban stormwater BMPs, and I think a lot of readers would be interested to see an application of this. I would encourage the authors to think about a second case study that applies the methods in a different (urban) setting - this would really strengthen the paper and widen the interested audience.* (3) I found the "experimental results and discussion" section lacking. Most of the text in this section is just results, and things that someone could glean just from the plots… Please add more discussion - what do your results mean? There are a lot of claims that are not well supported…
+    -- Reviewer \#2 (minor revisions): *The manuscript is very interesting. I think it is in the scope of WRR.* (1) It is true that effectiveness of BMPs is time varying, but how can we get these time varying data for each BMP? (2) Will it be better that we implement BMPs step by step according to the time? (3) If a large watershed (over 1000 km2) was chosen, would the framework of this paper be still working? Do some explain. (4) the BMPs in this case were fixed … In my opinion, they are not typical BMPs. How about if both engineering BMPs and non-engineering BMPs are adopted together?
+    -- Reviewer \#3 (minor revisions): The authors proposed a new optimization framework for implementation orders of BMPs with time-varying effectiveness under stepwise investment, introduced net present value to compare net costs of different BMP scenarios, and exemplified the basic idea of extending BMP optimization to spatio-temporal level. *It is an interesting issue.* However, there are some suggestions and questions as follows…
+  - *ReSubmission*: 2022-11-12; [review_history/BMPsOptRoadmap-WRR/revision1.pdf Manuscript-Revision], [review_history/BMPsOptRoadmap-WRR/responses1.pdf Revisions and responses]
+  - Waiting for Author Approval of Converted Files: 2022-11-17; [review_history/BMPsOptRoadmap-WRR/QualityControl-author_order_link_issues.pdf Submission Error Letter]
+  - Initial Quality Control Complete: 2022-11-22
+  - Awaiting Editor Decision: 2022-11-22
+  - Associate Editor Assigned: 2022-12-06
+  - Contacting Potential Reviewers: 2022-12-19
+  - Under Review: 2022-12-22
+  - Awaiting Associate Editor Recommendation: 2023-02-11
+  - Awaiting Editor Decision: 2023-02-22 (after status update requested on 02-20)
+  - *Decision made (minor revision)*: 2023-03-08 (after status update requested on 03-05); [review_history/BMPsOptRoadmap-WRR/Decision-Minor-revision.pdf Decision Letter]
+  -- Reviewer \#1: *Overall I think this paper is suitable for publication and is an important contribution to the BMP optimization literature.* I find the authors responses to comments acceptable and appreciate the addition section added on applicability to other watershed optimization problems. However, I still find the language used in the article to be vague and below the standard I believe is required for WRR. I strongly suggest the authors sit down with an editor and revise the paper line-by-line. I cannot provide line-by-line edits for the entire paper, but provide some examples below.
+  - *ReSubmission*: 2023-03-11; [review_history/BMPsOptRoadmap-WRR/revision2.pdf Manuscript-Revision], [review_history/BMPsOptRoadmap-WRR/responses2.pdf Revisions and responses]
+  - Initial Quality Control Complete: 2023-03-15
+  - *Decision made (issues of grammar and map of China boundary)*: 2023-04-10 (after status update requested on 03-30); [review_history/BMPsOptRoadmap-WRR/Decision-Grammar_and_map-revision.pdf Decision Letter]
+  - *ReSubmission*: 2023-04-19; [review_history/BMPsOptRoadmap-WRR/revision3.pdf Manuscript-Revision], [review_history/BMPsOptRoadmap-WRR/responses3.pdf Revisions and responses]
+  - Waiting for Author Approval of Converted Files: 2023-04-26; [review_history/BMPsOptRoadmap-WRR/QualityControl-link_issue.pdf Submission Error Letter]
+  -- In Open Research Section, please provide an in-text citation in (Name, Year) format instead of the full link…
+  - Initial Quality Control Complete: 2023-04-27
+  - Awaiting Editor Decision: 2023-04-27
+  - *Decision made (remove the inset map of China in the study area map)*: 2023-05-09 (after status update requested on 05-08); [review_history/BMPsOptRoadmap-WRR/Decision-map-revision.pdf Decision Letter]
+  - *ReSubmission*: 2023-05-10; [review_history/BMPsOptRoadmap-WRR/revision4.pdf Manuscript-Revision], [review_history/BMPsOptRoadmap-WRR/responses4.pdf Revisions and responses]
+  - Initial Quality Control Complete: 2023-05-12
+  - Awaiting Editor Decision: 2023-05-12
+  - *Decision made (accept)*: 2023-05-23 (after status update requested on 2023-05-19); [review_history/BMPsOptRoadmap-WRR/Decision-Accept.pdf Decision Letter]
+  -- Manuscript Ready for Production: 2023-05-23
+
+== Citation
+
+Shen, S., Qin, C.Z., Zhu, L.J., and Zhu, A.X. *2023*.
+Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment.
+/Water Resources Research/: e2022WR032986.
+doi:[https://doi.org/10.1029/2022WR032986 10.1029\/2022WR032986]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~
