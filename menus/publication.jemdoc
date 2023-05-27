@@ -3,7 +3,7 @@
 
 [/publication.zh.html 中文版]
 
-As of Mar. 2023, totally *14* peer-reviewed journal articles (including *7* SCI-indexed papers)
+As of May. 2023, totally *15* peer-reviewed journal articles (including *8* SCI-indexed papers)
 as the first author and\/or corresponding author,
 *12* peer-reviewed journal articles (including *6* SCI\/SSCI-indexed papers)
 as co-author have been published.
@@ -11,6 +11,7 @@ These papers are published on mainstream journals of
 geographic process modeling and integrated physical geography,
 such as /Progress in Physical Geography/, /Environmental Modelling \& Software/, 
 /Water Resources Research/, /Journal of Hydrology/,
+/Journal of Environmental Management/,
 /Journal of Soil and Water Conservation/, 
 /Geomorphology/,
 /Geoderma/, /Earth Surface Processes and Landforms/, etc.
@@ -27,38 +28,53 @@ or [https://publons.com/author/1582900/liang-jun-zhu Web of Science ResearcherID
 for a full list.
 
 == Watershed process modeling and scenario analysis/optimization
-   - [/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment] \n
+   - [/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of
+   a web-based participatory watershed planning system for optimizing multistage
+   implementation plans of management practices under stepwise investment] \n
+   Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
+   /Journal of Environmental Management/, *2023*.
+
+   - [/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
+   with time-varying effectiveness under stepwise investment] \n
    Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
    /Water Resources Research/, *2023*: e2022WR032986. doi:[https://doi.org/10.1029/2022WR032986 10.1029\/2022WR032986]
 
-   - [/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+] \n
+   - [/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas
+   based on landscape positions: An implementation using SWAT\+] \n
    Tong Wu, *Liang-Jun Zhu\**, Shen Shen, A-Xing Zhu, Mingchang Shi, Cheng-Zhi Qin \n
-   /Journal of Hydrology/, *2023*, 619: 129281. doi:[https://doi.org/10.1016/j.jhydrol.2023.129281 10.1016\/j.jhydrol.2023.129281]
+   /Journal of Hydrology/, *2023*, 619: 129281.
+   doi:[https://doi.org/10.1016/j.jhydrol.2023.129281 10.1016\/j.jhydrol.2023.129281]
 
-   - [/BMPsBoundaryOpt-PPG.html Spatial optimization of watershed best management practice scenarios based on boundary-adaptive configuration units] \n
+   - [/BMPsBoundaryOpt-PPG.html Spatial optimization of watershed best management practice scenarios
+   based on boundary-adaptive configuration units] \n
    *Liang-Jun Zhu*, Cheng-Zhi Qin\*, and A-Xing Zhu \n
-   /Progress in Physical Geography: Earth and Environment/, *2021*, 45(2):207--227. doi:[https://doi.org/10.1177/0309133320939002 10.1177\/0309133320939002]
+   /Progress in Physical Geography: Earth and Environment/, *2021*, 45(2):207--227.
+   doi:[https://doi.org/10.1177/0309133320939002 10.1177\/0309133320939002]
 
    - [/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework] \n
    *Liang-Jun Zhu*, Junzhi Liu\*, Cheng-Zhi Qin\*, and A-Xing Zhu \n
-   /Environmental Modelling \& Software/, *2019*, 122, 104526. doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
+   /Environmental Modelling \& Software/, *2019*, 122, 104526.
+   doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
-   - [/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for the spatial optimization of watershed
-   best management practice scenarios] \n
+   - [/BMPsCfgUnitsCmp_Water.html Effects of different spatial configuration units for the spatial optimization of
+   watershed best management practice scenarios] \n
    *Liang-Jun Zhu*, Cheng-Zhi Qin\*, A-Xing Zhu, Junzhi Liu, and Hui Wu \n
    /Water/, *2019*, 11(2), 262. doi:[https://doi.org/10.3390/w11020262 10.3390\/w11020262]
 
    - [/BMPsOptSlpPos-JSWC.html Spatial optimization of watershed best management practices based on slope position units] \n
    Cheng-Zhi Qin, Hui-Ran Gao, *Liang-Jun Zhu\**, A-Xing Zhu, Jun-Zhi Liu, and Hui Wu \n
-   /Journal of Soil and Water Conservation/, *2018*, 73(5):504--517. doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
+   /Journal of Soil and Water Conservation/, *2018*, 73(5):504--517.
+   doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
 
    - [/ReviewNewParadigm_ProgInGeo.html Integrated watershed modeling and scenario analysis:
    a new paradigm for integrated study of physical geography? (/in Chinese with English abstract/)] \n
    A-Xing Zhu, *Liang-Jun Zhu\**, Ya-Xing Shi, Cheng-Zhi Qin, and Junzhi Liu \n
-   /Progress in Geography/, *2019*, 38(8):1111--1122. doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
+   /Progress in Geography/, *2019*, 38(8):1111--1122.
+   doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
 
 == Digital terrain analysis
 
    - [/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions] \n
      *Liang-Jun Zhu*, A-Xing Zhu, Cheng-Zhi Qin\*, and Jun-Zhi Liu \n
-     /Geomorphology/, *2018*, 304:173--183. doi:[https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
+     /Geomorphology/, *2018*, 304:173--183.
+     doi:[https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]

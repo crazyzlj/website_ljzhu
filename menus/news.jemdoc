@@ -4,8 +4,14 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2023-05-26) The follow-up study of the [/BMPsOptRoadmap-WRR.html methodology paper in WRR],
+the design and evaluation study of a web-based participatory watershed planning system, titled
+[/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of a web-based participatory
+watershed planning system for optimizing multistage implementation plans of management practices under stepwise investment]
+has been acceped by Journal of Environmental Management.
 - (2023-05-23) The postdoctoral work of Dr. Shen Shen, whom I co-supervised with Prof. Qin, titled
-[/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment],
+[/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
+with time-varying effectiveness under stepwise investment],
 has been accepted by Water Resources Research. 
 Based on our work on spatial optimization of BMP scenarios\[[/BMPsOptSlpPos-JSWC.html 1], [/BMPsCfgUnitsCmp_Water.html 2]\],
 considering the critical realistic factor that a BMP scenario cannot be implemented at a time and investments
@@ -16,10 +22,15 @@ The proposed framework was implemented based on the [/SEIMSFramework_EMS.html SE
 demonstrated in an agricultural watershed case study. The proposed novel idea of extending the spatial optimization of BMPs
 to the spatio-temporal level by considering the stepwise investment is of great significance to BMP scenario analysis.
 - (2023-02-24) The undergraduate thesis work of Tong Wu, whom I co-supervised with Prof. Qin, titled
-[/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+]
-has been published in the Journal of Hydrology. This work builds upon the fundamental idea we proposed in 2018 of [/BMPsOptSlpPos-JSWC.html optimizing watershed BMPs based on slope position units].
-It clarified the concept of priority management areas (PMA) in a watershed and proposed that landscape position units are more suitable to be used as PMA identification units than subbasin units.
-The work summarizes and improves a framework for identifying PMAs using spatial units with upstream and downstream relationships as identification units. The framework is implemented using the SWAT+
+[/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas
+based on landscape positions: An implementation using SWAT\+]
+has been published in the Journal of Hydrology.
+This work builds upon the fundamental idea we proposed in 2018 of
+[/BMPsOptSlpPos-JSWC.html optimizing watershed BMPs based on slope position units].
+It clarified the concept of priority management areas (PMA) in a watershed and proposed that
+landscape position units are more suitable to be used as PMA identification units than subbasin units.
+The work summarizes and improves a framework for identifying PMAs using spatial units with upstream and downstream
+relationships as identification units. The framework is implemented using the SWAT+
 model and an improved Markov chain-based surrogate model for pollutant source apportionment.
 - (2021-11-05) I attended the 28th International Conference on Geoinformatics online (2021 CPGIS Annual Conference),
 and give an oral presentention entitled "A modular and parallelized modeling framework for distributed watershed modeling and scenario analysis".

@@ -10,7 +10,7 @@ Assistant Professor \n
 \<a href=\'https:\/\/www.researchgate.net\/profile\/Liang\_Jun\_Zhu\' target=\'blank\'\>\<img alt=\"Research Gate\" src=\"styles\/researchgate.png\" align=\"left\" style=\"padding-right:8px\" height=\"20\" width=20\>\<\/a\>
 \<a href=\'https:\/\/github.com\/crazyzlj\' target=\'blank\'\>\<img alt=\"Code repository\" src=\"styles\/github.png\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
 \n\n
-[http://www.lreis.ac.cn State Key Laboratory of Resources and Environmental Information System] \n
+[http://www.lreis.ac.cn/en/ State Key Laboratory of Resources and Environmental Information System] \n
 [http://english.igsnrr.cas.cn Institute of Geographic Sciences and Natural Resources Research],
 [http://english.cas.cn Chinese Academy of Sciences] \n
 
@@ -22,11 +22,17 @@ Assistant Professor \n
 - (*We are hiring!*) Our research group is looking for [https://mp.weixin.qq.com/s/ndp7TnAz-GP7wAHgvKrS9w postdoc] 
 and [https://mp.weixin.qq.com/s/Ruz2HNJ0tZvAtjmjlj9VjQ guest graduate/undergraduate students]
 in the field of geospatial intelligent Analysis and computing. 
-The research content involves the research and system implementation of intelligent geographic computing services
-and parallel geographic computing under the framework of cloud computing. 
+The work involves research and system implementation of intelligent geographic computing services
+and parallel geographic computing under the framework of cloud-native environment. 
 Interested? Contact us immediatedly!
+- (2023-05-26) The follow-up study of the [/BMPsOptRoadmap-WRR.html methodology paper in WRR],
+the design and evaluation study of a web-based participatory watershed planning system, titled
+[/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of a web-based participatory
+watershed planning system for optimizing multistage implementation plans of management practices under stepwise investment]
+has been acceped by Journal of Environmental Management.
 - (2023-05-23) The postdoctoral work of Dr. Shen Shen, whom I co-supervised with Prof. Qin, titled
-[/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment],
+[/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
+with time-varying effectiveness under stepwise investment],
 has been accepted by Water Resources Research. 
 Based on our work on spatial optimization of BMP scenarios\[[/BMPsOptSlpPos-JSWC.html 1], [/BMPsCfgUnitsCmp_Water.html 2]\],
 considering the critical realistic factor that a BMP scenario cannot be implemented at a time and investments
@@ -37,30 +43,16 @@ The proposed framework was implemented based on the [/SEIMSFramework_EMS.html SE
 demonstrated in an agricultural watershed case study. The proposed novel idea of extending the spatial optimization of BMPs
 to the spatio-temporal level by considering the stepwise investment is of great significance to BMP scenario analysis.
 - (2023-02-24) The undergraduate thesis work of Tong Wu, whom I co-supervised with Prof. Qin, titled
-[/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+]
-has been published in the Journal of Hydrology. This work builds upon the fundamental idea we proposed in 2018 of [/BMPsOptSlpPos-JSWC.html optimizing watershed BMPs based on slope position units].
-It clarified the concept of priority management areas (PMA) in a watershed and proposed that landscape position units are more suitable to be used as PMA identification units than subbasin units.
-The work summarizes and improves a framework for identifying PMAs using spatial units with upstream and downstream relationships as identification units. The framework is implemented using the SWAT+
+[/PMAIdentifySlpPos-JoH.html Identification of watershed priority management areas
+based on landscape positions: An implementation using SWAT\+]
+has been published in the Journal of Hydrology.
+This work builds upon the fundamental idea we proposed in 2018 of
+[/BMPsOptSlpPos-JSWC.html optimizing watershed BMPs based on slope position units].
+It clarified the concept of priority management areas (PMA) in a watershed and proposed that
+landscape position units are more suitable to be used as PMA identification units than subbasin units.
+The work summarizes and improves a framework for identifying PMAs using spatial units with upstream and downstream
+relationships as identification units. The framework is implemented using the SWAT+
 model and an improved Markov chain-based surrogate model for pollutant source apportionment.
-- (2021-11-05) I attended the 28th International Conference on Geoinformatics online (2021 CPGIS Annual Conference),
-and give an oral presentention entitled "A modular and parallelized modeling framework for distributed watershed modeling and scenario analysis".
-[ppts/2021-GeoinformaticsCPGIS-SEIMS-watershedmodeling&scenarioanalysis-zhulj2021-11-05.pdf Download PPT]
-([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2021-GeoinformaticsCPGIS-SEIMS-watershedmodeling%26scenarioanalysis-zhulj2021-11-05.pdf alternative download link])
-- (2020-10-12) On the invitation of Professor [https://spatial.usc.edu/team-view/john-p-wilson/ John Wilson],
-Professor [http://people.ucas.ac.cn/~qincz Cheng-Zhi Qin] and I wrote an entry about Geospatial data Input\/Output
-(IO) libraries--[https://gistbok.ucgis.org/bok-topics/gdalogr-and-geospatial-data-io-libraries GDAL/OGR and Geospatial Data IO Libraries]
-for [https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge GIS&T Body of Knowledge].
-- (2020-09-15) I attend the 10th iEMSs conference, the [https://iemss2020.com/ iEMSs2020] meeting (online),
-organized by the [https://www.iemss.org/ iEMSs Society], and give an oral presentation entitled "New optimization framework
-of watershed best management practice scenarios in a unit-boundary adaptive manner" to introduce our latest paper published
-in /Progress in Physical Geography: Earth and Environment/. [/BMPsBoundaryOpt-PPG.html Read Paper] and
-[ppts/2020-iEMSsBrusselsOnline-BMPsOptBoundaryAdaptive-zhulj2020-9-15.pdf Download PPT]
-  ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2020-iEMSsBrusselsOnline-BMPsOptBoundaryAdaptive-zhulj2020-9-15.pdf alternative download link]).
-- (2020-06-03) The core part of my PhD dissertation [/BMPsBoundaryOpt-PPG.html Spatial optimization of watershed best management practice scenarios
-based on boundary-adaptive configuration units] has been accepted by /Progress in Physical Geography: Earth and Environment/.
-Published [https://journals.sagepub.com/doi/abs/10.1177/0309133320939002 online] on Jul. 28 and finally on Volume 45 Issue 2 (Apr. 4, 2021).
-More details can be found in my [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/thesis/phd-thesis-ljzhu.pdf PhD thesis]
-(written in Chinese with English abstract).
 
 [/news.html More news...]
 
@@ -69,9 +61,9 @@ More details can be found in my [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/
 == Research Interests
    - Watershed process modeling framework
 
-   - Spatio-temporal optimization of best management practices (BMPs)
+   - Spatiotemporal optimization of best management practices (BMPs)
 
-   - Intelligent geocomputation
+   - Intelligent geomodeling and geocomputation
 
 == Contact Information
 

@@ -1,0 +1,44 @@
+# jemdoc: menu{MENU}{BMPsOptRoadmapDSS-JEMA.zh.html}, backlink, notime, analytics{G-G179QT8S4B-1}
+== From scenario to roadmap: Design and evaluation of a web-based participatory watershed planning system for optimizing multistage implementation plans of management practices under stepwise investment (从情景到路线图：考虑分阶段投资的参与式流域管理措施实施路线图规划系统的设计与验证)
+申申, 秦承志, *朱良君\**, 朱阿兴
+
+[/BMPsOptRoadmapDSS-JEMA.html English version]
+
+== 概述
+
+
+== 软件
+  - 开源项目地址：[https://github.com/lreis2415/WatershedPlanningSystem github.com\/lreis2415\/WatershedPlanningSystem].
+
+== 会议报告
+
+== 评审历史
+  - *投稿*: 2023-02-09; [review_history/BMPsOptRoadmapDSS-JEMA/submission.pdf Manuscript-Submission]
+  - 审稿中: 2023-02-13; 审稿人分别于2月14号和23号接受审稿请求，并于2月27号和28号完成审稿
+  - 审稿完成: 2023-02-28
+  - *编辑决定 (修后可考虑发表)*: 2023-03-01; [review_history/BMPsOptRoadmapDSS-JEMA/Decision-1st-consider_after_revision.pdf Decision Letter]
+  - *修后返回*: 2023-03-23; [review_history/BMPsOptRoadmapDSS-JEMA/revision1.pdf Manuscript-Revision], [review_history/BMPsOptRoadmapDSS-JEMA/responses1.pdf Revisions and responses]
+  - 编辑处理中: 2023-03-23
+  - 审稿中: 2023-03-26; 审稿人分别于3月27号和29号接受审稿请求，并于3月28号和4月11号完成审稿
+  - 审稿完成: 2023-04-11
+  - *编辑决定 (修后可考虑发表)*: 2023-04-17; [review_history/BMPsOptRoadmapDSS-JEMA/Decision-2nd-consider_after_revision.pdf Decision Letter]
+  - *修后返回*: 2023-05-03; [review_history/BMPsOptRoadmapDSS-JEMA/revision2.pdf Manuscript-Revision], [review_history/BMPsOptRoadmapDSS-JEMA/responses2.pdf Revisions and responses]
+  - 编辑处理中: 2023-05-03, status updated on 05-04
+  - 审稿中: 2023-05-10; 审稿人分别于5月10号和11号接受审稿请求，并于5月12号和16号完成审稿
+  - 审稿完成: 2023-05-16
+  - *编辑决定 (提供所需要信息后接收，文章无需再修改)*: 2023-05-20; [review_history/BMPsOptRoadmapDSS-JEMA/Decision-3rd-accept_without_revision.pdf Decision Letter]
+  - *修后返回*: 2023-05-23; [review_history/BMPsOptRoadmapDSS-JEMA/revision3.pdf Manuscript-Revision], [review_history/BMPsOptRoadmapDSS-JEMA/responses3.pdf Revisions and responses]
+  - 编辑处理中: 2023-05-24
+  - *编辑决定 (接收)*: 2023-05-26; [review_history/BMPsOptRoadmapDSS-JEMA/Decision-Accept.pdf Decision Letter]
+
+== 引用格式
+
+Shen, S., Qin, C.Z., Zhu, L.J., and Zhu, A.X. *2023*.
+From scenario to roadmap: Design and evaluation of a web-based participatory watershed planning system for
+optimizing multistage implementation plans of management practices under stepwise investment.
+/Journal of Environmental Management/.
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

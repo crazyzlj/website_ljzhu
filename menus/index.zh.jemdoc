@@ -22,6 +22,10 @@
 和[https://mp.weixin.qq.com/s/Ruz2HNJ0tZvAtjmjlj9VjQ 客座研究生或实习大学生]，
 研究内容涉及云计算架构下智能化地理计算服务、地理计算并行化等方法研究与系统实现。
 欢迎感兴趣的同仁、同学们直接联系我们！
+- (2023-05-26) 我们[/BMPsOptRoadmap-WRR.zh.html WRR方法文章]的后续、参与式流域管理措施实施路线图规划系统的设计与验证文章
+[/BMPsOptRoadmapDSS-JEMA.zh.html From scenario to roadmap: Design and evaluation of a web-based participatory
+watershed planning system for optimizing multistage implementation plans of management practices under stepwise investment]
+被Journal of Environmental Management接收发表。
 - (2023-05-23) 参与指导的博士后申申在博后期间的核心工作在Water Resources Research发表，题为
 [/BMPsOptRoadmap-WRR.zh.html Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment (逐步投资约束下考虑BMP时变效益的流域管理措施实施方案优化方法)],
 该工作以我们BMP空间优化的工作\[[/BMPsOptSlpPos-JSWC.zh.html 1], [/BMPsCfgUnitsCmp_Water.zh.html 2]\]为基础，
@@ -32,30 +36,6 @@
 [/PMAIdentifySlpPos-JoH.zh.html Identification of watershed priority management areas based on landscape positions: An implementation using SWAT\+ (基于坡位单元的流域优先控制区识别)]，
 该工作基于我们2018年提出的[/BMPsOptSlpPos-JSWC.zh.html 采用坡位单元作为BMP空间配置单元]的基本思想，对流域优先控制区（PMA）概念进行了辨析，提出坡位单元是比子流域单元跟能兼顾空间详略程度和通用性的识别单元，
 归纳完善了一套支持具有上下游关系的空间单元作为识别单元的优先控制区识别方法框架，并基于SWAT+模型和改进的基于马尔科夫链的污染来源解析代理模型进行了方法实现和案例研究。
-- (2021-11-05) 参加在线举办的CPGIS2021年年会（第28届国际Geoinformatics会议），并做了题为
-《A modular and parallelized modeling framework for distributed watershed modeling and scenario analysis》的报告，
-[ppts/2021-GeoinformaticsCPGIS-SEIMS-watershedmodeling&scenarioanalysis-zhulj2021-11-05.pdf 会议PPT下载]
-([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2021-GeoinformaticsCPGIS-SEIMS-watershedmodeling%26scenarioanalysis-zhulj2021-11-05.pdf 备用下载链接])。
-- (2021-09-25) 参加在长春举行的中国地理学会地理模型与地理信息分析学术年会，并做了题为
-《基于地理对象的流域管理措施空间配置优化方法》的报告，[ppts/2021-GeoModelAnnualConf-BMPSpatialConfigOptimiz-zhulj2021-09-25.pdf 会议PPT下载]
-([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2021-GeoModelAnnualConf-BMPSpatialConfigOptimiz-zhulj2021-09-25.pdf 备用下载链接])。
-- (2021-04-21) 参与指导的硕士生史亚星的硕士论文工作在地球信息科学学报上发表，题为
-[https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&filename=DQXX202104003&dbname=CJFDAUTO 基于坡位-地块单元的流域最佳管理措施空间优化配置方法]，
-该工作是在我们2018年提出[/BMPsOptSlpPos-JSWC.zh.html 采用坡位单元作为BMP空间配置单元]工作基础上的进一步探索，通过结合体现自然特点的坡位单元和体现人为影响的地块单元，
-在BMP情景优化中有效地综合体现BMP与地形部位间的空间关系以及同一地形部位内不同土地利用斑块上的BMP差异。
-- (2020-10-12) 应[https://spatial.usc.edu/team-view/john-p-wilson/ John Wilson]教授邀请，[http://people.ucas.ac.cn/~qincz 秦承志研究员]与我合作为
-[https://gistbok.ucgis.org/bok-basic-page/welcome-gist-body-knowledge GIS&T Body of Knowledge]撰写了关于地理空间数据读写编程库的词条，即
-[https://gistbok.ucgis.org/bok-topics/gdalogr-and-geospatial-data-io-libraries GDAL/OGR and Geospatial Data IO Libraries]。
-- (2020-09-15) 参加由[https://www.iemss.org/ iEMSs协会]举办的第10届年会[https://iemss2020.com/ iEMSs2020]（线上），
-并做了题为“New optimization framework of watershed best management practice scenarios in a unit-boundary adaptive manner”的口头报告，
-介绍了我们最新发表在/Progress in Physical Geography: Earth and Environment/上的文章。[/BMPsBoundaryOpt-PPG.zh.html 文章介绍]、
-[ppts/2020-iEMSsBrusselsOnline-BMPsOptBoundaryAdaptive-zhulj2020-9-15.pdf 会议PPT下载]
-（[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2020-iEMSsBrusselsOnline-BMPsOptBoundaryAdaptive-zhulj2020-9-15.pdf 备用下载链接]）。
-- (2020-06-03) 我的博士论文核心工作[/BMPsBoundaryOpt-PPG.zh.html Spatial optimization of watershed best management practice scenarios based on
-boundary-adaptive configuration units (基于边界自适应配置单元的流域最佳管理措施情景空间优化)]
-被自然地理学领域最前沿的综合性学术期刊/Progress in Physical Geography: Earth and Environment/正式接收。
-于7月28日[https://journals.sagepub.com/doi/abs/10.1177/0309133320939002 在线发表]，并于2021年4月8日在第45卷第2期上刊出。
-详细内容也可参阅我的[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/thesis/phd-thesis-ljzhu.pdf 博士论文]。
 
 [/news.zh.html 更多动态...]
 ~~~
@@ -65,7 +45,7 @@ boundary-adaptive configuration units (基于边界自适应配置单元的流�
 
    - 流域最佳管理措施（BMPs）时空优化
 
-   - 智能地学计算
+   - 地理建模智能化
 
 == 联系方式
 
