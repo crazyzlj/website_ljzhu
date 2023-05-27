@@ -1,19 +1,23 @@
 # jemdoc: menu{MENU.zh}{research_summary.zh.html}, notime, backlink, analytics{G-G179QT8S4B-1}
 == 研究概况
-主要从事*流域过程模拟与情景分析方向*的研究
+主要从事*流域过程建模与情景分析方向*的研究
 
 [/research_summary.html English version]
 
-主要针对的科学问题是如何在基于分布式流域过程模拟的情景分析方法中有效考虑空间关系
-（如坡面上不同管理措施\[BMP\]之间的空间配置关系)，
-在多目标优化算法和高性能计算的支持下实现流域管理措施情景优化的易用化和决策支持化
-（[/ReviewNewParadigm_ProgInGeo.zh.html 朱阿兴等, 地理科学进展, 2019]）。
+聚焦流域过程建模与情景分析方向，以精细化流域综合治理为问题导向，以GIS强调的空间关系为切入点，开展方法与技术研究。
 
-围绕这一科学问题，针对分布式流域过程模拟和情景优化方法的并行化特点，
-设计实现了一个灵活、易用、高性能的流域过程模拟与情景分析建模框架[https://github.com/lreis2415/SEIMS SEIMS]
-（Spatially Explicit Integrated Modeling System；[/SEIMSFramework_EMS.zh.html Zhu等, /EM\&S/, 2019]）；
-随后以SEIMS为基础，提出了将坡位单元（如山脊、背坡、沟谷等）作为BMP空间配置单元的流域BMP情景优化方法
-（[/BMPsOptSlpPos-JSWC.zh.html Qin等, /JSWC/, 2018]），
-并通过与其他3种主要空间配置单元类型的对比讨论了所提方法的有效性（[/BMPsCfgUnitsCmp_Water.zh.html Zhu等, /Water/, 2019]），
-进而在模糊坡位信息自动化提取方法设计（[/AutoFuzSlpPos-GEMOR.zh.html Zhu等, /Geomorphology/, 2018]）
-的基础上，提出了基于模糊坡位信息的BMP空间配置单元边界动态优化方法（[/BMPsBoundaryOpt-PPG.zh.html Zhu等, /PPG/, 2020]）。
+精细化流域综合治理是在合理准确刻画流域多过程交互作用的基础上，回答何时何地实施何种最佳管理措施（BMP）可实现多治理目标最优化的问题。
+
+~~~
+{}{img_left}{images/base-research-framework-zh-2023-05.jpg}{Graph Abstract}{900}{}{images/base-research-framework-zh-2023-05.jpg}
+~~~
+
+- 设计实现了灵活可定制的高性能分布式流域系统综合建模框架（[/SEIMSFramework_EMS.zh.html Zhu等, 2019]），
+以促进高性能流域过程模型和情景分析工具的快速构建和精细、高效模拟；\n
+- 以此为底座，从空间配置单元入手，提出考虑BMP空间交互作用和单元边界动态调整的情景优化系列方法
+（[/BMPsOptSlpPos-JSWC.zh.html Qin等, 2018]; [/BMPsCfgUnitsCmp_Water.zh.html Zhu等, 2019];
+[/BMPsBoundaryOpt-PPG.zh.html Zhu等, 2021]）；\n
+- 进一步地，考虑流域管理情景分阶段落地的需求，提出分阶段投资约束下的BMP情景实施路线优化方法，首次将BMP情景优化从空间维扩展到时空维
+（[/BMPsOptRoadmap-WRR.zh.html Shen等, 2023a]）；
+- 为使所构建的方法和技术体系能推广应用于实际流域管理决策，正在研发易用的流域系统模拟与管理决策支持原型系统
+（[/BMPsOptRoadmapDSS-JEMA.zh.html Shen等, 2023b]）。
