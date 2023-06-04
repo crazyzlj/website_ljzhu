@@ -3,13 +3,18 @@
 
 [/publication.html English version]
 
-截至2023年5月，以第一作者或通讯作者发表论文*15*篇（其中SCI收录*8*篇），以非第一作者合作发表论文*12*篇（其中SCI\/SSCI收录*6*篇），
-主要发表于/Progress in Physical Geography/、/Environmental Modelling \& Software/、
-/Water Resources Research/、/Journal of Hydrology/、
+截至2023年6月，以第一作者或通讯作者发表论文*15*篇（其中SCI收录*8*篇），
+以非第一作者合作发表论文*12*篇（其中SCI\/SSCI收录*6*篇），
+主要发表于
+/Progress in Physical Geography/、
+/Environmental Modelling \& Software/、
+/Water Resources Research/、
+/Journal of Hydrology/、
 /Journal of Environmental Management/、
 /Journal of Soil and Water Conservation/、
 /Geomorphology/、
-/Geoderma/、/Earth Surface Processes and Landforms/、
+/Geoderma/、
+/Earth Surface Processes and Landforms/、
 地理科学进展、地球信息科学学报、水土保持学报
 等国内外地理过程建模和自然地理综合研究领域主流期刊。
 
@@ -22,7 +27,19 @@
 [http://orcid.org/0000-0001-6181-4313 ORCiD]。
 
 
-== 流域过程建模与最佳管理措施（BMP）情景优化
+== 流域过程建模与情景分析方向性综述
+   - [/ReviewNewParadigm_ProgInGeo.zh.html 流域系统综合模拟与情景分析——自然地理综合研究的新范式?] \n
+   朱阿兴, *朱良君\**, 史亚星, 秦承志, 刘军志 \n
+   地理科学进展, *2019*, 38(8):1111--1122.
+   doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
+
+== 流域过程建模
+   - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework (模块化并行化的流域建模框架)] \n
+   *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
+   /Environmental Modelling \& Software/, *2019*, 122, 104526. doi:
+   [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
+
+== 流域最佳管理措施（BMPs）时空优化
    - [/BMPsOptRoadmapDSS-JEMA.zh.html From scenario to roadmap: Design and evaluation of
    a web-based participatory watershed planning system for optimizing multistage
    implementation plans of management practices under stepwise investment
@@ -49,11 +66,6 @@
    /Progress in Physical Geography: Earth and Environment/, *2021*, 45(2):207--227.
    doi:[https://doi.org/10.1177/0309133320939002 10.1177\/0309133320939002]
 
-   - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework (模块化并行化的流域建模框架)] \n
-   *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
-   /Environmental Modelling \& Software/, *2019*, 122, 104526. doi:
-   [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
-
    - [/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for the spatial optimization of
    watershed best management practice scenarios (不同空间配置单元对流域最佳管理措施空间优化的影响)]\n
    *朱良君*, 秦承志\*, 朱阿兴, 刘军志, 吴辉 \n
@@ -64,11 +76,6 @@
    秦承志, 高会然, *朱良君\**, 朱阿兴, 刘军志, 吴辉 \n
    /Journal of Soil and Water Conservation/, *2018*, 73(5):504--517.
    doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
-
-   - [/ReviewNewParadigm_ProgInGeo.zh.html 流域系统综合模拟与情景分析——自然地理综合研究的新范式?] \n
-   朱阿兴, *朱良君\**, 史亚星, 秦承志, 刘军志 \n
-   地理科学进展, *2019*, 38(8):1111--1122.
-   doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
 
 == 数字地形分析
 
