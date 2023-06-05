@@ -30,13 +30,13 @@
 == 流域过程建模与情景分析方向性综述
    - [/ReviewNewParadigm_ProgInGeo.zh.html 流域系统综合模拟与情景分析——自然地理综合研究的新范式?] \n
    朱阿兴, *朱良君\**, 史亚星, 秦承志, 刘军志 \n
-   地理科学进展, *2019*, 38(8):1111--1122.
+   地理科学进展, *2019*, 38(8): 1111--1122.
    doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
 
 == 流域过程建模
    - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework (模块化并行化的流域建模框架)] \n
    *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
-   /Environmental Modelling \& Software/, *2019*, 122, 104526. doi:
+   /Environmental Modelling \& Software/, *2019*, 122: 104526. doi:
    [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
 == 流域最佳管理措施（BMPs）时空优化
@@ -51,7 +51,7 @@
    - [/BMPsOptRoadmap-WRR.zh.html Optimizing the implementation plan of watershed best management practices
    with time-varying effectiveness under stepwise investment (逐步投资约束下考虑BMP时变效益的流域管理措施实施次序优化方法)] \n
    申申, 秦承志, *朱良君\**, 朱阿兴 \n
-   /Water Resources Research/, *2023*, 59, e2022WR032986.
+   /Water Resources Research/, *2023*, 59(6): e2022WR032986.
    doi:[https://doi.org/10.1029/2022WR032986 10.1029\/2022WR032986]
 
    - [/PMAIdentifySlpPos-JoH.zh.html Identification of watershed priority management areas based on landscape positions:
@@ -63,23 +63,23 @@
    - [/BMPsBoundaryOpt-PPG.zh.html Spatial optimization of watershed best management practice scenarios based on
    boundary-adaptive configuration units (基于边界自适应配置单元的流域最佳管理措施情景空间优化)] \n
    *朱良君*, 秦承志\*, 朱阿兴 \n
-   /Progress in Physical Geography: Earth and Environment/, *2021*, 45(2):207--227.
+   /Progress in Physical Geography: Earth and Environment/, *2021*, 45(2): 207--227.
    doi:[https://doi.org/10.1177/0309133320939002 10.1177\/0309133320939002]
 
    - [/BMPsCfgUnitsCmp_Water.zh.html Effects of different spatial configuration units for the spatial optimization of
    watershed best management practice scenarios (不同空间配置单元对流域最佳管理措施空间优化的影响)]\n
    *朱良君*, 秦承志\*, 朱阿兴, 刘军志, 吴辉 \n
-   /Water/, *2019*, 11(2), 262. doi: [https://doi.org/10.3390/w11020262 10.3390\/w11020262]
+   /Water/, *2019*, 11(2): 262. doi: [https://doi.org/10.3390/w11020262 10.3390\/w11020262]
 
    - [/BMPsOptSlpPos-JSWC.zh.html Spatial optimization of watershed best management practices based on slope position units
    (基于坡位单元的流域最佳管理措施空间优化方法)] \n
    秦承志, 高会然, *朱良君\**, 朱阿兴, 刘军志, 吴辉 \n
-   /Journal of Soil and Water Conservation/, *2018*, 73(5):504--517.
+   /Journal of Soil and Water Conservation/, *2018*, 73(5): 504--517.
    doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
 
 == 数字地形分析
 
    - [/AutoFuzSlpPos-GEMOR.zh.html Automatic approach for deriving fuzzy slope positions (模糊坡位提取自动化方法)] \n
      *朱良君*, 朱阿兴, 秦承志\*, 刘军志 \n
-     /Geomorphology/, *2018*, 304:173--183.
+     /Geomorphology/, *2018*, 304: 173--183.
      doi: [https://doi.org/10.1016/j.geomorph.2017.12.024 10.1016\/j.geomorph.2017.12.024]
