@@ -35,6 +35,13 @@
   流域过程模拟与情景分析建模框架[https://github.com/lreis2415/SEIMS SEIMS]中。
   - 软件著作权：模糊坡位自动化提取软件 \[简称：AutoFuzSlpPos\] V1.0, 2016SR066599, 原始取得, 全部权利, 2015年10月12日.
 
+== 教程
+  - 国科大研究生普及课《流域分析与建模》课程实验——流域空间参数提取：
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/Installation.zip 配置环境所需安装文件]和
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/README-zhulj2023-03-07.pdf 简明操作手册]、
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/DTA-hillslope-slopeposition-2023.zip 程序及示例数据]、
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/PPT-zhulj2023-03-07.pdf 课程PPT]。
+
 == 评审历史
   - 投稿: 2017-01-16
   - 编辑: Dr. Takashi Oguchi (oguchi (at) csis.u-tokyo.ac.jp)

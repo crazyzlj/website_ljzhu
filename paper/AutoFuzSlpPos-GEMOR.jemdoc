@@ -50,6 +50,13 @@ geospatial analysis methods.*
   [ppts/2017-AAG-AutoFuzSlpPos-zhulj2017-4-8.pdf Download PPT]
   ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/ppts/2017-AAG-AutoFuzSlpPos-zhulj2017-4-8.pdf alternative download link])
 
+== Course
+  - (in Chinese)国科大研究生普及课《流域分析与建模》课程实验——流域空间参数提取：
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/Installation.zip Installation for environment] and
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/README-zhulj2023-03-07.pdf Brief manual],
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/DTA-hillslope-slopeposition-2023.zip Program and demo data],
+  [https://zhulj-blog.oss-cn-beijing.aliyuncs.com/AutoFuzSlpPos/CAScourse/PPT-zhulj2023-03-07.pdf PPT].
+
 == Review history
   - Submission: 2017-01-16
   - With Editor: Dr. Takashi Oguchi (oguchi (at) csis.u-tokyo.ac.jp)
