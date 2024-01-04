@@ -1,6 +1,6 @@
-# jemdoc: menu{MENU}{BMPsOptRoadmap-WRR.html}, backlink, notime, analytics{G-G179QT8S4B-1}
+# jemdoc: menu{MENU}{BMPsOptRoadmap-WRR.html}, backlink, notime
 == Optimizing the implementation plan of watershed best management practices with time-varying effectiveness under stepwise investment
-Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, and A-Xing Zhu 
+Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, and A-Xing Zhu
 
 [/BMPsOptRoadmap-WRR.zh.html 中文版]
 
@@ -16,7 +16,7 @@ during the implementation period. This study proposed a novel spatiotemporal opt
 factors: stepwise investment and the time-varying effectiveness of BMPs. The framework was implemented and demonstrated in an
 agricultural watershed to find near-optimal BMP implementation plans for controlling soil erosion. The comparative experiments
 demonstrated that if a small portion of environmental effectiveness could be temporarily sacrificed, optimizations considering
-stepwise investment could provide more feasible implementation plans with lower financial pressure, especially in the first year of implementation. 
+stepwise investment could provide more feasible implementation plans with lower financial pressure, especially in the first year of implementation.
 
 == Code availablility
   - Open source at [https://github.com/lreis2415/SEIMS github.com\/lreis2415\/SEIMS].

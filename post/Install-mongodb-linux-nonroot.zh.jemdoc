@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU.zh}{Install-mongodb-linux-nonroot.zh.html}, backlink, notime, analytics{G-G179QT8S4B-1}
+# jemdoc: menu{MENU.zh}{Install-mongodb-linux-nonroot.zh.html}, backlink, notime
 ==Linux下非root用户安装及配置MongoDB数据库
 
 [/Install-mongodb-linux-nonroot.html English version]

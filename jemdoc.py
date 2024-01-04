@@ -1447,8 +1447,9 @@ def procfile(f):
 
     out(f.outf, f.conf['bodystart'])
 
-    if f.analytics:
-        hb(f.outf, f.conf['analytics'], f.analytics)
+    #if f.analytics:
+    #    hb(f.outf, f.conf['analytics'], f.analytics)
+    out(f.outf, f.conf['analytics'])
 
     if fwtitle:
         out(f.outf, f.conf['fwtitlestart'])

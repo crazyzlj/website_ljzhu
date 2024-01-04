@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{Update-swat-database-from-swatcup.html}, backlink, notime, analytics{G-G179QT8S4B-1}
+# jemdoc: menu{MENU}{Update-swat-database-from-swatcup.html}, backlink, notime
 ==Automatically write Calibrated parameters by SWAT-CUP (model.in) back to SWAT Access database (.mdb)
 
 [/Update-swat-database-from-swatcup.zh.html 中文版]
