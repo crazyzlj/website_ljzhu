@@ -15,13 +15,17 @@ framework for short) has demonstrated considerable potential in recent years.
 
 To address challenges arising from practical applications of this framework, this study systematically conducted
 the methodological research:
+
 1) proposing a novel watershed process modeling framework that strikes a balance between modeling flexibility
 and high-performance computing to model and simulate watershed systems efficiently;
+
 2) introducing slope position units as BMP configuration units and enabling dynamic boundary adjustments
 during scenario optimization, effectively incorporating practical knowledge of watershed management
 to ensure reasonable outcomes;
+
 3) presenting an optimization method for determining the implementation orders of BMPs that considers
 stepwise investment constraints, thereby recommending feasible roadmaps that meet practical needs;
+
 and 4) designing a user-friendly participatory watershed planning system to facilitate collaborative
 decision-making among stakeholders. The effectiveness and practical value of these new methods, tools,
 and prototype systems are validated through application cases in a representative small watershed.

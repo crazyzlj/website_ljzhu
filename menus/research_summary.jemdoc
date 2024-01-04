@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{research_summary.html}, notime, backlink, analytics{G-G179QT8S4B-1}
 == Research summary
-My research focuses on watershed process modeling and scenario analysis.
+My research focuses on watershed process modeling and scenario optimization.
 
 [/research_summary.zh.html 中文版]
 
@@ -11,21 +11,22 @@ The main scientific problem is focusing on how to effectively consider the spati
 scenario analysis based on distributed watershed process modeling, then achieving the high efficient
 and easy-to-use decision support for watershed comprehensive management with the incorporation of
 multi-objective optimization algorithms and high-performance computing technique
-([/ReviewNewParadigm_ProgInGeo.html Zhu /et al/., /Progress in Geography (in Chinese)/, 2019]).
+([/ReviewNewParadigm_ProgInGeo.html Zhu, A.X. /et al/., 2019]).
 
 First, a flexible, easy-to-use and high-performance watershed process modeling framework namely
 [https://github.com/lreis2415/SEIMS SEIMS]
-(Spatially Explicit Integrated Modeling System；[/SEIMSFramework_EMS.html Zhu /et al/., /EM\&S/, 2019])
+(Spatially Explicit Integrated Modeling System；[/SEIMSFramework_EMS.html Zhu /et al/., 2019a])
 was designed and implemented according to computation characteristics of scenario optimization based on
 distributed watershed process models. Then, the slope position units (such as ridge, backslope, valley, etc.)
 were proposed to be used as spatial units for BMP allocation
-([/BMPsOptSlpPos-JSWC.html Qin /et al/., /JSWC/, 2018]),
+([/BMPsOptSlpPos-JSWC.html Qin /et al/., 2018]),
 and the effectiveness and efficiency of the proposed method were discussed by comparing with other three
-main types of BMP configuration units ([/BMPsCfgUnitsCmp_Water.html Zhu /et al/., /Water/, 2019]).
+main types of BMP configuration units ([/BMPsCfgUnitsCmp_Water.html Zhu /et al/., 2019b]).
 Furthermore, based on the automation of extracting fuzzy slope position information
-([/AutoFuzSlpPos-GEMOR.html Zhu /et al/., /Geomorphology/, 2018]),
+([/AutoFuzSlpPos-GEMOR.html Zhu /et al/., 2018]),
 a novel BMP scenario optimization method based on the boundary­-adaptive slope po­sition units was proposed
-([/BMPsBoundaryOpt-PPG.html Zhu /et al/., /PPG/, 2021]).
-- The methodological studies formed a method framework for the decision-making of precision watershed management
+([/BMPsBoundaryOpt-PPG.html Zhu /et al/., 2021]).
+
+The methodological studies formed a method framework for the decision-making of precision watershed management
 based on the "simulation-optimization" framework
-([/ReviewSimOpt4PrecMgt_ActaGeo.html Qin /et al/., ACTA GEOGRAPHICA SINICA, 2024]).
+([/ReviewSimOpt4PrecMgt_ActaGeo.html Qin /et al/., 2024]).
