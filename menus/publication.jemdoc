@@ -3,17 +3,17 @@
 
 [/publication.zh.html 中文版]
 
-As of Jun. 2023, totally *15* peer-reviewed journal articles
-(including *8* SCI\/SSCI-indexed papers and 1 EI-indexed paper)
+As of Jan. 2024, totally *16* peer-reviewed journal articles
+(including *8* SCI\/SSCI-indexed papers and 2 EI-indexed paper)
 as the first author and\/or corresponding author,
-*12* peer-reviewed journal articles
-(including *6* SCI\/SSCI-indexed papers and 2 EI-indexed papers)
+*13* peer-reviewed journal articles
+(including *7* SCI\/SSCI-indexed papers and 1 EI-indexed papers)
 as co-author have been published.
 These papers are published on mainstream journals of
 geographic process modeling and integrated physical geography,
 such as
-/Progress in Physical Geography/,
 /Environmental Modelling \& Software/,
+/Progress in Physical Geography/,
 /Water Resources Research/,
 /Journal of Hydrology/,
 /Journal of Environmental Management/,
@@ -35,6 +35,14 @@ or [https://publons.com/author/1582900/liang-jun-zhu Web of Science ResearcherID
 for a full list.
 
 == Reviews
+
+   - [/ReviewSimOpt4PrecMgt_ActaGeo.html Simulation-and-optimization-based methods for
+   supporting decision-making of precision watershed management (/in Chinese with English abstract/)] \n
+   Cheng-Zhi Qin, *Liang-Jun Zhu\**, Shen Shen, Tong Wu, Guirong Xiao, Sheng Wu, Yunzhi Chen, Xiaoqin Wang,
+   Xianfeng Feng, A-Xing Zhu, Feng Lu \n
+   /ACTA GEOGRAPHICA SINICA/, *2024*, 79(1): xx--xxx.
+   doi:[https://doi.org/10.11821/dlxb202401006 10.11821\/dlxb202401006]
+
    - [/ReviewNewParadigm_ProgInGeo.html Integrated watershed modeling and scenario analysis:
       a new paradigm for integrated study of physical geography? (/in Chinese with English abstract/)] \n
       A-Xing Zhu, *Liang-Jun Zhu\**, Ya-Xing Shi, Cheng-Zhi Qin, and Junzhi Liu \n
@@ -81,7 +89,7 @@ for a full list.
    - [/BMPsOptSlpPos-JSWC.html Spatial optimization of watershed best management practices based on slope position units] \n
    Cheng-Zhi Qin, Hui-Ran Gao, *Liang-Jun Zhu\**, A-Xing Zhu, Jun-Zhi Liu, and Hui Wu \n
    /Journal of Soil and Water Conservation/, *2018*, 73(5): 504--517.
-   doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]   
+   doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
 
 == Digital terrain analysis
    - [/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions] \n

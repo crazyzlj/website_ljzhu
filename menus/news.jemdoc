@@ -4,6 +4,15 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2023-12-19) In recent years, we have conducted a series of methodological studies in
+watershed process modeling and scenario analysis of management practices into a method system for
+the decision-making of precision watershed management based on the "simulation-optimization" framework.
+The method framework is universal and scalable. It does not depend on factors such as the specific
+implementation of the watershed process model, the types of watershed management practices and their
+modeling methods, and the knowledge of the spatiotemporal configuration of management practices.
+The review paper, titled [/ReviewSimOpt4PrecMgt_ActaGeo.html Simulation-and-optimization-based methods for
+supporting decision-making of precision watershed management (/in Chinese with English abstract/)],
+has been accepted by ACTA GEOGRAPHICA SINICA.
 - (2023-05-26) The follow-up study of the [/BMPsOptRoadmap-WRR.html methodology paper in WRR],
 the design and evaluation study of a web-based participatory watershed planning system, titled
 [/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of a web-based participatory
@@ -12,7 +21,7 @@ has been acceped by Journal of Environmental Management.
 - (2023-05-23) The postdoctoral work of Dr. Shen Shen, whom I co-supervised with Prof. Qin, titled
 [/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
 with time-varying effectiveness under stepwise investment],
-has been accepted by Water Resources Research. 
+has been accepted by Water Resources Research.
 Based on our work on spatial optimization of BMP scenarios\[[/BMPsOptSlpPos-JSWC.html 1], [/BMPsCfgUnitsCmp_Water.html 2]\],
 considering the critical realistic factor that a BMP scenario cannot be implemented at a time and investments
 often restrict this, this study proposes a new simulation-optimization framework for the implementation plan of BMPs

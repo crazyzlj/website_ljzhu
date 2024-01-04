@@ -1,0 +1,49 @@
+# jemdoc: menu{MENU}{ReviewSimOpt4PrecMgt_ActaGeo.html}, backlink, notime, analytics{G-G179QT8S4B-1}
+== Simulation-and-optimization-based methods for supporting decision-making of precision watershed management
+Cheng-Zhi Qin, *Liang-Jun Zhu\**, Shen Shen, Tong Wu, Guirong Xiao, Sheng Wu, Yunzhi Chen, Xiaoqin Wang, Xianfeng Feng, A-Xing Zhu, and Feng Lu
+
+[/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 中文版]
+
+== Overview
+The construction of China’s ecological civilization, known as “Beautiful China,”
+necessitates implementing precision watershed management through scientifically informed decision-making.
+This entails optimizing the spatial distribution of watershed best management practices (the so-called BMP scenario)
+and proposing multistage implementation plans, or roadmaps, that align with practical requirements based on
+the overarching vision of comprehensive watershed management.
+The “watershed system simulation-scenario optimization” method framework (the simulation-and-optimization-based
+framework for short) has demonstrated considerable potential in recent years.
+
+To address challenges arising from practical applications of this framework, this study systematically conducted
+the methodological research:
+1) proposing a novel watershed process modeling framework that strikes a balance between modeling flexibility
+and high-performance computing to model and simulate watershed systems efficiently;
+2) introducing slope position units as BMP configuration units and enabling dynamic boundary adjustments
+during scenario optimization, effectively incorporating practical knowledge of watershed management
+to ensure reasonable outcomes;
+3) presenting an optimization method for determining the implementation orders of BMPs that considers
+stepwise investment constraints, thereby recommending feasible roadmaps that meet practical needs;
+and 4) designing a user-friendly participatory watershed planning system to facilitate collaborative
+decision-making among stakeholders. The effectiveness and practical value of these new methods, tools,
+and prototype systems are validated through application cases in a representative small watershed.
+
+This research contributes to advancing precision watershed management and provides valuable insights
+for sustainable ecological development.
+The methods proposed within the simulation-and-optimization-based framework in this study are universal methods,
+which means their application does not depend on the specific implementation, such as the watershed process model,
+the BMP types considered, the designed BMP configuration strategy, and so on.
+
+Further studies should be conducted not only to deepen related theory and method research but also
+to strengthen promotion and application, especially cooperating with local watershed management agents
+to provide valuable insights for their sustainable ecological development.
+
+== Citation
+
+Qin, C.Z., Zhu, L.J., Shen, S., Wu, T., Xiao, G., Wu, S., Chen, Y., Wang, X., Feng, X., Zhu, A.X., Lu, F. *2024*.
+Simulation-and-optimization-based methods for supporting decision-making of precision watershed management.
+/ACTA GEOGRAPHICA SINICA/ (/in Chinese with English abstract/), 79(1):xx–xx.
+doi:[https://doi.org/10.11821/dlxb202401006 10.11821\/dlxb202401006]
+
+~~~
+{}{raw}
+<a href="javascript:history.go(-1)" onMouseOver="self.status=document.referrer;return true">&laquo; Back</a>
+~~~

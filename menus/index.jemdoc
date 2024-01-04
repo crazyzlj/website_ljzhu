@@ -4,7 +4,7 @@
 ~~~
 {}{img_left}{images/portrait_ljzhu.jpg}{portrait_ljzhu}{200px}{}{}
 Liang-Jun Zhu, Ph.D. \n
-Assistant Professor \n
+Associate Professor \n
 
 \<a href=\'https:\/\/scholar.google.com\/citations?user=FkNIpcQAAAAJ&hl\' target=\'blank\'\>\<img alt=\"Google Scholar\" src=\"styles\/google.jpg\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
 \<a href=\'https:\/\/www.researchgate.net\/profile\/Liang\_Jun\_Zhu\' target=\'blank\'\>\<img alt=\"Research Gate\" src=\"styles\/researchgate.png\" align=\"left\" style=\"padding-right:8px\" height=\"20\" width=20\>\<\/a\>
@@ -19,12 +19,21 @@ Assistant Professor \n
 == Recent News
 
 ~~~
-- (*We are hiring!*) Our research group is looking for [https://mp.weixin.qq.com/s/ndp7TnAz-GP7wAHgvKrS9w postdoc] 
+- (*We are hiring!*) Our research group is looking for [https://mp.weixin.qq.com/s/ndp7TnAz-GP7wAHgvKrS9w postdoc]
 and [https://mp.weixin.qq.com/s/Ruz2HNJ0tZvAtjmjlj9VjQ guest graduate/undergraduate students]
-in the field of geospatial intelligent Analysis and computing. 
+in the field of geospatial intelligent Analysis and computing.
 The work involves research and system implementation of intelligent geographic computing services
-and parallel geographic computing under the framework of cloud-native environment. 
+and parallel geographic computing under the framework of cloud-native environment.
 Interested? Contact us immediatedly!
+- (2023-12-19) In recent years, we have conducted a series of methodological studies in
+watershed process modeling and scenario analysis of management practices into a method system for
+the decision-making of precision watershed management based on the "simulation-optimization" framework.
+The method framework is universal and scalable. It does not depend on factors such as the specific
+implementation of the watershed process model, the types of watershed management practices and their
+modeling methods, and the knowledge of the spatiotemporal configuration of management practices.
+The review paper, titled [/ReviewSimOpt4PrecMgt_ActaGeo.html Simulation-and-optimization-based methods for
+supporting decision-making of precision watershed management (/in Chinese with English abstract/)],
+has been accepted by ACTA GEOGRAPHICA SINICA.
 - (2023-05-26) The follow-up study of the [/BMPsOptRoadmap-WRR.html methodology paper in WRR],
 the design and evaluation study of a web-based participatory watershed planning system, titled
 [/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of a web-based participatory
@@ -33,7 +42,7 @@ has been acceped by Journal of Environmental Management.
 - (2023-05-23) The postdoctoral work of Dr. Shen Shen, whom I co-supervised with Prof. Qin, titled
 [/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
 with time-varying effectiveness under stepwise investment],
-has been accepted by Water Resources Research. 
+has been accepted by Water Resources Research.
 Based on our work on spatial optimization of BMP scenarios\[[/BMPsOptSlpPos-JSWC.html 1], [/BMPsCfgUnitsCmp_Water.html 2]\],
 considering the critical realistic factor that a BMP scenario cannot be implemented at a time and investments
 often restrict this, this study proposes a new simulation-optimization framework for the implementation plan of BMPs
