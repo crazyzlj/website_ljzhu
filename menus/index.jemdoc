@@ -31,9 +31,9 @@ the decision-making of precision watershed management based on the "simulation-o
 The method framework is universal and scalable. It does not depend on factors such as the specific
 implementation of the watershed process model, the types of watershed management practices and their
 modeling methods, and the knowledge of the spatiotemporal configuration of management practices.
-The review paper, titled [/ReviewSimOpt4PrecMgt_ActaGeo.html Simulation-and-optimization-based methods for
-supporting decision-making of precision watershed management (/in Chinese with English abstract/)],
-has been accepted by ACTA GEOGRAPHICA SINICA.
+The review paper, titled [/ReviewSimOpt4PrecMgt_ActaGeo.html Methods for supporting decision-making of
+precision watershed management based on watershed system simulation and scenario optimization
+(/in Chinese with English abstract/)], has been accepted by ACTA GEOGRAPHICA SINICA.
 - (2023-05-26) The follow-up study of the [/BMPsOptRoadmap-WRR.html methodology paper in WRR],
 the design and evaluation study of a web-based participatory watershed planning system, titled
 [/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of a web-based participatory

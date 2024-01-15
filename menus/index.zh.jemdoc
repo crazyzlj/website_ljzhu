@@ -23,9 +23,9 @@
 研究内容涉及云计算架构下智能化地理计算服务、地理计算并行化等方法研究与系统实现。
 欢迎感兴趣的同仁、同学们直接联系我们！
 - (2023-12-19) 我们将近年来在流域系统综合模拟与管理措施情景分析方向的一系列方法研究成果梳理为一套
-基于“模拟—优化”框架的流域精细治理决策支持方法体系，方法框架具有通用性和可扩展性，
+基于流域系统模拟一情景优化的精细治理决策支持方法体系，方法框架具有通用性和可扩展性，
 不依赖于具体实现中的流域过程模型、流域管理措施类型及其模拟方法、管理措施的时空配置知识等因素。
-该成果综述[/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 基于“模拟—优化”的流域精细治理决策支持方法]被地理学报接收发表。
+该成果综述[/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 基于流域系统模拟一情景优化的精细治理决策支持方法]被地理学报接收发表。
 - (2023-05-26) 我们[/BMPsOptRoadmap-WRR.zh.html WRR方法文章]的后续、参与式流域管理措施实施路线图规划系统的设计与验证文章
 [/BMPsOptRoadmapDSS-JEMA.zh.html From scenario to roadmap: Design and evaluation of a web-based participatory
 watershed planning system for optimizing multistage implementation plans of management practices under stepwise investment]
