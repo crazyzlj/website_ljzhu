@@ -24,7 +24,7 @@ units can significantly enlarge the search space for optimal solutions and obtai
 better cost-effectiveness and higher optimization efficiency.
 
 *The proposed optimization approach provides a new framework for spatial optimization of BMP scenarios*,
-in which other watershed models, intelligent optimization algorithms, and BMP configuration units available
+in which other watershed models, optimization algorithms, and BMP configuration units available
 for boundary adjustment can be alternatively applied to BMP scenario optimization in a boundary-adaptive manner.
 
 This study also exemplifies the potential of transforming the qualitative, vague, and empirical geographical

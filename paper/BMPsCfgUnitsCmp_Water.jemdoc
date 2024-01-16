@@ -19,7 +19,7 @@ This paper *investigated and compared the effects of four main types of spatial 
 BMP scenarios optimization*, i.e., HRUs, spatially explicit HRUs, hydrologically connected fields, and
 slope position units (i.e., landform positions at hillslope scale).
 The BMP scenarios optimization was conducted based on a fully distributed watershed modeling framework
-named the Spatially Explicit Integrated Modeling System (SEIMS) and an intelligent optimization algorithm
+named the Spatially Explicit Integrated Modeling System (SEIMS) and an optimization algorithm
 (i.e., NSGA-II, short for Non-dominated Sorting Genetic Algorithm II).
 Different kinds of expert knowledge were considered during the BMP scenarios optimization,
 including without any knowledge used, using knowledge on suitable landuse types\/slope positions of
