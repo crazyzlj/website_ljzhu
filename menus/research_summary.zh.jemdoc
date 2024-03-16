@@ -1,12 +1,13 @@
 # jemdoc: menu{MENU.zh}{research_summary.zh.html}, notime, backlink
 == 研究概况
-主要从事*流域过程建模与管理措施情景优化方向*的研究
+主要从事*地理信息科学与技术*的研究
 
 [/research_summary.html English version]
 
-聚焦流域过程建模与情景分析方向，以精细化流域综合治理为问题导向，以GIS强调的空间关系为切入点，开展方法与技术研究。
-
-精细化流域综合治理是在合理准确刻画流域多过程交互作用的基础上，回答何时何地实施何种最佳管理措施（BMP）可实现多治理目标最优化的问题。
+聚焦流域系统模拟综合模拟与情景分析方向，面向流域生态保护和高质量发展对科学决策支持的应用需求，
+以有效利用地理建模知识为基本思路，
+从系统模拟、时空优化、决策支持等地理信息方法视角展开方法设计和软件工具研发工作，
+建立了以“模拟—优化—决策支持”为主线的流域精细治理决策支持方法与技术体系。
 
 ~~~
 {}{img_left}{images/base-research-framework-zh-2023-05.jpg}{Graph Abstract}{900}{}{images/base-research-framework-zh-2023-05.jpg}
