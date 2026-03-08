@@ -6,22 +6,29 @@
 朱良君 博士\n
 副研究员 \n
 
+\<a href=\'https:\/\/orcid.org\/0000-0001-6181-4313\' target=\'blank\'\>\<img alt=\"ORCiD\" src=\"styles\/orcid.png\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
+\<a href=\'https:\/\/www.webofscience.com\/wos\/author\/record\/294365\' target=\'blank\'\>\<img alt=\"Web of Science\" src=\"styles\/webofscience.png\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
+\<a href=\'https:\/\/www.scopus.com\/authid\/detail.uri?authorId=55504516800\' target=\'blank\'\>\<img alt=\"Scopus\" src=\"styles\/scopus.png\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
 \<a href=\'https:\/\/scholar.google.com\/citations?user=FkNIpcQAAAAJ&hl\' target=\'blank\'\>\<img alt=\"Google Scholar\" src=\"styles\/google.jpg\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
-\<a href=\'https:\/\/www.researchgate.net\/profile\/Liang\_Jun\_Zhu\' target=\'blank\'\>\<img alt=\"Research Gate\" src=\"styles\/researchgate.png\" align=\"left\" style=\"padding-right:8px\" height=\"20\" width=20\>\<\/a\>
+\<a href=\'https:\/\/www.researchgate.net\/profile\/Liang-Jun-Zhu\' target=\'blank\'\>\<img alt=\"Research Gate\" src=\"styles\/researchgate.png\" align=\"left\" style=\"padding-right:8px\" height=\"20\" width=20\>\<\/a\>
 \<a href=\'https:\/\/github.com\/crazyzlj\' target=\'blank\'\>\<img alt=\"Code repository\" src=\"styles\/github.png\" style=\"padding-right:8px\" align=\"left\" height=\"20\" width=20\>\<\/a\>
 \n\n
 [http://www.cas.cn 中国科学院] [http://www.igsnrr.cas.cn 地理科学与资源研究所] \n
-[http://www.lreis.ac.cn 资源与环境信息系统国家重点实验室]
+[http://www.lreis.ac.cn 地理信息科学与技术全国重点实验室（原）资源与环境信息系统国家重点实验室]
 
 ~~~
 
 == 最新动态
 
 ~~~
-- (*我们招人啦!*) 课题组诚招地理空间智能分析与计算方向的[https://mp.weixin.qq.com/s/ndp7TnAz-GP7wAHgvKrS9w 博士后]
-和[https://mp.weixin.qq.com/s/Ruz2HNJ0tZvAtjmjlj9VjQ 客座研究生或实习大学生]，
-研究内容涉及云计算架构下智能化地理计算服务、地理计算并行化等方法研究与系统实现。
-欢迎感兴趣的同仁、同学们直接联系我们！
+- (2026-03-05) 指导博士生王玉靖在SEIMS建模框架基础上，设计实现了空间分区混合水文模型结构建模方法，
+这是他博士论文的开篇工作，发表在/Environmental Modelling \& Software/，题为
+[/SEIMSHybridStructure_EMS.zh.html A spatially hybrid hydrological modeling approach using
+subbasin-specific model structures]，代码同样开源在[/https://github.com/lreis2415/SEIMS SEIMS的GitHub仓库]。
+- (2025-04-18) 课题组应邀在/Information Geography/创刊号上发表观点文章：
+[/ReviewIntelligentizationSimOpt_InfGeo.zh.html 领域知识驱动的智能化流域模拟与情景分析]，
+这篇文章在系统梳理[/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 基于流域系统模拟一情景优化的精细治理决策支持方法]
+的基础上，进一步讨论了如何向智能化发展的方法研究问题。
 - (2023-12-19) 我们将近年来在流域系统综合模拟与管理措施情景分析方向的一系列方法研究成果梳理为一套
 基于流域系统模拟一情景优化的精细治理决策支持方法体系，方法框架具有通用性和可扩展性，
 不依赖于具体实现中的流域过程模型、流域管理措施类型及其模拟方法、管理措施的时空配置知识等因素。

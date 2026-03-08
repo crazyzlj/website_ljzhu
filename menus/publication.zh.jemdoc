@@ -3,8 +3,8 @@
 
 [/publication.html English version]
 
-截至2024年3月，以第一作者或通讯作者发表论文*16*篇（其中SCI收录*8*篇），
-以非第一作者合作发表论文*15*篇（其中SCI\/SSCI收录*7*篇），
+截至2026年3月，以第一作者或通讯作者发表论文*18*篇（其中SCI收录*9*篇），
+以非第一作者合作发表论文*18*篇（其中SCI\/SSCI收录*8*篇），
 主要发表于
 /Environmental Modelling \& Software/、
 /Progress in Physical Geography/、
@@ -19,16 +19,21 @@
 等国内外地理过程建模和自然地理综合研究领域主流期刊。
 
 [https://scholar.google.com/citations?user=FkNIpcQAAAAJ 谷歌学术]提供论文引用详情、导出参考文献（BibTex\/Endnote\/RefMan）等。
-[https://www.researchgate.net/profile/Liang_Jun_Zhu ResearchGate]提供了很好的交流平台，欢迎任何与论文相关的问题、建议和讨论。
+欢迎任何与论文相关的问题、建议和讨论。
 
 代表性著作列举如下，完整文章列表请查阅我的[cv/cv_ljzhu_chs.pdf 个人简历]
 （[https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_chs.pdf 备用下载链接]）或
-[https://publons.com/author/1582900/liang-jun-zhu Web of Science ResearcherID\/Publons]、
+[https://www.webofscience.com/wos/author/record/M-6729-2015 Web of Science]、
 [http://orcid.org/0000-0001-6181-4313 ORCiD]。
 
 
 == 流域过程建模与情景分析方向性综述
 
+   - [/ReviewIntelligentizationSimOpt_InfGeo.zh.html Position paper: Domain knowledge-driven intelligentization of watershed modeling and scenario analysis for precise watershed management] \n
+   秦承志, *朱良君\**, 朱阿兴 \n
+   /Information Geography/, *2025*, 1(1): 100016.
+   doi:[https://doi.org/10.1016/j.infgeo.2025.100016 10.1016\/j.infgeo.2025.100016]
+   
    - [/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 基于流域系统模拟一情景优化的精细治理决策支持方法] \n
    秦承志, *朱良君\**, 申申, 吴彤, 肖桂荣, 吴升, 陈芸芝, 汪小钦, 冯险峰, 朱阿兴, 陆锋 \n
    地理学报, *2024*, 79(1): 58--75.
@@ -40,19 +45,18 @@
    doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
 
 == 流域过程建模
+   - [/SEIMSHybridStructure_EMS.zh.html A spatially hybrid hydrological modeling approach
+   using subbasin-specific model structures (空间分区混合水文模型结构建模方法)] \n
+   王玉靖, *朱良君\**, 秦承志, 朱阿兴 \n
+   /Environmental Modelling \& Software/, *2026*, 200: 106944.
+   doi:[https://doi.org/10.1016/j.envsoft.2026.106944 10.1016\/j.envsoft.2026.106944]
+
    - [/SEIMSFramework_EMS.zh.html A modular and parallelized watershed modeling framework (模块化并行化的流域建模框架)] \n
    *朱良君*, 刘军志\*, 秦承志\*, 朱阿兴 \n
    /Environmental Modelling \& Software/, *2019*, 122: 104526. doi:
    [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
 == 流域最佳管理措施（BMPs）时空优化
-   - [/BMPsOptRoadmapDSS-JEMA.zh.html From scenario to roadmap: Design and evaluation of
-   a web-based participatory watershed planning system for optimizing multistage
-   implementation plans of management practices under stepwise investment
-   (从情景到路线图：考虑分阶段投资的参与式流域管理措施实施路线图规划系统的设计与验证)] \n
-   申申, 秦承志, *朱良君\**, 朱阿兴 \n
-   /Journal of Environmental Management/, *2023*, 342: 118280.
-   doi:[https://doi.org/10.1016/j.jenvman.2023.118280 10.1016\/j.jenvman.2023.118280]
 
    - [/BMPsOptRoadmap-WRR.zh.html Optimizing the implementation plan of watershed best management practices
    with time-varying effectiveness under stepwise investment (逐步投资约束下考虑BMP时变效益的流域管理措施实施次序优化方法)] \n
@@ -82,6 +86,15 @@
    秦承志, 高会然, *朱良君\**, 朱阿兴, 刘军志, 吴辉 \n
    /Journal of Soil and Water Conservation/, *2018*, 73(5): 504--517.
    doi: [https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
+
+== 参与式决策支持系统
+   - [/BMPsOptRoadmapDSS-JEMA.zh.html From scenario to roadmap: Design and evaluation of
+   a web-based participatory watershed planning system for optimizing multistage
+   implementation plans of management practices under stepwise investment
+   (从情景到路线图：考虑分阶段投资的参与式流域管理措施实施路线图规划系统的设计与验证)] \n
+   申申, 秦承志, *朱良君\**, 朱阿兴 \n
+   /Journal of Environmental Management/, *2023*, 342: 118280.
+   doi:[https://doi.org/10.1016/j.jenvman.2023.118280 10.1016\/j.jenvman.2023.118280]
 
 == 数字地形分析
 

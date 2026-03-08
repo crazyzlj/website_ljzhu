@@ -3,12 +3,13 @@
 
 [/publication.zh.html 中文版]
 
-As of Mar. 2024, totally *16* peer-reviewed journal articles
-(including *8* SCI\/SSCI-indexed papers and 2 EI-indexed paper)
+As of Mar. 2026, totally *18* peer-reviewed journal articles
+(including *9* SCI\/SSCI-indexed papers)
 as the first author and\/or corresponding author,
-*15* peer-reviewed journal articles
-(including *7* SCI\/SSCI-indexed papers and 1 EI-indexed papers)
+*18* peer-reviewed journal articles
+(including *8* SCI\/SSCI-indexed papers)
 as co-author have been published.
+
 These papers are published on mainstream journals of
 geographic process modeling and integrated physical geography,
 such as
@@ -23,18 +24,22 @@ such as
 /Earth Surface Processes and Landforms/,
 etc.
 
-[https://scholar.google.com/citations?user=FkNIpcQAAAAJ Google scholar] provides citations and
-reference (BibTex\/Endnote\/RefMan) export.
-[https://www.researchgate.net/profile/Liang_Jun_Zhu ResearchGate] provides a platform for communication,
-any questions, suggestions, and discussions are welcome.
+Citations and
+reference exports (BibTex\/Endnote\/RefMan) are available via [https://scholar.google.com/citations?user=FkNIpcQAAAAJ Google Scholar].
+Please feel free to reach out with questions, suggestions, or feedback.
 
 Selected publications are listed below. Please refer to my [cv/cv_ljzhu_en.pdf CV]
 ([https://zhulj-blog.oss-cn-beijing.aliyuncs.com/CV/cv_ljzhu_en.pdf alternative download link]),
-or [https://publons.com/author/1582900/liang-jun-zhu Web of Science ResearcherID\/Publons], and
+or [https://www.webofscience.com/wos/author/record/M-6729-2015 Web of Science], and
 [http://orcid.org/0000-0001-6181-4313 ORCiD]
 for a full list.
 
 == Reviews
+
+   - [/ReviewIntelligentizationSimOpt_InfGeo.html Position paper: Domain knowledge-driven intelligentization of watershed modeling and scenario analysis for precise watershed management] \n
+   Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
+   /Information Geography/, *2025*, 1(1): 100016.
+   doi:[https://doi.org/10.1016/j.infgeo.2025.100016 10.1016\/j.infgeo.2025.100016]
 
    - [/ReviewSimOpt4PrecMgt_ActaGeo.html Methods for supporting decision-making of precision watershed management
    based on watershed system simulation and scenario optimization (/in Chinese with English abstract/)] \n
@@ -50,19 +55,18 @@ for a full list.
       doi:[https://doi.org/10.18306/dlkxjz.2019.08.001 10.18306\/dlkxjz.2019.08.001]
 
 == Watershed process modeling
+   - [/SEIMSHybridStructure_EMS.html A spatially hybrid hydrological modeling approach
+   using subbasin-specific model structures] \n
+   Yu-Jing Wang, *Liang-Jun Zhu\**, Cheng-Zhi Qin, and A-Xing Zhu \n
+   /Environmental Modelling \& Software/, *2026*, 200: 106944.
+   doi:[https://doi.org/10.1016/j.envsoft.2026.106944 10.1016\/j.envsoft.2026.106944]
+
    - [/SEIMSFramework_EMS.html A modular and parallelized watershed modeling framework] \n
    *Liang-Jun Zhu*, Junzhi Liu\*, Cheng-Zhi Qin\*, and A-Xing Zhu \n
    /Environmental Modelling \& Software/, *2019*, 122: 104526.
    doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
 == Spatiotemporal optimization of watershed management practices
-   - [/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of
-   a web-based participatory watershed planning system for optimizing multistage
-   implementation plans of management practices under stepwise investment] \n
-   Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
-   /Journal of Environmental Management/, *2023*, 342: 118280.
-   doi:[https://doi.org/10.1016/j.jenvman.2023.118280 10.1016\/j.jenvman.2023.118280]
-
    - [/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
    with time-varying effectiveness under stepwise investment] \n
    Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
@@ -90,6 +94,16 @@ for a full list.
    Cheng-Zhi Qin, Hui-Ran Gao, *Liang-Jun Zhu\**, A-Xing Zhu, Jun-Zhi Liu, and Hui Wu \n
    /Journal of Soil and Water Conservation/, *2018*, 73(5): 504--517.
    doi:[https://doi.org/10.2489/jswc.73.5.504 10.2489\/jswc.73.5.504]
+
+
+== Participatory Decision Support System
+   - [/BMPsOptRoadmapDSS-JEMA.html From scenario to roadmap: Design and evaluation of
+   a web-based participatory watershed planning system for optimizing multistage
+   implementation plans of management practices under stepwise investment] \n
+   Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
+   /Journal of Environmental Management/, *2023*, 342: 118280.
+   doi:[https://doi.org/10.1016/j.jenvman.2023.118280 10.1016\/j.jenvman.2023.118280]
+   
 
 == Digital terrain analysis
    - [/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions] \n

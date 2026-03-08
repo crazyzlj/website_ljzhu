@@ -4,6 +4,14 @@
 [/news.html English version]
 
 ~~~
+- (2026-03-05) 指导博士生王玉靖在SEIMS建模框架基础上，设计实现了空间分区混合水文模型结构建模方法，
+这是他博士论文的开篇工作，发表在/Environmental Modelling \& Software/，题为
+[/SEIMSHybridStructure_EMS.zh.html A spatially hybrid hydrological modeling approach using
+subbasin-specific model structures]，代码同样开源在[/https://github.com/lreis2415/SEIMS SEIMS的GitHub仓库]。
+- (2025-04-18) 课题组应邀在/Information Geography/创刊号上发表观点文章：
+[/ReviewIntelligentizationSimOpt_InfGeo.zh.html 领域知识驱动的智能化流域模拟与情景分析]，
+这篇文章在系统梳理[/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 基于流域系统模拟一情景优化的精细治理决策支持方法]
+的基础上，进一步讨论了如何向智能化发展的方法研究问题。
 - (2023-12-19) 我们将近年来在流域系统综合模拟与管理措施情景分析方向的一系列方法研究成果梳理为一套
 基于流域系统模拟一情景优化的精细治理决策支持方法体系，方法框架具有通用性和可扩展性，
 不依赖于具体实现中的流域过程模型、流域管理措施类型及其模拟方法、管理措施的时空配置知识等因素。

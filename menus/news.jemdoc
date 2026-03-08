@@ -4,6 +4,21 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2026-03-05) Under my supervision, PhD student Yu-Jing Wang designed and implemented a spatially hybrid
+hydrological modeling approach based on the SEIMS framework. This work, which serves as the foundational
+chapter of his doctoral dissertation, was published in /Environmental Modelling \& Software/ under the title:
+"[/SEIMSHybridStructure_EMS.html A spatially hybrid hydrological modeling approach using
+subbasin-specific model structures]". The source code has been open-sourced as part of the
+[/https://github.com/lreis2415/SEIMS SEIMS GitHub repository].
+- (2025-04-18) Our group recently contributed an invited position paper to the first issue of
+/Information Geography/: "[/ReviewIntelligentizationSimOpt_InfGeo.html Domain knowledge-driven intelligentization of
+watershed modeling and scenario analysis for precise watershed management]".
+Building upon the systematic framework of the previous work,
+[/ReviewSimOpt4PrecMgt_ActaGeo.html Methods for supporting decision-making of
+precision watershed management based on watershed system simulation and scenario optimization
+(/in Chinese with English abstract/)], this new article further explores the state-of-the-art research landscape
+of intelligent methods for watershed modeling and scenario analysis, and particularly advocates that research on
+domain knowledge-driven intelligent methods is emerging and promising.
 - (2023-12-19) In recent years, we have conducted a series of methodological studies in
 watershed process modeling and scenario analysis of management practices into a method system for
 the decision-making of precision watershed management based on the "simulation-optimization" framework.
