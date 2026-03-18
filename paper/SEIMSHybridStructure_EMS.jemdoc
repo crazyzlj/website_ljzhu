@@ -5,7 +5,71 @@ Yu-Jing Wang, *Liang-Jun Zhu\**, Cheng-Zhi Qin, A-Xing Zhu
 [/SEIMSHybridStructure_EMS.zh.html 中文版]
 
 == Overview
+The spatial heterogeneity of watershed processes makes model structure adaptability
+a key challenge in watershed process simulation.
 
+Existing watershed modeling frameworks can account for heterogeneity by assigning different conceptual model structures
+to different spatial areas.
+However, they still offer limited support for the flexible integration of distributed and physically based model structures.
+
+To address this gap, we propose a subbasin-specific spatially hybrid hydrological modeling approach.
+Built on a divide-and-conquer idea, the approach allows flexible combinations of different spatial simulation units,
+such as subbasins, HRUs, grids, or fields,
+with different process representation algorithms, such as statistical, conceptual, or semi-physical methods,
+to construct subbasin-level model structures.
+These subbasin models are then integrated into a complete watershed model through channel routing.
+
+Built upon the [/SEIMSFramework_EMS.html modular and parallelized SEIMS framework],
+this study provides a proof-of-concept for the proposed approach and
+discusses several directions for future development.
+
+~~~
+{}{img_left}{images/GraphAbstract-SEIMSHybridStructure_EMS.png}{Graph Abstract}{900}{}{images/GraphAbstract-SEIMSHybridStructure_EMS.png}
+~~~
+
+== Review history
+- *First submission to /Journal of Hydrology/*: 2023-11-01; [review_history/SEIMSHybridStructure_EMS/submission1.pdf Manuscript-Submission1]
+  - Editor assigned: 2023-11-02 (updated on 11-09)
+  - Reviewer(s) invited: 2023-11-16 (11-28, 12-01, 12-17, 12-20, 12-28, 01-13, 01-17, 01-26, toally 9 times!)
+  - Reviews completed: 2024-01-31
+  - *Reject with invitation to resubmit*: 2024-02-14; [review_history/SEIMSHybridStructure_EMS/decision1-reject-resubmit.pdf Decision Letter]
+  - *Second submission to /Journal of Hydrology/*: 2024-10-15; [review_history/SEIMSHybridStructure_EMS/revision1-submission2.pdf Manuscript-Submission2], [review_history/SEIMSHybridStructure_EMS/submission2-track.pdf Manuscript-with-tracks], [review_history/SEIMSHybridStructure_EMS/response1.pdf Revisions and responses]
+  - Editor assigned: 2024-10-15 (updated on 10-25)
+  - Reviewer(s) invited: 2024-10-26 (11-10, 11-19, 11-29, 12-24, 2025-01-01, totally 6 times)
+  - Reviews completed: 2025-01-22
+  - *Reject with invitation to resubmit*: 2025-02-14; [review_history/SEIMSHybridStructure_EMS/decision2-reject-resubmit.pdf Decision Letter]
+  - *Third submission to /Journal of Hydrology/*: 2025-06-19; [review_history/SEIMSHybridStructure_EMS/revision2-submission3.pdf Manuscript-with-tracks], [review_history/SEIMSHybridStructure_EMS/response2.pdf Revisions and responses]
+  - Editor assigned: 2025-06-22
+  - Reviewer(s) invited: 2025-06-23 (06-28, 07-08, 07-15, totally 4 times)
+  - Reviews completed: 2025-08-12
+  - *Major revision*: 2025-08-13; [review_history/SEIMSHybridStructure_EMS/decision3-major-revision.pdf Decision Letter]
+  - *Resubmit after major revision*: 2025-08-26; [review_history/SEIMSHybridStructure_EMS/revision3-submission4.pdf Manuscript-with-tracks], [review_history/SEIMSHybridStructure_EMS/response3.pdf Revisions and responses]
+  - Editor assigned: 2025-08-27
+  - Reviewer(s) invited: 2025-08-30 (09-01, 09-05, totally 3 times)
+  - Under review: 2025-09-04
+  - *Reject*: 2025-09-14; [review_history/SEIMSHybridStructure_EMS/decision4-reject.pdf Decision Letter]
+  - *Submission to /Environmental Modelling \& Software/*: 2025-09-25; [review_history/SEIMSHybridStructure_EMS/revision4-submission5.pdf Manuscript-Submission]
+  - Editor assigned: 2025-09-28
+  - Reviewer(s) invited: 2025-10-19 (10-29, 12-08, totally 3 times)
+  - Reviews completed: 2025-12-08
+  - *Major revision*: 2025-12-09; [review_history/SEIMSHybridStructure_EMS/decision5-major-revision.pdf Decision Letter]
+  - *Resubmit after major revision*: 2025-12-30; [review_history/SEIMSHybridStructure_EMS/revision5-submission6.pdf Manuscript-with-tracks], [review_history/SEIMSHybridStructure_EMS/response5.pdf Revisions and responses]
+  - Editor assigned: 2025-12-31
+  - Reviewer(s) invited: 2026-01-05
+  - Reviews completed: 2026-02-22
+  - *Accept*: 2026-03-04; [review_history/SEIMSHybridStructure_EMS/decision6-accept.pdf Decision Letter]
+  - *Reflections*: This paper marks the opening chapter of Dr. Yujing Wang’s doctoral dissertation.
+  From its first submission on November 1, 2023, to its final acceptance, the process took 2 years and 3 months,
+  making it the most difficult and tortuous paper I have experienced so far.
+  Judging from the number of reviewer invitations, in this era of explosive growth in publications,
+  very few people are willing to spend time reviewing manuscripts, and even fewer are willing to review revised versions
+  continuously. As a result, each round of revision tended to bring in new reviewers, which greatly increased the
+  difficulty of getting the paper accepted.
+  This manuscript was repeatedly held back at JoH because its hydrological theoretical contribution was considered insufficient.
+  Although we emphasized that the study provided a proof-of-concept for a modeling approach and also offered a modeling tool
+  for future exploration of hydrological theory, the handling editor did not accept this argument.
+  That was probably the direct reason why it was ultimately rejected there.
+  Still, through this process, we were able to think much more deeply about the significance of this work.
 
 == Citation
 

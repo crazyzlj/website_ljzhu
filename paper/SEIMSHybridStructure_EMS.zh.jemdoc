@@ -5,7 +5,55 @@
 [/SEIMSHybridStructure_EMS.html English version]
 
 == 概述
+流域过程的空间异质性，使水文模型结构适配成为流域系统模拟中的关键挑战。
 
+现有流域建模框架虽然能够通过空间分区采用不同的概念式模型结构来表征异质性，但对分布式和物理机理模型结构的灵活支持仍然不足。
+
+针对这一问题，本文提出一种基于子流域的空间分区混合水文模型结构构建方法。
+该方法基于流域层次化分治思想，支持将不同类型的空间模拟单元（如子流域、HRU、栅格或地块）与
+不同类型的过程描述算法（如统计型、概念型、半物理型）进行灵活组合，构建子流域模型结构，并通过河道汇流集成为完整的流域水文模型。
+
+基于[/SEIMSFramework_EMS.zh.html 模块化并行化的流域建模框架SEIMS]，本文对该方法进行了概念验证，并讨论了未来可能的拓展方向。
+
+~~~
+{}{img_left}{images/GraphAbstract-SEIMSHybridStructure_EMS.png}{Graph Abstract}{900}{}{images/GraphAbstract-SEIMSHybridStructure_EMS.png}
+~~~
+
+== 评审历史
+  - *第一次投稿至/Journal of Hydrology/*: 2023-11-01; [review_history/SEIMSHybridStructure_EMS/submission1.pdf 投稿正文]
+  - 指定编辑: 2023-11-02 (11-09更新一次)
+  - 邀请审稿人: 2023-11-16 (11-28, 12-01, 12-17, 12-20, 12-28, 01-13, 01-17, 01-26, 共邀请审稿人9次！)
+  - 审稿完成: 2024-01-31
+  - *拒稿并鼓励重投*: 2024-02-14; [review_history/SEIMSHybridStructure_EMS/decision1-reject-resubmit.pdf Decision Letter]
+  - *第二次投稿至/Journal of Hydrology/*: 2024-10-15; [review_history/SEIMSHybridStructure_EMS/revision1-submission2.pdf 投稿正文], [review_history/SEIMSHybridStructure_EMS/submission2-track.pdf 投稿正文（修订格式）], [review_history/SEIMSHybridStructure_EMS/response1.pdf 意见回复]
+  - 指定编辑: 2024-10-15 (10-25更新一次)
+  - 邀请审稿人: 2024-10-26 (11-10, 11-19, 11-29, 12-24, 2025-01-01, 共邀请审稿人6次)
+  - 审稿完成: 2025-01-22
+  - *拒稿并鼓励重投*: 2025-02-14; [review_history/SEIMSHybridStructure_EMS/decision2-reject-resubmit.pdf Decision Letter]
+  - *第三次投稿至/Journal of Hydrology/*: 2025-06-19; [review_history/SEIMSHybridStructure_EMS/revision2-submission3.pdf 投稿正文（标注修订）], [review_history/SEIMSHybridStructure_EMS/response2.pdf 意见回复]
+  - 指定编辑: 2025-06-22
+  - 邀请审稿人: 2025-06-23 (06-28, 07-08, 07-15, 共邀请审稿人4次)
+  - 审稿完成: 2025-08-12
+  - *大修*: 2025-08-13; [review_history/SEIMSHybridStructure_EMS/decision3-major-revision.pdf Decision Letter]
+  - *大修后返回*: 2025-08-26; [review_history/SEIMSHybridStructure_EMS/revision3-submission4.pdf 投稿正文（标注修订）], [review_history/SEIMSHybridStructure_EMS/response3.pdf 意见回复]
+  - 指定编辑: 2025-08-27
+  - 邀请审稿人: 2025-08-30 (09-01, 09-05, 共邀请审稿人3次)
+  - 审稿中: 2025-09-04 (有1位审稿人返回意见)
+  - *拒稿*: 2025-09-14; [review_history/SEIMSHybridStructure_EMS/decision4-reject.pdf Decision Letter]
+  - *第四次投稿至/Environmental Modelling \& Software/*: 2025-09-25; [review_history/SEIMSHybridStructure_EMS/revision4-submission5.pdf 投稿正文]
+  - 指定编辑: 2025-09-28
+  - 邀请审稿人: 2025-10-19 (10-29, 12-08, 共邀请审稿人3次)
+  - 审稿完成: 2025-12-08
+  - *大修*: 2025-12-09; [review_history/SEIMSHybridStructure_EMS/decision5-major-revision.pdf Decision Letter]
+  - *大修后返回*: 2025-12-30; [review_history/SEIMSHybridStructure_EMS/revision5-submission6.pdf 投稿正文（标注修订）], [review_history/SEIMSHybridStructure_EMS/response5.pdf 意见回复]
+  - 指定编辑: 2025-12-31
+  - 邀请审稿人: 2026-01-05
+  - 审稿完成: 2026-02-22
+  - *接收*: 2026-03-04; [review_history/SEIMSHybridStructure_EMS/decision6-accept.pdf Decision Letter]
+  - *感受*: 这篇文章是王玉靖博士论文的开篇，从2023年11月1日第一次投稿，到正式被接收，经历了2年3个月，是我目前经历过的最波折的一篇文章。
+  从邀请审稿人次数来看，当前论文爆炸式增长的时代，很少有人愿意花时间审稿，也不愿意连续审稿，所以导致每次修改后都会遇到新的审稿人，增大了接收难度。
+  这篇文章在JoH上反复被卡在水文理论贡献不足，虽然我们强调本文提供了一种建模方法的概念验证，也为将来探讨水文理论问题提供了建模工具，但是责任编辑不认可，
+  这应该是最终被彻底拒稿的直接原因。但在这个过程中，我们也得以更加深入地思考这项工作的意义。
 
 == 引用格式
 
