@@ -4,6 +4,11 @@
 [/news.html English version]
 
 ~~~
+- (2026-05-02) 指导博士生吴彤对[/BMPsOptRoadmap-WRR.zh.html “逐步投资约束下考虑BMP时变效益的流域管理措施实施方案优化方法”]
+进行了进一步拓展，归纳了“模拟—优化”框架下流域管理措施情景时空优化的通用性方法，实现了BMP空间位置和实施时间的同时优化，
+论文发表在/Water Resources Management/，题为
+[/SpatioTemporalBMPOptiz_WARM.zh.html Spatiotemporal optimization method for watershed management practice scenarios
+within a simulation–optimization framework]。
 - (2026-03-05) 指导博士生王玉靖在SEIMS建模框架基础上，设计实现了空间分区混合水文模型结构建模方法，
 这是他博士论文的开篇工作，发表在/Environmental Modelling \& Software/，题为
 [/SEIMSHybridStructure_EMS.zh.html A spatially hybrid hydrological modeling approach using

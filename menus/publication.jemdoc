@@ -3,8 +3,8 @@
 
 [/publication.zh.html 中文版]
 
-As of Mar. 2026, totally *18* peer-reviewed journal articles
-(including *9* SCI\/SSCI-indexed papers)
+As of May. 2026, totally *19* peer-reviewed journal articles
+(including *10* SCI\/SSCI-indexed papers)
 as the first author and\/or corresponding author,
 *18* peer-reviewed journal articles
 (including *8* SCI\/SSCI-indexed papers)
@@ -18,6 +18,7 @@ such as
 /Water Resources Research/,
 /Journal of Hydrology/,
 /Journal of Environmental Management/,
+/Water Resources Management/,
 /Journal of Soil and Water Conservation/,
 /Geomorphology/,
 /Geoderma/,
@@ -34,7 +35,7 @@ or [https://www.webofscience.com/wos/author/record/M-6729-2015 Web of Science], 
 [http://orcid.org/0000-0001-6181-4313 ORCiD]
 for a full list.
 
-== Reviews
+== Reviews and opinions
 
    - [/ReviewIntelligentizationSimOpt_InfGeo.html Position paper: Domain knowledge-driven intelligentization of watershed modeling and scenario analysis for precise watershed management] \n
    Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
@@ -67,6 +68,13 @@ for a full list.
    doi:[https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
 == Spatiotemporal optimization of watershed management practices
+
+   - [/SpatioTemporalBMPOptiz_WARM.html Spatiotemporal optimization method for watershed management practice scenarios
+   within a simulation–optimization framework] \n
+   Tong Wu, *Liang-Jun Zhu\**, Shen Shen, Cheng-Zhi Qin, A-Xing Zhu \n
+   /Water Resources Management/, *2026*, 40(7): 281.
+   doi:[https://doi.org/10.1007/s11269-026-04647-7 10.1007\/s11269-026-04647-7]
+
    - [/BMPsOptRoadmap-WRR.html Optimizing the implementation plan of watershed best management practices
    with time-varying effectiveness under stepwise investment] \n
    Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
@@ -103,7 +111,7 @@ for a full list.
    Shen Shen, Cheng-Zhi Qin, *Liang-Jun Zhu\**, A-Xing Zhu \n
    /Journal of Environmental Management/, *2023*, 342: 118280.
    doi:[https://doi.org/10.1016/j.jenvman.2023.118280 10.1016\/j.jenvman.2023.118280]
-   
+
 
 == Digital terrain analysis
    - [/AutoFuzSlpPos-GEMOR.html Automatic approach for deriving fuzzy slope positions] \n

@@ -4,6 +4,12 @@
 [/news.zh.html 中文版]
 
 ~~~
+- (2026-05-02) As a direct extension of [/BMPsOptRoadmap-WRR.html our previous study],
+PhD student, Tong Wu, proposed a flexible method to jointly optimize BMP location and implementation time.
+This work provides a generalized research framework for BMP scenario optimization and was published in
+/Water Resources Management/ as
+[/SpatioTemporalBMPOptiz_WARM.html "Spatiotemporal optimization method for watershed management practice scenarios
+within a simulation–optimization framework."]
 - (2026-03-05) Under my supervision, PhD student Yu-Jing Wang designed and implemented a spatially hybrid
 hydrological modeling approach based on the SEIMS framework. This work, which serves as the foundational
 chapter of his doctoral dissertation, was published in /Environmental Modelling \& Software/ under the title:

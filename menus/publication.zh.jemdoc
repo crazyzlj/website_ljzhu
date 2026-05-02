@@ -3,7 +3,7 @@
 
 [/publication.html English version]
 
-截至2026年3月，以第一作者或通讯作者发表论文*18*篇（其中SCI收录*9*篇），
+截至2026年5月，以第一作者或通讯作者发表论文*19*篇（其中SCI收录*10*篇），
 以非第一作者合作发表论文*18*篇（其中SCI\/SSCI收录*8*篇），
 主要发表于
 /Environmental Modelling \& Software/、
@@ -11,6 +11,7 @@
 /Water Resources Research/、
 /Journal of Hydrology/、
 /Journal of Environmental Management/、
+/Water Resources Management/、
 /Journal of Soil and Water Conservation/、
 /Geomorphology/、
 /Geoderma/、
@@ -33,7 +34,7 @@
    秦承志, *朱良君\**, 朱阿兴 \n
    /Information Geography/, *2025*, 1(1): 100016.
    doi:[https://doi.org/10.1016/j.infgeo.2025.100016 10.1016\/j.infgeo.2025.100016]
-   
+
    - [/ReviewSimOpt4PrecMgt_ActaGeo.zh.html 基于流域系统模拟一情景优化的精细治理决策支持方法] \n
    秦承志, *朱良君\**, 申申, 吴彤, 肖桂荣, 吴升, 陈芸芝, 汪小钦, 冯险峰, 朱阿兴, 陆锋 \n
    地理学报, *2024*, 79(1): 58--75.
@@ -57,6 +58,12 @@
    [https://doi.org/10.1016/j.envsoft.2019.104526 10.1016\/j.envsoft.2019.104526]
 
 == 流域最佳管理措施（BMPs）时空优化
+
+   - [/SpatioTemporalBMPOptiz_WARM.zh.html Spatiotemporal optimization method for watershed management practice scenarios
+   within a simulation–optimization framework (“模拟—优化”框架下的流域管理措施情景时空优化方法)] \n
+   吴彤, *朱良君\**, 申申, 秦承志, 朱阿兴 \n
+   /Water Resources Management/, *2026*, 40(7): 281.
+   doi:[https://doi.org/10.1007/s11269-026-04647-7 10.1007\/s11269-026-04647-7]
 
    - [/BMPsOptRoadmap-WRR.zh.html Optimizing the implementation plan of watershed best management practices
    with time-varying effectiveness under stepwise investment (逐步投资约束下考虑BMP时变效益的流域管理措施实施次序优化方法)] \n
