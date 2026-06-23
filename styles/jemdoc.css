@@ -509,3 +509,14 @@ table.imgtable, table.imgtable td {
 	margin-left: -0.05em;
 	margin-right: 0em;
 }
+
+.text-highlight {
+    color: #D9534F;
+    font-weight: bold;
+}
+
+.text-alert {
+    color: #aa0000;
+    background-color: #ffffee;
+    padding: 0 2px;
+}

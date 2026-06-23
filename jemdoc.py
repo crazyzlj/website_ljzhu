@@ -784,6 +784,14 @@ def br(b, f, tableblock=False):
     b = b.lstrip('-. \t')  # remove leading spaces, tabs, dashes, dots.
     b = replaceimages(b)  # jem not sure if this is still used.
 
+    # handle text color
+    r_color = re.compile(r'(?<!\\)\[color:([a-zA-Z0-9#_]+)\s+(.*?)(?<!\\)\]', re.M + re.S)
+    b = re.sub(r_color, r'<span style=\"color:\1\">\2<\/span>', b)
+
+    # handle css class definition
+    r_class = re.compile(r'(?<!\\)\[class:([a-zA-Z0-9\-_]+)\s+(.*?)(?<!\\)\]', re.M + re.S)
+    b = re.sub(r_class, r'<span class=\"\1\">\2<\/span>', b)
+
     # Slightly nasty hackery in this next bit.
     b = replacepercents(b)
     b = replacelinks(b)
